@@ -1,0 +1,30 @@
+--Escenaro de fletes completo 
+  -- clientes normal y aliada , aliada con más de 10 productos 
+  -- cliente nuevo y aliada nueva 
+  -- Se adiciona mejora mostrando la cantidad de productos para verificar el valor del flete cobrado 
+  -- Falla nuevo , comentario vacio 
+  -- Crear direccion nueva sin flete 
+  -- Se crea nuevo escenario cambiando el número de productos y volviendo al home paar aplciar nuevamente otro flete
+  -- Se comienza con el escenario de store credit
+  
+-- Se recibe capacitación sobre como realizar mantenimiento a los feactures
+-- Como poder buscar errores y soportar inicialmente por dudas de usuarios 
+-- Como ejecutar 1 solo escenario 
+
+
+-- Se presento mucha demora en la ejecución debido a problemas con el internet
+-- Se redujo un set de datos  ya que al momento de probar se aumentan los escenarios y se aumenta su tiempo de ejecución.
+   Con  respecto al tema anterior no se en que se pueda mejorar o si es su comportamiento normal. A mayor númmero de  productos se aumenta el tiempo de ejecución,
+   esto con el fin de dejarle claro los tiempos de ejecución al cliente.
+  
+-- Propuesta :
+ -- Realizar revisiones remota la próxima semana, se deja pendiente el horario por temas de pruebas manuales
+ -- Siempre que se pueda  ejecutar el robot  
+ -- Empezar por parte de Olga Echavarria con este proceso 
+
+  
+  
+  
+  
+  
+  

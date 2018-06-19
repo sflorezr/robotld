@@ -1,0 +1,5 @@
+Missing value for 0: ;pacifikaProductCatalog:Staged;P526857;
+CAMISA MANGA LARGA Estampado;Camisa manga larga. 
+Elaborada en tejido plano. Silueta amplia.;
+approved;PIECES;17-07-2017:00-00;25-07-2017:00-00;Mujer-nuevos,Mujer-exclusivos-online,mujer-blusas-y-camisas-camisa,Teu;co-vat-full;
+Estampado;Estampado;TRUE;TRUE;FALSE;PACIFIKA;100%ALGODON;;SIN TEMPORADA DE VENTA;;

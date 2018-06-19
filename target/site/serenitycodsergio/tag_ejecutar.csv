@@ -1,0 +1,5 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Compra Contra Entrega PDP","Compra contra entrega usuario aliada con vaucher <vocher>","SUCCESS","2018-06-19T09:30:16.655-05:00[America/Bogota]","0.0","1089.36"
+"Compra Contra Entrega PDP","Compra contra entrega usuario normal","SUCCESS","2018-06-19T09:53:27.356-05:00[America/Bogota]","0.0","1045.63"
+"Compra Contra Entrega PDP","Compra contra entrega usuario normal con vaucher <vocher>","SUCCESS","2018-06-19T10:10:52.988-05:00[America/Bogota]","0.0","885.39"
+"Compra con Tarjeta debito","comprar con Tarjeta debito con usuarios nuevos <tipo> caso feliz con descuento","ERROR","2018-06-18T15:42:30.936-05:00[America/Bogota]","0.0","1610.25"

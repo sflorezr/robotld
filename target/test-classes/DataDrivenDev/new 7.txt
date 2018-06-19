@@ -1,0 +1,25 @@
+Entrega Automatización 31 de enero 
+
+-- Inconsistencias en datos porque uno de los productos se vencio
+-- Correción campos del set de datos, ejemplo contraseñas que no estaba leyendo el robot
+-- Se actualiza el código del robot por parte de Sergio ya que se encontro un bug  cuando pasaba de 10 articulos, esto en el escenario de fletes
+-- Se corre el robot y se comienza a analizar las fallas 
+-- Implementación ejecución por tag para ejecutar casos específicos
+ 
+
+
+
+--734
+-- ticket SEO 
+LDP-790 SEO: Incluir en el Landing de BlackFriday las etiquetas de index-follow	
+
+Crear páginas
+Que estructura les ponemos 
+Donde va a estar ubicada 
+
+-- que busca y  cual es el 
+
+
+https://dev.pacifika.local/?aliado=johana2018
+
+

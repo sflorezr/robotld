@@ -1,0 +1,4 @@
+codigo,tipo,Esperado,mensaje
+MERLOTTEBYPCFK,porcentaje,20,"Tu código de descuento ""MERLOTTEBYPCFK"" ha sido aplicado satisfactoriamente"
+valorfijo,fijo,25000,"Tu código de descuento ""valorfijo"" ha sido aplicado satisfactoriamente"
+NAVIDADPCFK ,freeshipping,GRATIS,"Tu código de descuento ""NAVIDADPCFK"" ha sido aplicado satisfactoriamente"

@@ -1,0 +1,299 @@
+Fri Jan 12 14:09:47 COT 2018tiene cantidad
+Fri Jan 12 14:09:58 COT 2018checkout
+Fri Jan 12 14:10:05 COT 2018verifica 17495
+Fri Jan 12 14:11:24 COT 2018tiene cantidad
+Fri Jan 12 14:11:33 COT 2018checkout
+Fri Jan 12 14:11:40 COT 2018verifica 17495
+Fri Jan 12 14:13:00 COT 2018tiene cantidad
+Fri Jan 12 14:13:08 COT 2018checkout
+Fri Jan 12 14:13:18 COT 2018verifica 17495
+Fri Jan 12 14:43:33 COT 2018tiene cantidad
+Fri Jan 12 14:43:43 COT 2018checkout
+Fri Jan 12 14:43:49 COT 2018verifica 17495
+Fri Jan 12 14:43:59 COT 2018verifica 05001
+Fri Jan 12 14:44:07 COT 2018verifica 54001
+Fri Jan 12 14:44:16 COT 2018verifica 54820
+Fri Jan 12 14:44:24 COT 2018verifica 54673
+Fri Jan 12 14:45:40 COT 2018tiene cantidad
+Fri Jan 12 14:45:53 COT 2018checkout
+Fri Jan 12 14:46:02 COT 2018verifica 17495
+Fri Jan 12 14:46:11 COT 2018verifica 05001
+Fri Jan 12 14:46:20 COT 2018verifica 54001
+Fri Jan 12 14:46:29 COT 2018verifica 54820
+Fri Jan 12 14:46:37 COT 2018verifica 54673
+Fri Jan 12 14:47:55 COT 2018tiene cantidad
+Fri Jan 12 14:48:04 COT 2018checkout
+Fri Jan 12 14:48:15 COT 2018verifica 17495
+Fri Jan 12 14:48:24 COT 2018verifica 05001
+Fri Jan 12 14:48:33 COT 2018verifica 54001
+Fri Jan 12 14:48:42 COT 2018verifica 54820
+Fri Jan 12 14:48:51 COT 2018verifica 54673
+Fri Jan 12 14:52:47 COT 2018tiene cantidad
+Fri Jan 12 14:52:58 COT 2018checkout
+Fri Jan 12 14:53:06 COT 2018verifica 17495
+Fri Jan 12 14:53:15 COT 2018verifica 05001
+Fri Jan 12 14:53:24 COT 2018verifica 54001
+Fri Jan 12 14:53:32 COT 2018verifica 54820
+Fri Jan 12 14:53:41 COT 2018verifica 54673
+Fri Jan 12 15:00:31 COT 2018tiene cantidad
+Fri Jan 12 15:00:39 COT 2018checkout
+Fri Jan 12 15:01:53 COT 2018tiene cantidad
+Fri Jan 12 15:02:01 COT 2018checkout
+Fri Jan 12 15:02:10 COT 2018verifica 17495
+Fri Jan 12 15:02:19 COT 2018verifica 05001
+Fri Jan 12 15:02:28 COT 2018verifica 54001
+Fri Jan 12 15:02:37 COT 2018verifica 54820
+Fri Jan 12 15:02:46 COT 2018verifica 54673
+Fri Jan 12 15:08:35 COT 2018tiene cantidad
+Fri Jan 12 15:08:44 COT 2018checkout
+Fri Jan 12 15:10:56 COT 2018tiene cantidad
+Fri Jan 12 15:11:04 COT 2018checkout
+Fri Jan 12 15:14:05 COT 2018tiene cantidad
+Fri Jan 12 15:14:13 COT 2018checkout
+Fri Jan 12 15:15:55 COT 2018tiene cantidad
+Fri Jan 12 15:16:04 COT 2018checkout
+Fri Jan 12 15:16:11 COT 2018verifica 17495
+Fri Jan 12 15:16:20 COT 2018verifica 05001
+Fri Jan 12 15:16:29 COT 2018verifica 54001
+Fri Jan 12 15:16:37 COT 2018verifica 54820
+Fri Jan 12 15:16:46 COT 2018verifica 54673
+Mon Jan 15 08:05:59 COT 2018--------- aqui comienza --------
+Mon Jan 15 08:05:59 COT 2018
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 08:05:59 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 08:06:00 COT 2018
+  ¡Hola Sergio leonardo florez rangel!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126190   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 07:55 AM Tarjeta de Crédito - Visa COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $109.998   Camisa Manga Corta Azul Cantidad: 1 $59.999 Subtotal: Envío (Flete): TOTAL: $169.997 $4.990 $174.987 Descuentos: $25.000 Total compra: $149.987   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 08:06:00 COT 2018--------- aqui termina --------
+Mon Jan 15 08:06:57 COT 2018--------- aqui comienza --------
+Mon Jan 15 08:06:57 COT 2018
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 08:06:57 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 08:06:58 COT 2018
+  ¡Hola Sergio leonardo florez rangel!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126190   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 07:55 AM Tarjeta de Crédito - Visa COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $109.998   Camisa Manga Corta Azul Cantidad: 1 $59.999 Subtotal: Envío (Flete): TOTAL: $169.997 $4.990 $174.987 Descuentos: $25.000 Total compra: $149.987   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 08:06:58 COT 2018--------- aqui termina --------
+Mon Jan 15 09:25:19 COT 2018--------- aqui comienza --------
+Mon Jan 15 09:25:19 COT 2018
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 09:25:19 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 09:25:19 COT 2018
+  ¡Hola Sergio leonardo florez rangel!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126205   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 09:22 AM Débito - PSE COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $109.998   Camisa Manga Corta Azul Cantidad: 1 $59.999 Subtotal: Envío (Flete): TOTAL: $169.997 $4.990 $174.987 Total compra: $174.987   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 09:25:19 COT 2018--------- aqui termina --------
+Mon Jan 15 09:33:10 COT 2018--------- aqui comienza --------
+Mon Jan 15 09:33:10 COT 2018
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 09:33:10 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 09:33:11 COT 2018
+  ¡Hola Sergio leonardo florez rangel!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126207   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 09:30 AM Débito - PSE COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $109.998   Camisa Manga Corta Azul Cantidad: 1 $59.999 Subtotal: Envío (Flete): TOTAL: $169.997 $4.990 $174.987 Descuentos: $25.000 Total compra: $149.987   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 09:33:11 COT 2018--------- aqui termina --------
+Mon Jan 15 10:10:12 COT 2018--------- aqui comienza --------
+Mon Jan 15 10:10:12 COT 2018
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 10:10:12 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 10:10:13 COT 2018
+  ¡Hola Sergio leonardo florez rangel!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126214   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 10:07 AM Débito - PSE COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $109.998   Camisa Manga Corta Azul Cantidad: 1 $59.999 Subtotal: Envío (Flete): TOTAL: $169.997 $4.990 $174.987 Total compra: $174.987   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 10:10:13 COT 2018--------- aqui termina --------
+Mon Jan 15 10:18:16 COT 2018--------- aqui comienza --------
+Mon Jan 15 10:18:16 COT 2018
+    Tu pago no tuvo éxito :(
+
+
+
+Mon Jan 15 10:18:16 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 10:18:17 COT 2018
+  ¡Hola Sergio leonardo florez rangel!   Ooops... Rechazaron tu pago, nosotros a ti no! Por eso tenemos más métodos de pago, comunícate con nosotros ya que la transacción que realizaste no tuvo éxito.     Te compartimos los datos de tu pedido: 00126209   Descripción: Fecha: Medio de pago: Moneda: Referencia: PCFK Tienda online 15 Jan 2018 - 09:37 AM Débito - PSE COP 1380816   Artículos para entregar   Short Corto Negro Cantidad: 2 $109.998   Camisa Manga Corta Azul Cantidad: 1 $59.999 Subtotal: Envío (Flete): TOTAL: $169.997 $4.990 $174.987 Total compra: $174.987   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 10:18:17 COT 2018--------- aqui termina --------
+Mon Jan 15 10:18:17 COT 2018--------- aqui comienza --------
+Mon Jan 15 10:18:17 COT 2018
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 10:18:17 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 10:18:18 COT 2018
+  ¡Hola Sergio leonardo florez rangel!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126216   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 10:15 AM Débito - PSE COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $109.998   Camisa Manga Corta Azul Cantidad: 1 $59.999 Subtotal: Envío (Flete): TOTAL: $169.997 $4.990 $174.987 Descuentos: $25.000 Total compra: $149.987   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 10:18:18 COT 2018--------- aqui termina --------
+Mon Jan 15 14:26:04 COT 2018--------- aqui comienza --------
+Mon Jan 15 14:26:04 COT 2018?
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 14:26:04 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 14:26:06 COT 2018
+  ¡Hola Sergio florez!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126232   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 02:22 PM Tarjeta de Crédito - Visa COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $82.498   Camisa Manga Corta Azul Cantidad: 1 $44.999 Subtotal: Envío (Flete): TOTAL: $127.497 $6.999 $134.496 Total compra: $134.496   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 14:26:06 COT 2018--------- aqui termina --------
+Mon Jan 15 16:31:02 COT 2018--------- aqui comienza --------
+Mon Jan 15 16:31:02 COT 2018?
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 16:31:02 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 16:31:03 COT 2018
+  ¡Hola Sergio florez!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126256   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 04:28 PM Tarjeta de Crédito - Visa COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $82.498   Camisa Manga Corta Azul Cantidad: 1 $44.999 Subtotal: Envío (Flete): TOTAL: $127.497 $6.999 $134.496 Descuentos: $25.499 Total compra: $108.997   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 16:31:03 COT 2018--------- aqui termina --------
+Mon Jan 15 16:45:44 COT 2018--------- aqui comienza --------
+Mon Jan 15 16:45:44 COT 2018-- Transacción Aprobada:  [ae387b4e-fb4b-4909-b6e8-0a3a5d2f8707] --
+Mon Jan 15 16:45:44 COT 2018PayU <info@payulatam.com>
+Mon Jan 15 16:45:44 COT 2018--------- aqui termina --------
+Mon Jan 15 16:45:45 COT 2018--------- aqui comienza --------
+Mon Jan 15 16:45:45 COT 2018-- Transacción Aprobada:  [498926ce-f6cb-4cd7-84cd-13dd52f8acfb] --
+Mon Jan 15 16:45:45 COT 2018PayU <info@payulatam.com>
+Mon Jan 15 16:45:45 COT 2018--------- aqui termina --------
+Mon Jan 15 16:45:46 COT 2018--------- aqui comienza --------
+Mon Jan 15 16:45:46 COT 2018-- Transacción Rechazada:  [692d69ef-e8a6-4597-a707-09104b845a61] --
+Mon Jan 15 16:45:46 COT 2018PayU <info@payulatam.com>
+Mon Jan 15 16:45:46 COT 2018--------- aqui termina --------
+Mon Jan 15 16:45:46 COT 2018--------- aqui comienza --------
+Mon Jan 15 16:45:46 COT 2018-- Transacción Aprobada:  [507d1378-4bae-4233-87dd-e07c21453264] --
+Mon Jan 15 16:45:46 COT 2018PayU <info@payulatam.com>
+Mon Jan 15 16:45:46 COT 2018--------- aqui termina --------
+Mon Jan 15 16:45:47 COT 2018--------- aqui comienza --------
+Mon Jan 15 16:45:47 COT 2018-- Transacción Aprobada:  [16f58240-4916-4a1a-8475-164d3f054461] --
+Mon Jan 15 16:45:47 COT 2018PayU <info@payulatam.com>
+Mon Jan 15 16:45:47 COT 2018--------- aqui termina --------
+Mon Jan 15 16:45:48 COT 2018--------- aqui comienza --------
+Mon Jan 15 16:45:48 COT 2018?
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Mon Jan 15 16:45:48 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Mon Jan 15 16:45:49 COT 2018
+  ¡Hola Sergio florez!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126259   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 15 Jan 2018 - 04:43 PM Débito - PSE COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $82.498   Camisa Manga Corta Azul Cantidad: 1 $44.999 Subtotal: Envío (Flete): TOTAL: $127.497 $6.999 $134.496 Total compra: $134.496   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Mon Jan 15 16:45:49 COT 2018--------- aqui termina --------
+Tue Jan 16 08:49:37 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:49:41 COT 2018-- Transacción Aprobada:  [ae387b4e-fb4b-4909-b6e8-0a3a5d2f8707] --
+Tue Jan 16 08:49:41 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:49:42 COT 2018--------- aqui termina --------
+Tue Jan 16 08:49:45 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:49:46 COT 2018-- Transacción Aprobada:  [ae387b4e-fb4b-4909-b6e8-0a3a5d2f8707] --
+Tue Jan 16 08:49:46 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:49:46 COT 2018--------- aqui termina --------
+Tue Jan 16 08:49:49 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:49:49 COT 2018-- Transacción Aprobada:  [498926ce-f6cb-4cd7-84cd-13dd52f8acfb] --
+Tue Jan 16 08:49:49 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:49:50 COT 2018--------- aqui termina --------
+Tue Jan 16 08:49:58 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:49:59 COT 2018-- Transacción Aprobada:  [498926ce-f6cb-4cd7-84cd-13dd52f8acfb] --
+Tue Jan 16 08:49:59 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:49:59 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:04 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:04 COT 2018-- Transacción Rechazada:  [692d69ef-e8a6-4597-a707-09104b845a61] --
+Tue Jan 16 08:50:04 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:04 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:06 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:06 COT 2018-- Transacción Rechazada:  [692d69ef-e8a6-4597-a707-09104b845a61] --
+Tue Jan 16 08:50:07 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:07 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:09 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:09 COT 2018-- Transacción Aprobada:  [507d1378-4bae-4233-87dd-e07c21453264] --
+Tue Jan 16 08:50:09 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:09 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:11 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:11 COT 2018-- Transacción Aprobada:  [507d1378-4bae-4233-87dd-e07c21453264] --
+Tue Jan 16 08:50:11 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:11 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:20 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:21 COT 2018-- Transacción Aprobada:  [16f58240-4916-4a1a-8475-164d3f054461] --
+Tue Jan 16 08:50:21 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:21 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:23 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:23 COT 2018-- Transacción Aprobada:  [16f58240-4916-4a1a-8475-164d3f054461] --
+Tue Jan 16 08:50:23 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:23 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:26 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:26 COT 2018-- Transacción Aprobada:  [0e73fad1-e47f-4034-94a2-45b7019709b1] --
+Tue Jan 16 08:50:26 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:26 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:28 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:28 COT 2018-- Transacción Aprobada:  [0e73fad1-e47f-4034-94a2-45b7019709b1] --
+Tue Jan 16 08:50:28 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 08:50:28 COT 2018--------- aqui termina --------
+Tue Jan 16 08:50:35 COT 2018--------- aqui comienza --------
+Tue Jan 16 08:50:36 COT 2018?
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Tue Jan 16 08:50:36 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Tue Jan 16 08:50:59 COT 2018
+  ¡Hola Sergio florez!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126272   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 16 Jan 2018 - 08:44 AM Débito - PSE COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $82.498   Camisa Manga Corta Azul Cantidad: 1 $44.999 Subtotal: Envío (Flete): TOTAL: $127.497 $6.999 $134.496 Total compra: $134.496   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Tue Jan 16 08:51:00 COT 2018--------- aqui termina --------
+Tue Jan 16 09:02:15 COT 2018--------- aqui comienza --------
+Tue Jan 16 09:02:15 COT 2018-- Transacción Aprobada:  [07b1ebbb-84e7-44b4-af24-a47cc1075cce] --
+Tue Jan 16 09:02:15 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 09:02:15 COT 2018--------- aqui termina --------
+Tue Jan 16 09:02:15 COT 2018--------- aqui comienza --------
+Tue Jan 16 09:02:15 COT 2018-- Transacción Aprobada:  [07b1ebbb-84e7-44b4-af24-a47cc1075cce] --
+Tue Jan 16 09:02:15 COT 2018PayU <info@payulatam.com>
+Tue Jan 16 09:02:15 COT 2018--------- aqui termina --------
+Tue Jan 16 09:02:16 COT 2018--------- aqui comienza --------
+Tue Jan 16 09:02:16 COT 2018?
+    Tu pago fue aprobado!
+
+
+
+
+
+
+
+Tue Jan 16 09:02:16 COT 2018"Pacifika.com" <conversemos@dev.pacifika.com>
+Tue Jan 16 09:02:19 COT 2018
+  ¡Hola Sergio florez!   Pronto llegará algo que combina con lo que eres... ¡Tu pago fue aprobado!     Te compartimos los datos de tu pedido: 00126275   Descripción: Fecha: Medio de pago: Moneda: PCFK Tienda online 16 Jan 2018 - 08:59 AM Débito - PSE COP   Artículos para entregar   Short Corto Negro Cantidad: 2 $82.498   Camisa Manga Corta Azul Cantidad: 1 $44.999 Subtotal: Envío (Flete): TOTAL: $127.497 $6.999 $134.496 Descuentos: $25.499 Total compra: $108.997   *El saldo a favor será aplicado en la totalidad de la compra. *El costo de envio es calculado basado en tu dirección de envio. *Todos nuestros Precios incluyen IVA   Si tienes dudas escríbenos a conversemos@pacifika.com   ¡Gracias! Equipo Pacifika.com   Comparte tu look con #PCFK Todos los derechos reservados © 2017 PACIFIKA Una marca de Linea Directa S.A.S.
+Tue Jan 16 09:02:19 COT 2018--------- aqui termina --------

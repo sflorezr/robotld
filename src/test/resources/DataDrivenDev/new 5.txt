@@ -1,0 +1,22 @@
+734
+381 -- campos obliagtorios 
+730  medios por ciudad 
+
+
+cesar pinatr cuadro rojo de error de datos 
+
+--- 25 arreglo pc diseño
+--  26 arreglo pc  diseño
+--  29 instalcion robot ,entrega sprint 7 , set datos entrega 
+--  30 entrega automtizacion , set de datos robot , apoyo TI pruebas ambienete .local , pruebas campañas 
+--  31 entrega robot automatización , pruebas con keyrus alida y tablet , reunion con cesar tablet, pruebas correos jorge olave 
+
+
+Recursos no disponibles (Equipos, Periféricos, dispositivos, módulos de pago)Recursos no disponibles (Equipos, Periféricos, dispositivos, módulos de pago)
+Actividades de SW o HW no planeadas
+Actividades de SW o HW no planeadas
+
+=SI(ESBLANCO(B8);"";BUSCARV(B8;Planeacion!$A$8:$B$991;2;FALSO))
+
+=SI.ERROR(PROMEDIO(J19:J41);"")
+

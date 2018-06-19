@@ -1,0 +1,5 @@
+cambio de chat en el servico al cliente 
+Actualziar el código del chat , hacer un hotfix 
+
+
+05837

@@ -1,0 +1,355 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Screenshots</title>
+
+<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+<!--[if IE 7]>
+<link rel="stylesheet" href="font-awesome/css/font-awesome-ie7.min.css">
+<![endif]--><!-- JQuery -->
+<script type="text/javascript" src="scripts/jquery-1.11.1.min.js"></script><!-- Bootstrap -->
+<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+<script src="bootstrap/js/bootstrap.min.js"></script><link rel="stylesheet" href="css/core.css"/>
+<link rel="stylesheet" href="css/link.css"/>
+<link type="text/css" media="screen" href="css/screen.css" rel="Stylesheet"/><!-- Nivo Slider -->
+<link rel="stylesheet" href="nivo-slider/3.2/nivo-slider.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="nivo-slider/3.2/themes/default/default.css" type="text/css" media="screen" />
+<script src="nivo-slider/3.2/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+    <script type="text/javascript">
+
+        function getUrlVars() {
+            var vars = {};
+            var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function (m, key, value) {
+                vars[key] = value;
+            });
+            return vars;
+        }
+
+        var screenshotIndex = getUrlVars()["screenshot"];
+
+        $(window).load(function () {
+            $('#slider').nivoSlider({
+                startSlide: screenshotIndex,
+                effect: 'fade',
+                animSpeed: 200,
+                manualAdvance: true
+            });
+        });
+
+        $(window).keydown(function(e) {
+            switch(e.which) {
+                case 37:
+                    $('a.nivo-prevNav').click();
+                    break;
+                case 39:
+                    $('a.nivo-nextNav').click();
+                    break;
+            }
+        });
+    </script>
+
+</head>
+
+<body>
+<div id="topheader">
+    <div id="topbanner">
+        <div id="logo"><a href="index.html"><img src="images/serenity-logo.png" border="0"/></a></div>
+        <div id="projectname-banner" style="float:right">
+            <span class="projectname">Proyecto Venta Digital PACIFIKA</span>
+        </div>
+    </div>
+</div>
+
+<div class="middlecontent">
+    <div id="contenttop">
+        <div class="middlebg">
+            <span class="breadcrumbs">
+                <a href="index.html">Home</a>
+                > <span class="truncate-40"><a
+                    href="feature_pdp_sl_compra_contra_entrega_pdp.html">Compra Contra Entrega PDP</a></span>
+                > <span class="truncate-60"><a
+                    href="compra-contra-entrega-pdp_compra-contra-entrega-usuario-normal-con-vaucher-_lt_vocher_gt_.html">Compra contra entrega usuario normal con vaucher <vocher> </a></span>
+                > Screenshots
+            </span>
+        </div>
+        <div class="rightbg"></div>
+    </div>
+
+    <div class="clr"></div>
+
+    <!--/* starts second table*/-->
+<div>
+    <ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#"><i class="fa fa-check-square-o"></i> Overall Test Results</a>
+        </li>
+        <li >
+            <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
+        </li>
+        <li >
+            <a href="requirement_type_capability.html"><i class="fa fa-comments-o"></i> Capabilities</a>
+        </li>
+        <li >
+            <a href="requirement_type_feature.html"><i class="fa fa-comments-o"></i> Features</a>
+        </li>
+        <li >
+            <a href="requirement_type_story.html"><i class="fa fa-comments-o"></i> Stories</a>
+        </li>
+    </ul>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 19-06-2018 10:10</span>
+    <br style="clear:left"/>
+</div>
+
+    <div class="clr"></div>
+
+
+    <div id="contentbody">
+        <div class="titlebar">
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td>
+                            <div>
+                                <h3 class="discreet-story-header">
+                                    <i class="fa fa-2x fa-comments-o"></i>
+                                    <span class="story-header-title">Compra Contra Entrega PDP</span>
+                                    <span class="badge tag-badge">Feature</span>
+                                </h3>
+
+                                <div class="discreet-requirement-narrative-title">
+                                
+                                </div>
+                            </div>
+
+                        </td>
+                        <td valign="top" align="right">
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="feature_compras_sl_pdp_sl_compra_contra_entrega_pdp.html">Pdp/Compra Contra Entrega Pdp
+                                    (feature)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="story_dev_sl_compras_sl_pdp.html">Compras/Pdp
+                                    (story)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="story_dev_sl_compras.html">Compras
+                                    (story)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="feature_pruebas_sl_dev.html">Dev
+                                    (feature)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="tag_ejecutar.html">Ejecutar
+                                    (tag)</a>
+                                </span>
+                            </p>
+                            <p class="tag">
+                                <span class="badge tag-badge">
+                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" href="capability_pruebas.html">Pruebas
+                                    (capability)</a>
+                                </span>
+                            </p>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <div class="story-title">
+                <table class="outcome-header">
+                    <tr>
+                        <td colspan="2" class="test-title-bar">
+                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="test-case-title">
+                                <span class="success-color">Compra contra entrega usuario normal con vaucher <vocher>
+                                    <span class="related-issue-title"></span>
+                                </span>
+                            </span>
+
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="clr"></div>
+
+    <div class="story-title">
+        <h3>Scenario:</h3>
+        <div class="scenario">Given Estando en Home<br>And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"<br>And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"<br>And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"<br>When Selecciona articulos desde PDP menor normal "250000"<br>And digito vaucher de tipo "&lt;voucher&gt;"<br>And Logueo e Ir a Pasarela "normal"<br>And Selecciono Forma pago contra entrega<br>And Pagar Ahora<br>And Guarda orden<br>Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"</div>
+    </div>
+
+    <div id="beforetable"></div>
+    <div id="contenttilttle">
+        <div class="slider-wrapper theme-default">
+            <div id="slider">
+                <img src="a663f023368f48de661da5931ba30401b6fb0792074de17942a4de7abf7ae301.png" title="Selecciona menu principal: Mujer" width="960"/>
+                <img src="bc59680914764b62ec8786c1c63291a203c65f945d853f030f9f8658e0916182.png" title="Selecciona subcategoria: Mujer, blusasycamisas" width="960"/>
+                <img src="0d3177d9fdf33ebec0df0227258588d2738f8e6a73a78952d3badf412478cfa1.png" title="Abrir PDP: 1" width="960"/>
+                <img src="0d3177d9fdf33ebec0df0227258588d2738f8e6a73a78952d3badf412478cfa1.png" title="Totx prod PDP" width="960"/>
+                <img src="8835963116b6134d62f3e38a4d736b6cd493b709d5ea1a0cba584fcc3441ebed.png" title="Anadearticulodesde PDP: MujerXS, 104210" width="960"/>
+                <img src="e3ec67fb3a3308968ba12e6541d4645cdcb456a8475775580983a6e125ccc076.png" title="Cerrar mini carro" width="960"/>
+                <img src="3ff77901826bf7f524cccaf463653e9012c6331d8005981d9f6ebe37a92fd8f0.png" title="Totx prod PDP" width="960"/>
+                <img src="9aafb05e7006954aa7c11f18c32ff08a39671b81eb292ffefb2a44c39b04c701.png" title="Anadearticulodesde PDP: MujerXS, 104210" width="960"/>
+                <img src="9d313d6a21a15bc2841600d86e1a9271ddfe2b4526ead8edadbc9dabc818f168.png" title="Cerrar mini carro" width="960"/>
+                <img src="092f25a29ee9ece639ce91049516da2bb25a272d49063abe7fdb9d1ca9a5ed52.png" title="Selecciona menu principal: Mujer" width="960"/>
+                <img src="7a9f7fddbcaa88e9ebffd239cc5143ec6a6985f287b856800abdde66cde44b65.png" title="Selecciona subcategoria: Mujer, blusasycamisas" width="960"/>
+                <img src="eb7a47900f3e501e5ae3c44d36e7f3a4e0597da7e30f22a8d25197dbf6c1dbc2.png" title="Abrir PDP: 2" width="960"/>
+                <img src="01497731197db01059b2a9ae04aa99ce5b76f8fe804cd1b589e5fe0d2f00d140.png" title="Totx prod PDP" width="960"/>
+                <img src="9f2c67eda003b79e8fa112402e5e8e7873312e41cfdc966a330d5ce8b4737742.png" title="Anadearticulodesde PDP: MujerS, 101913" width="960"/>
+                <img src="a775b9f8ee743987c9ee1f6c9853d5224f1a5641478780344b38c06209d1d2c3.png" title="Cerrar mini carro" width="960"/>
+                <img src="0dfeff005a2050faa8533611163fd7cef2c9d98b8ce2d6f32c2a9e80147b92db.png" title="Ir a orden" width="960"/>
+                <img src="db434f9e84b9a76282df8dea58af52ee064744bac897848c66af2463dd2365d8.png" title="Ir a orden" width="960"/>
+                <img src="d52c89bee64464be5ec7f7af26eced0d5dbbd40a7262872cd1e95fecb1fc92dc.png" title="Escribir vaucher: valorfijo" width="960"/>
+                <img src="0b28c84de9344939b68a8ee5c449245a69da174696711486a9127fc4a0fc549c.png" title="Aplicar" width="960"/>
+                <img src="0b28c84de9344939b68a8ee5c449245a69da174696711486a9127fc4a0fc549c.png" title="Verificar mensaje: Tu c&oacute;digo de descuento &quot;valorfijo&quot; ha sido aplicado satisfactoriamente" width="960"/>
+                <img src="0b28c84de9344939b68a8ee5c449245a69da174696711486a9127fc4a0fc549c.png" title="Ver subtotal" width="960"/>
+                <img src="0b28c84de9344939b68a8ee5c449245a69da174696711486a9127fc4a0fc549c.png" title="Ver total" width="960"/>
+                <img src="0b28c84de9344939b68a8ee5c449245a69da174696711486a9127fc4a0fc549c.png" title="Verifica descuento: fijo, 89997.0, 30000.0, 59997.0" width="960"/>
+                <img src="c1d09524193c904dd9a1bcdd3145b114a34f8a1c46a6af67397b6989170b5569.png" title="Logueoe pre pasarela" width="960"/>
+                <img src="be2258480f7b992970fa09cedf9ba198cb53bceab0cd2ebaa4c24e689e55e094.png" title="Digitar correo: pruebasld2018@hotmail.com" width="960"/>
+                <img src="83efb79e5fd1bf03e0b5a27a28265ad10451acab013ce7bdfb649a235e69c201.png" title="Digitar correo: pruebasld2018@hotmail.com" width="960"/>
+                <img src="bb46edf6f6a83c56ba766afe450b7a88166677d363aa853c2bf283370bcc3fbe.png" title="Digitar contrasena: 12345678" width="960"/>
+                <img src="aa1a83d8fce214cb262886033aeeb71b6f2d39c78ebd9d72a0b7c6229a7faa75.png" title="Digitar contrasena: 12345678" width="960"/>
+                <img src="77d9b01b1c76e3dfdeb69b67d1439a12ff9eed2acf6f023be1662714e8832eba.png" title="Ira check out" width="960"/>
+                <img src="7aae9d23722bfe53f337ef31fed053316783f3658ffbddd84226ec49dd897331.png" title="Pasarela pos logueo nuevo: &lt;NONE&gt;, normal" width="960"/>
+                <img src="0fe169ce26ccff54985ade3a18d723f388eab38b1205cebfc2391609819a3a57.png" title="Pasarela pos logueo nuevo: &lt;NONE&gt;, normal" width="960"/>
+                <img src="0fe169ce26ccff54985ade3a18d723f388eab38b1205cebfc2391609819a3a57.png" title="Verificar direccion" width="960"/>
+                <img src="911cdd84beda32d8482cbaba41d9d9e854b6dde25ccac59b0c91b2e3f5ef3c72.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="d0c9795feb4bb7b94526318da31495346db8c3eb8b8dcd1840a2f45f1e1ca8da.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="4be8e18e120c577aad2fa7b2563a7ccb0f79809abcdb3602af3b024f2cbed1b3.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="cd0d87c8a079c27b627a5d0a6785858593fb9a61620a51dcb55433f6fb34996a.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="0098b88b2e61202eec76e0779d3dff5de9e1ccfb09c41052d32bfce63784eb0d.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="b57d0749bd55c186c705bea242261d168b32e9d2fb62f5dbfec021a53fa141dc.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="14bbd18d9214b7795954aef6655f0a85585ed624c4be960f9e55660f66fd5fc8.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="05fe1119019fb3c6716072f44a4338f75f1844b0d6df8570a58950deb88564fb.png" title="Pagar ahora2" width="960"/>
+                <img src="0d449be9f7bbedcc757544ab7bd95a6e5e5d3b69e5bfe7b20d349479db621069.png" title="Pagar ahora2" width="960"/>
+                <img src="6f21599ffb60a1f138dd380543e3ccb8f1aecd488b017b08fbc6a33d568a8d21.png" title="And Selecciono Forma pago contra entrega" width="960"/>
+                <img src="3edb7f32e5d93b4493cce81259c5b589de99efe00b3b33ceba814264ab4235cb.png" title="Pagar ahora" width="960"/>
+                <img src="3edb7f32e5d93b4493cce81259c5b589de99efe00b3b33ceba814264ab4235cb.png" title="Mensaje" width="960"/>
+                <img src="3edb7f32e5d93b4493cce81259c5b589de99efe00b3b33ceba814264ab4235cb.png" title="Orden" width="960"/>
+                <img src="a663f023368f48de661da5931ba30401b6fb0792074de17942a4de7abf7ae301.png" title="Selecciona menu principal: Mujer" width="960"/>
+                <img src="bc59680914764b62ec8786c1c63291a203c65f945d853f030f9f8658e0916182.png" title="Selecciona subcategoria: Mujer, blusasycamisas" width="960"/>
+                <img src="0d3177d9fdf33ebec0df0227258588d2738f8e6a73a78952d3badf412478cfa1.png" title="Abrir PDP: 1" width="960"/>
+                <img src="0d3177d9fdf33ebec0df0227258588d2738f8e6a73a78952d3badf412478cfa1.png" title="Totx prod PDP" width="960"/>
+                <img src="8835963116b6134d62f3e38a4d736b6cd493b709d5ea1a0cba584fcc3441ebed.png" title="Anadearticulodesde PDP: MujerXS, 104210" width="960"/>
+                <img src="e3ec67fb3a3308968ba12e6541d4645cdcb456a8475775580983a6e125ccc076.png" title="Cerrar mini carro" width="960"/>
+                <img src="3ff77901826bf7f524cccaf463653e9012c6331d8005981d9f6ebe37a92fd8f0.png" title="Totx prod PDP" width="960"/>
+                <img src="9aafb05e7006954aa7c11f18c32ff08a39671b81eb292ffefb2a44c39b04c701.png" title="Anadearticulodesde PDP: MujerXS, 104210" width="960"/>
+                <img src="9d313d6a21a15bc2841600d86e1a9271ddfe2b4526ead8edadbc9dabc818f168.png" title="Cerrar mini carro" width="960"/>
+                <img src="092f25a29ee9ece639ce91049516da2bb25a272d49063abe7fdb9d1ca9a5ed52.png" title="Selecciona menu principal: Mujer" width="960"/>
+                <img src="7a9f7fddbcaa88e9ebffd239cc5143ec6a6985f287b856800abdde66cde44b65.png" title="Selecciona subcategoria: Mujer, blusasycamisas" width="960"/>
+                <img src="eb7a47900f3e501e5ae3c44d36e7f3a4e0597da7e30f22a8d25197dbf6c1dbc2.png" title="Abrir PDP: 2" width="960"/>
+                <img src="710ee5190b49f11cf06d47302c487bd4822a0011a004af82c696e455570b1846.png" title="Totx prod PDP" width="960"/>
+                <img src="095f0a6dbe1501e13612e951300d72920e494c3f9c3ffa282b899c34443c56bb.png" title="Anadearticulodesde PDP: MujerS, 101913" width="960"/>
+                <img src="a775b9f8ee743987c9ee1f6c9853d5224f1a5641478780344b38c06209d1d2c3.png" title="Cerrar mini carro" width="960"/>
+                <img src="d0320ce575c536c68e6c9bbf3df14ce422e7d9b0b909f66194a28daa09484d03.png" title="Ir a orden" width="960"/>
+                <img src="35d933324b0250ed03bfb27fb4d531c72f75a6bb6700f9ab10e910b87585658c.png" title="Ir a orden" width="960"/>
+                <img src="da7a8f5515a7e69dede607b6c3a6d830a092094b9df71f9cab39b6497774d816.png" title="Escribir vaucher: porcentaje" width="960"/>
+                <img src="23c2f30e53e94b6087c610bac178f3919a9a03268540a04a6cf140552a7322b5.png" title="Aplicar" width="960"/>
+                <img src="23c2f30e53e94b6087c610bac178f3919a9a03268540a04a6cf140552a7322b5.png" title="Verificar mensaje: Tu c&oacute;digo de descuento &quot;porcentaje&quot; ha sido aplicado satisfactoriamente" width="960"/>
+                <img src="23c2f30e53e94b6087c610bac178f3919a9a03268540a04a6cf140552a7322b5.png" title="Ver subtotal" width="960"/>
+                <img src="23c2f30e53e94b6087c610bac178f3919a9a03268540a04a6cf140552a7322b5.png" title="Ver total" width="960"/>
+                <img src="23c2f30e53e94b6087c610bac178f3919a9a03268540a04a6cf140552a7322b5.png" title="Verifica descuento: porcentaje, 89997.0, 30.0, 62998.0" width="960"/>
+                <img src="c1d09524193c904dd9a1bcdd3145b114a34f8a1c46a6af67397b6989170b5569.png" title="Logueoe pre pasarela" width="960"/>
+                <img src="be2258480f7b992970fa09cedf9ba198cb53bceab0cd2ebaa4c24e689e55e094.png" title="Digitar correo: pruebasld2018@hotmail.com" width="960"/>
+                <img src="83efb79e5fd1bf03e0b5a27a28265ad10451acab013ce7bdfb649a235e69c201.png" title="Digitar correo: pruebasld2018@hotmail.com" width="960"/>
+                <img src="90a6485a4d179fdc99c1a22e7cfbb102c139c57aa46d97cfb0a8855622e3d897.png" title="Digitar contrasena: 12345678" width="960"/>
+                <img src="ada81933612432ef6239310575ae4ab92bbf77d6f3ee21b2c1eddbc31cf31e39.png" title="Digitar contrasena: 12345678" width="960"/>
+                <img src="362a83792ba6b14227f890d31606092a6d76aea32b2f6a7c161be38ba34d015b.png" title="Ira check out" width="960"/>
+                <img src="0f3ae11a7c343360fe5c15c2a459fdb43b9174909122c51166f8ca362dc5116e.png" title="Pasarela pos logueo nuevo: &lt;NONE&gt;, normal" width="960"/>
+                <img src="05c85c11544cca058dd6ea79c41cb64c0b043b480dd00871266b2f88009d9a53.png" title="Pasarela pos logueo nuevo: &lt;NONE&gt;, normal" width="960"/>
+                <img src="046ed41d7193cf7252eacb5f0e3de3dd5fd8e3c00d5a8bc5a470806ea36186a4.png" title="Verificar direccion" width="960"/>
+                <img src="a7faad641d3c0457096f14bb199cdd9c095f9b66d4739580368fc9ff40cc7cf4.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="a506e7ff25ba9ec0b82bdbb54b423a0e6366511b77b4dc683987ebef1465a1da.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="c0a193048e5feda4a0b9e7436c85f5587ec66f39444da7480ffc376fe603e50e.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="9a1b3e506caab3aa8d5b5bed03fd4cb21eb3ab632a3bf1daee1f814d39fa61de.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="8bb24406b2c490742878b3954e670c919205f124057926e4809717b814865b0c.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="51acf66991b59ac991180e585e62d79aae543cdc7565a6a646f074d1c9c159cb.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="533109fc08e8b98182415b5703f8b8308857b50d5b3f2fe0bbbaad850d07cb5c.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="8e40cad3ba1b1e52d68b1e0e5840a42b1c231913c90ddeac25555f57956b5ca0.png" title="Pagar ahora2" width="960"/>
+                <img src="f139c88ad27dc1b04feaed7e886bb83fca9947b2ed44ec29553332dc93e01f67.png" title="Pagar ahora2" width="960"/>
+                <img src="0bbda58ecd1a240375d95ca6663774728bfa5f102ed7c7a0723eab1ba7ff258f.png" title="And Selecciono Forma pago contra entrega" width="960"/>
+                <img src="ecfe7a2a49939781845197bac0906ee0e84a3275503fddae4f160601f4934273.png" title="Pagar ahora" width="960"/>
+                <img src="ecfe7a2a49939781845197bac0906ee0e84a3275503fddae4f160601f4934273.png" title="Mensaje" width="960"/>
+                <img src="ecfe7a2a49939781845197bac0906ee0e84a3275503fddae4f160601f4934273.png" title="Orden" width="960"/>
+                <img src="a663f023368f48de661da5931ba30401b6fb0792074de17942a4de7abf7ae301.png" title="Selecciona menu principal: Mujer" width="960"/>
+                <img src="bc59680914764b62ec8786c1c63291a203c65f945d853f030f9f8658e0916182.png" title="Selecciona subcategoria: Mujer, blusasycamisas" width="960"/>
+                <img src="0d3177d9fdf33ebec0df0227258588d2738f8e6a73a78952d3badf412478cfa1.png" title="Abrir PDP: 1" width="960"/>
+                <img src="0d3177d9fdf33ebec0df0227258588d2738f8e6a73a78952d3badf412478cfa1.png" title="Totx prod PDP" width="960"/>
+                <img src="8835963116b6134d62f3e38a4d736b6cd493b709d5ea1a0cba584fcc3441ebed.png" title="Anadearticulodesde PDP: MujerXS, 104210" width="960"/>
+                <img src="e3ec67fb3a3308968ba12e6541d4645cdcb456a8475775580983a6e125ccc076.png" title="Cerrar mini carro" width="960"/>
+                <img src="3ff77901826bf7f524cccaf463653e9012c6331d8005981d9f6ebe37a92fd8f0.png" title="Totx prod PDP" width="960"/>
+                <img src="9aafb05e7006954aa7c11f18c32ff08a39671b81eb292ffefb2a44c39b04c701.png" title="Anadearticulodesde PDP: MujerXS, 104210" width="960"/>
+                <img src="9d313d6a21a15bc2841600d86e1a9271ddfe2b4526ead8edadbc9dabc818f168.png" title="Cerrar mini carro" width="960"/>
+                <img src="092f25a29ee9ece639ce91049516da2bb25a272d49063abe7fdb9d1ca9a5ed52.png" title="Selecciona menu principal: Mujer" width="960"/>
+                <img src="7a9f7fddbcaa88e9ebffd239cc5143ec6a6985f287b856800abdde66cde44b65.png" title="Selecciona subcategoria: Mujer, blusasycamisas" width="960"/>
+                <img src="eb7a47900f3e501e5ae3c44d36e7f3a4e0597da7e30f22a8d25197dbf6c1dbc2.png" title="Abrir PDP: 2" width="960"/>
+                <img src="a4f40a218e974b4680669f8a38e26b5b33806a00930bcc655e892409b473451a.png" title="Totx prod PDP" width="960"/>
+                <img src="0e85d01b94bbacbaecdd7f9b34d6ee6a8f9dd3780660c8ae3469c916456062f0.png" title="Anadearticulodesde PDP: MujerS, 101913" width="960"/>
+                <img src="a775b9f8ee743987c9ee1f6c9853d5224f1a5641478780344b38c06209d1d2c3.png" title="Cerrar mini carro" width="960"/>
+                <img src="f90263a24e677b51746c7024c1ec54f4667ba3dc92259b930d71d97fa74028c1.png" title="Ir a orden" width="960"/>
+                <img src="108058e2efda8250a922d33812bfae7ff631895882c8319174e9ac02ba4d874d.png" title="Ir a orden" width="960"/>
+                <img src="c1d09524193c904dd9a1bcdd3145b114a34f8a1c46a6af67397b6989170b5569.png" title="Logueoe pre pasarela" width="960"/>
+                <img src="be2258480f7b992970fa09cedf9ba198cb53bceab0cd2ebaa4c24e689e55e094.png" title="Digitar correo: pruebasld2018@hotmail.com" width="960"/>
+                <img src="83efb79e5fd1bf03e0b5a27a28265ad10451acab013ce7bdfb649a235e69c201.png" title="Digitar correo: pruebasld2018@hotmail.com" width="960"/>
+                <img src="90a6485a4d179fdc99c1a22e7cfbb102c139c57aa46d97cfb0a8855622e3d897.png" title="Digitar contrasena: 12345678" width="960"/>
+                <img src="a7f89b28f3cfdc6106e8e93b1ef7cb3ac5b800c42b202487e4ed7a59de7bd5ab.png" title="Digitar contrasena: 12345678" width="960"/>
+                <img src="ed554f67da1d4b367e5f0553a4956ecac9e73b254711dd0f4e46e5b3afd4c6c9.png" title="Ira check out" width="960"/>
+                <img src="ce125febd6c4b55ef5777f3a1049167183e37563772a462e2bd1cde1628882c4.png" title="Pasarela pos logueo nuevo: &lt;NONE&gt;, normal" width="960"/>
+                <img src="0c06269a9f9cd9da80f2875b46249d6e24e3a81915ccd58a75642912035698b2.png" title="Pasarela pos logueo nuevo: &lt;NONE&gt;, normal" width="960"/>
+                <img src="0c06269a9f9cd9da80f2875b46249d6e24e3a81915ccd58a75642912035698b2.png" title="Verificar direccion" width="960"/>
+                <img src="12c1ffd42c54f51d28121a415626228049e348afd7bd69530662738f39ec5778.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="dd095a98b7bee07f201c39050a3f37e487b59803c25e10e54deec6913f07e832.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="fbce36871212de8a95bbff7191229202912e2248e35ee7024d9269b17d98b2e2.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="3a4c715b8b6e8b60ce594f7a603033113bb9dd178b480156f886af9812dcee6c.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="7cebed2252abed635d07b99e992648ced15b6afd60d13e01ae1f61be6cb34515.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="af42fe7a94a92fdc2aff08e81265eb5b6fd4d8beb8a6bff1198670ed8ef658d0.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="fb702e44676addb7fccc4c209a55dc34718f2b2b0142d061cb6508499a3caf13.png" title="Logistica: Calle 21 45-89 , Apto 1201, 11001, floresta, , Client " width="960"/>
+                <img src="17fe1465f632a228d728dc7cdb6df64498fde0f8dbdeb15eb9d9a884deb11651.png" title="Pagar ahora2" width="960"/>
+                <img src="e39f0f4473e44f802c9cf54458f70adcd15bb3e3631e4916b3ef38968bfa6a08.png" title="Pagar ahora2" width="960"/>
+                <img src="8a334a903552990d543a4b770663206565e1e7dcb4acbeca20f3002645c21bef.png" title="And Selecciono Forma pago contra entrega" width="960"/>
+                <img src="ba6be07956356bb0f157f7aac7c76706f557ee2218eda01af503e43ec3eb571c.png" title="Pagar ahora" width="960"/>
+                <img src="ba6be07956356bb0f157f7aac7c76706f557ee2218eda01af503e43ec3eb571c.png" title="Mensaje" width="960"/>
+                <img src="ba6be07956356bb0f157f7aac7c76706f557ee2218eda01af503e43ec3eb571c.png" title="Orden: <span class='success-color'>SUCCESS</span>" width="960"/>
+            </div>
+        </div>
+
+
+    </div>
+</div>
+<div id="beforefooter"></div>
+<div id="bottomfooter">
+    <span class="version">Serenity BDD version 1.8.1</span>
+</div>
+</body>
+</html>

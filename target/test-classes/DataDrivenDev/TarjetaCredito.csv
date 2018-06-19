@@ -1,0 +1,9 @@
+tarjeta,mes,año,Nverifiacion,cuotas,titular,tipo_doc,documento,celular,correo,franquisia,estado,mensaje,Correo
+5589131154597307,12,2018,888,3,APPROVED,Cédula de Ciudadanía,1090442524,3103585904,prue2017p@gmail.com,mastercard,feliz,confirmado con éxito,
+5589131154597307,12,2018,654,3,PENDING,Cédula de Ciudadanía,1090442524,3103585904,prue2017p@gmail.com,mastercard,no feliz,Esta franquicia no está disponible para ser utilizada.,
+36987391064108,12,2018,000,2,REJECTED,Cédula de Ciudadanía,654987123,3004521365,prue2017p@gmail.com,Dinnes,feliz,confirmado con éxito,
+36987391064108,12,2018,888,2,APPROVED,Cédula de Ciudadanía,654987123,3004521365,pruebasld2018@hotmail.com,Dinnes,no feliz,Esta franquicia no está disponible para ser utilizada.,
+4111111111111111,12,2018,888,3,APPROVED,Cédula de Ciudadanía,1094552623,3103585904,pruebasld2018@hotmail.com,VISA,feliz,confirmado con éxito,
+4111111111111111,12,2018,987,3,PENDING,Cédula de Ciudadanía,1094552623,3103585904,pruebasld2018@hotmail.com,VISA,feliz,confirmado con éxito,
+4111111111111111,12,2018,000,3,REJECTED,Cédula de Ciudadanía,1094552623,3103585904,pruebasld2018@hotmail.com,VISA,no feliz,Esta franquicia no está disponible para ser utilizada.,
+4111111111111111,1,2018,000,3,REJECTED,Cédula de Ciudadanía,1094552623,3103585904,pruebasld2018@hotmail.com,VISA,no feliz,Esta franquicia no está disponible para ser utilizada.,

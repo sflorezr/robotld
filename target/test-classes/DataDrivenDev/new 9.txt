@@ -1,0 +1,13 @@
+
+
+-- Actualiazción del set de datos
+-- Crear en el escanrio de fletes  para usuarios nuevos y aliadas 
+-- Verificar configuración de categorías y subcategorias 
+-- Pendiente verificar estados de transacciones diferentes a aprobados con TC y TD 
+-- Contextualización de datos o varibles ya quemadas en el sistema y como funcionaría 
+-- Cambio de delimitadores
+-- No se corrió ningún flujo 
+
+-- Pagina 99 El Camibuzo Talla XL y Pagina 87 el Camibuzo Talla XL
+156128 
+156144

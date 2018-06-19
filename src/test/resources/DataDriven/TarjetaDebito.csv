@@ -1,0 +1,5 @@
+Banco,correo,Fecha,estado,Id,Mensaje,tipo
+BANCO UNION COLOMBIANO,slflorez91@gmail.com,08/03/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,slflorez91@gmail.com,02/01/2018,OK,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,slflorez91@hotmail.com,08/03/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,slflorez91@hotmail.com,02/01/2018,OK,1234,Tu banco se está demorando en respondernos...,no feliz
