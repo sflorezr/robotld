@@ -84,7 +84,7 @@ public class RedimirVaucherPage extends PageObject {
 			case "porcentaje":
 				 totalcalculado=subtotal-(subtotal*(val/100));
 				break;	
-			case "freeshipping":
+			case "freeshiping":
 				 totalcalculado=subtotal;
 				break;					
 		}	

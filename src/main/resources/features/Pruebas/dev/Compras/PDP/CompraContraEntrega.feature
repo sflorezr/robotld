@@ -6,7 +6,7 @@ Feature: Compra Contra Entrega PDP
 
 # Nota: Se recomienda al actualizar el datadriven colocar los registros que tiene SC en las últimas posiciones
 
-Scenario Outline: Compra contra entrega usuario normal
+Scenario Outline: Compra contra entrega usuario <usuario>
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
@@ -27,12 +27,12 @@ Examples:
 	
 	##  Compras con SC  con clientes y aliad@s existente  
 	## La constante mayor, indica el valor que debe tener el SC y el número indica el monto
-	 	  	 
+ 	  	 
 Scenario Outline: Compra contra entrega usuario normal con SC
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 When Selecciona articulos desde PDP menor normal "250000"	 
+	 When Selecciona articulos desde PDP mayor normal "350000"	 
 	 And Logueo e Ir a Pasarela "<usuario>" mayor a "100000"
 	 And Selecciono Forma pago contra entrega
 	 And Pagar Ahora
@@ -107,7 +107,7 @@ Examples:
 ##  Archivo de municipios en este va configurado por codigo de DANE la ciudad si teiene COD o nó, dependiendo de este el robot lo toma o nó, ya que no ingresa a la tabla city 
 
 
-
+@Ejecutar	
 Scenario: Compra contra entrega usuario normal caso no feliz municipio sin contra entrega con vaucher
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

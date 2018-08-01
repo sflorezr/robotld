@@ -39,7 +39,7 @@ public class CompraTarjetaDebidoPage extends PageObject {
 		findBy(txtRespuesta).type("pacifika");
 		findBy(checkAcepto).click();
 		Serenity.takeScreenshot();
-		waitFor(1).seconds();
+		waitFor(2).seconds();
 		findBy(btnRegistrar).click();
 		waitFor(1).seconds();
 		try {
@@ -50,7 +50,7 @@ public class CompraTarjetaDebidoPage extends PageObject {
 
 		findBy("//*[@id='btnSeguir']").and().click();
 		}catch(Throwable t) {
-			waitFor(3).seconds();
+			waitFor(10).seconds();
 			findBy(btnAceptar).click();
 			
 		}		
@@ -59,8 +59,12 @@ public class CompraTarjetaDebidoPage extends PageObject {
 
 	
 	public void TarjetaDebito(){
-		waitFor(3).seconds();		
-		findBy("/html/body/main/div[5]/div[2]/section/div[2]/div/div/div/div/form/div[1]/div[1]/div[4]/div/div/div/div/div/label/span").and().click();
+		waitFor(3).seconds();	
+		try {
+		findBy("//*[@id='paymentMethod_PSE']/..//span").and().click();
+		}catch(Throwable t) {
+			findBy("//*[@id='debit-card-form']/div/div/div/div/div/label/span").and().click();
+		}
 		Serenity.takeScreenshot();
 		waitFor(2).seconds();
 	}

@@ -79,8 +79,8 @@ public class AgregarArticuloDefinition {
 			j=1;	
 			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaMenuPrincipal(DatosArticulo.get(i).getCategoria());		
 			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaSubcategoria(DatosArticulo.get(i).getCategoria(),DatosArticulo.get(i).getSubcategoria());
-				while(j<=DatosArticulo.get(i).getCantidad()){			
-					busquedaDeaArticulosPorSubcategoriaSteps.AbrirPDP(DatosArticulo.get(i).getPosicion());
+			busquedaDeaArticulosPorSubcategoriaSteps.AbrirPDP(DatosArticulo.get(i).getPosicion());
+				while(j<=DatosArticulo.get(i).getCantidad()){								
 					busquedaDeaArticulosPorSubcategoriaSteps.anadearticulodesdePDP(DatosArticulo.get(i).getCategoria()+DatosArticulo.get(i).getTalla(),DatosArticulo.get(i).getPlu());
 					unitario=busquedaDeaArticulosPorSubcategoriaSteps.Total();
 					unitario=unitario-(unitario*0.25);
@@ -169,8 +169,8 @@ public class AgregarArticuloDefinition {
 			j=1;	
 			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaMenuPrincipal(DatosArticulo.get(i).getCategoria());		
 			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaSubcategoria(DatosArticulo.get(i).getCategoria(),DatosArticulo.get(i).getSubcategoria());
-				while(j<=DatosArticulo.get(i).getCantidad()){			
-					busquedaDeaArticulosPorSubcategoriaSteps.AbrirPDP(DatosArticulo.get(i).getPosicion());
+			busquedaDeaArticulosPorSubcategoriaSteps.AbrirPDP(DatosArticulo.get(i).getPosicion());
+				while(j<=DatosArticulo.get(i).getCantidad()){								
 					busquedaDeaArticulosPorSubcategoriaSteps.anadearticulodesdePDP(DatosArticulo.get(i).getCategoria()+DatosArticulo.get(i).getTalla(),DatosArticulo.get(i).getPlu());
 					total=(int) (busquedaDeaArticulosPorSubcategoriaSteps.Total());	
 				busquedaDeaArticulosPorSubcategoriaSteps.CerrarMiniCarro();			

@@ -1,3 +1,7 @@
+# Corregir en el set de datos la fecha para los escenarios ok y pending deben ser igual al dia de hoy arjetaDebito.csv
+# En este mismo archivo se deben crear y/o reemplazar clientes y  alidas nuevas configuradas
+# La combinación con SC esta en Store Credit 
+
 Feature: Compra con Tarjeta debito
 
 Scenario: Limpia Carro cliente
@@ -36,6 +40,7 @@ Scenario: comprar con Tarjeta debito con usuario normal caso no feliz
 	 And Pagar Ahora
 	 And Pasos para pago tarjeta debito "no feliz"
 	 Then Verifico Mensaje Pago Tarjeta Debito "no feliz"	 	 
+
 
 Scenario Outline: comprar con Tarjeta debito con usuario normal caso feliz con descuento con union de carrito
 	 Given Estando en Home
@@ -114,7 +119,7 @@ Scenario Outline: comprar con Tarjeta debito con usuario aliada caso feliz con d
 	 |porcentaje  |
 	 |freeshiping |
 	 
-	@Ejecutar 
+	 @Ejecutar
 	 Scenario Outline: comprar con Tarjeta debito con usuarios nuevos <tipo> caso feliz con descuento 
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

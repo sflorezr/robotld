@@ -87,15 +87,7 @@ public class CompraTCDefinition {
 		if (CompraCreditoSteps.credito) {
 			checkOutSteps.ActSaldoCredit(LogueoDesdeInicioDefinition.rutausuarios, String.valueOf(CompraCreditoSteps.saldo),SesionModel.posicion);
 		}
-		if (SesionModel.tipo.substring(SesionModel.tipo.length()-1, SesionModel.tipo.length()).equals("n")) {
-			switch (SesionModel.tipo){
-			case "aliadan": checkOutSteps.ActTipoUsuario(LogueoDesdeInicioDefinition.rutausuarios, "aliada",SesionModel.posicion);
-			break;
-			case "normaln": checkOutSteps.ActTipoUsuario(LogueoDesdeInicioDefinition.rutausuarios, "normal",SesionModel.posicion);
-			break;
-			}
-			
-		}
+		
 	}	
 
 

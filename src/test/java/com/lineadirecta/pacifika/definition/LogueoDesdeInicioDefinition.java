@@ -103,11 +103,33 @@ public class LogueoDesdeInicioDefinition {
 		for (int i=1;i<DatosLogue.size();i++ ){	
 			if (DatosLogue.get(i).getTipo().equals(tipo)){
 				logueoDesdeInicioSteps.DigitarCorreo(DatosLogue.get(i).getStrCorreo());
+				SesionModel.tipo=tipo;
+				SesionModel.posicion=i;
 				if (tipo.equals("normaln")) {
 					logueoDesdeInicioSteps.UsuarioNuevo(DatosLogue.get(i).getNombre(), DatosLogue.get(i).getApellido(),DatosLogue.get(i).getContrasena(), DatosLogue.get(i).getSexo());
+					if (SesionModel.tipo.substring(SesionModel.tipo.length()-1, SesionModel.tipo.length()).equals("n")) {
+						switch (SesionModel.tipo){
+						case "aliadan": checkOutSteps.ActTipoUsuario(LogueoDesdeInicioDefinition.rutausuarios, "aliada",SesionModel.posicion);
+						break;
+						case "normaln": checkOutSteps.ActTipoUsuario(LogueoDesdeInicioDefinition.rutausuarios, "normal",SesionModel.posicion);
+						break;
+						}
+						
+					}
 					logueoDesdeInicioSteps.Datos(DatosLogue.get(i).getCedula(),DatosLogue.get(i).getCelular());
 				}else {
 					logueoDesdeInicioSteps.DigitarContrasena(DatosLogue.get(i).getStrContrasena());
+					SesionModel.tipo=tipo;
+					SesionModel.posicion=i;	
+					if (SesionModel.tipo.substring(SesionModel.tipo.length()-1, SesionModel.tipo.length()).equals("n")) {
+						switch (SesionModel.tipo){
+						case "aliadan": checkOutSteps.ActTipoUsuario(LogueoDesdeInicioDefinition.rutausuarios, "aliada",SesionModel.posicion);
+						break;
+						case "normaln": checkOutSteps.ActTipoUsuario(LogueoDesdeInicioDefinition.rutausuarios, "normal",SesionModel.posicion);
+						break;
+						}
+						
+					}
 					compraTCSteps.IraCheckOut();
 				}
 				SesionModel.setCorreo(DatosLogue.get(i).getStrCorreo());

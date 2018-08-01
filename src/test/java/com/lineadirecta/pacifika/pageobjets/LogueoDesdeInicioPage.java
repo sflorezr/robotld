@@ -92,7 +92,7 @@ public class LogueoDesdeInicioPage  extends PageObject{
 		Serenity.takeScreenshot();
 	}
 	public void TipDoc(){
-		findBy("//*[@id='register.identificationType']").and().selectByVisibleText("Cédula de Ciudadanía");
+		findBy("//*[@id='register.identificationType']").and().selectByIndex(1);
 		Serenity.takeScreenshot();
 	}
 	public void Cedula(String cedula){

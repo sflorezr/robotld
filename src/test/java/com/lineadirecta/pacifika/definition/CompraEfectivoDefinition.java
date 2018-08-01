@@ -34,7 +34,7 @@ public class CompraEfectivoDefinition {
 	@When("^Guarda orden$")
 	public void guardar_orden() throws Throwable {	
 		try {
-		compraEfectivoSteps.Escribir(SesionModel.correo,SesionModel.orden);
+		//compraEfectivoSteps.Escribir(SesionModel.correo,SesionModel.orden);
 		String estado="";
 		int saldo;
 		for(int i=1;i<RedimirVaucherDefinition.cupon.size();i++) {

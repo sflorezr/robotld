@@ -10,7 +10,7 @@ public class BusquedaDeaArticulosPorSubcategoriaSteps {
 	@Step 
 	public void AbrirPagina(){
 		general.open();
-		//general.exceptionie();
+		general.exceptionie();
 	}
 	@Step
 	public int Total(){

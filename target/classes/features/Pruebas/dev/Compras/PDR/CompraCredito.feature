@@ -1,6 +1,6 @@
 Feature: compra con credito aliad@
 
-@ejecutar
+#Caso no feliz con usuario normal
 Scenario: compra con credito caso no feliz usuario normal
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -11,62 +11,72 @@ Scenario: compra con credito caso no feliz usuario normal
 	And Ir a Pasarela "normal"
 	And Selecciono credito no feliz		
 
-Scenario: compra con credito aliad@
+#Caso feliz con usuario aliad@ nuevo y ya existente
+
+Scenario Outline: compra con credito aliad@ <usuario>
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
 	And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
 	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"
 	When Logueo usuairo aliada	 
 	And Selecciona articulos desde PDR	
-	And Ir a Pasarela "aliada"
+	And Ir a Pasarela "<usuario>"
 	And Selecciono credito
 	And Pagar Ahora
 	And Guarda orden
 	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"
 
-Scenario: compra con credito aliad@ con vaucher fijo
-	Given Estando en pagina de logeo
-	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"
-	When Logueo usuairo aliada	 
-	And Selecciona articulos desde PDR
-	And digito vaucher de tipo "fijo"	
-	And Ir a Pasarela "aliada"
-	And Selecciono credito
-	And Pagar Ahora
-	And Guarda orden
-	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"	
-	
-Scenario: compra con credito aliad@ con vaucher porcentaje
-	Given Estando en pagina de logeo
-	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"
-	When Logueo usuairo aliada	 
-	And Selecciona articulos desde PDR
-	And digito vaucher de tipo "porcentaje"	
-	And Ir a Pasarela "aliada"
-	And Selecciono credito
-	And Pagar Ahora
-	And Guarda orden
-	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"	
-	
-Scenario: compra con credito aliad@ con vaucher freeshipping
-	Given Estando en pagina de logeo
-	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"
-	When Logueo usuairo aliada	 
-	And Selecciona articulos desde PDR
-	And digito vaucher de tipo "freeshipping"	
-	And Ir a Pasarela "aliada"
-	And Selecciono credito
-	And Pagar Ahora
-	And Guarda orden
-	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"		
+Examples:
+ |usuario|
+ |aliada |
+ |aliadan|
 
-Scenario: compra con credito aliad@ con st
+#Caso feliz con diferentes voucher y aliad@ existente y nueva
+
+Scenario Outline: compra con credito aliad@ con voucher
+	Given Estando en pagina de logeo
+	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+	And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"
+	When Logueo usuairo aliada	 
+	And Selecciona articulos desde PDR
+	And digito vaucher de tipo "voucher"	
+	And Ir a Pasarela "aliada"
+	And Selecciono credito
+	And Pagar Ahora
+	And Guarda orden
+	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"	
+
+Examples: 
+ |voucher|
+ |fijo|
+ |procentaje|
+ |fresshiping|
+
+Scenario Outline: compra con credito aliad@ nueva con voucher
+	Given Estando en pagina de logeo
+	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+	And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"
+	When Logueo usuairo aliada	 
+	And Selecciona articulos desde PDR
+	And digito vaucher de tipo "voucher"	
+	And Ir a Pasarela "aliadan"
+	And Selecciono credito
+	And Pagar Ahora
+	And Guarda orden
+	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"	
+
+Examples: 
+ |voucher|
+ |fijo|
+ |procentaje|
+ |fresshiping|
+
+#Caso feliz con SC 
+#El SC cargado debe ser mayor o igual a $100.000
+
+Scenario: compra con credito aliad@ con sc
 	Given Estando en Home
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
 	And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
@@ -77,6 +87,8 @@ Scenario: compra con credito aliad@ con st
 	And Pagar Ahora
 	And Guarda orden
 	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"	
+
+#Caso no feliz compra con cupo inferior al valor de la orden
 	
 Scenario: compra con credito aliad@ con mayor al cupo
 	Given Estando en pagina de logeo

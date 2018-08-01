@@ -206,7 +206,7 @@ public class BusquedaDeArticulosPorSubcategoriaPage extends PageObject {
 		waitFor(2).seconds();
 		int i=0;
 		i= Integer.parseInt(findBy("//*[@id='CartContainer']/div[2]/div/div/div/div[1]/h3/strong").and().getText().replace("$", "").replace(".", ""));
-		findBy("//*[@id='CartContainer']/div[2]/div/div/div/div[1]/h3/strong").and().click();
+		//findBy("//*[@id='CartContainer']/div[2]/div/div/div/div[1]/h3/strong").and().click();
 		Serenity.takeScreenshot();
 		return(i);
 	}

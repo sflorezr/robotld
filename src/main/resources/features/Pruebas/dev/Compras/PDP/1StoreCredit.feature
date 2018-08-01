@@ -69,3 +69,4 @@ Scenario: Store Credit Compra aliada tarjeta debito
 	 And Pagar Ahora
 	 And Pasos para pago tarjeta debito "feliz"
 	 Then Verifico Mensaje Pago Tarjeta Debito "feliz" 	 		
+	 

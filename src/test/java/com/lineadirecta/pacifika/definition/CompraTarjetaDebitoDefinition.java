@@ -64,7 +64,7 @@ public class CompraTarjetaDebitoDefinition  {
 			String correo,contrasena;
 			correo=SesionModel.correo;
 			contrasena=SesionModel.contrasena;
-			correostep.VerificaCorreo(correo,contrasena, compraTarjetaDebitoSteps.Orden());
+			//correostep.VerificaCorreo(correo,contrasena, compraTarjetaDebitoSteps.Orden());
 		}
 	}		
 }

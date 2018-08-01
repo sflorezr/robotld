@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Compra Contra Entrega PDP" skipped="0" tests="4" time="1472.07" timestamp="2018-06-19T09:23:53.941-05:00[America/Bogota]"><testcase name="Compra contra entrega usuario normal con vaucher &lt;vocher&gt;"/><testcase name="Compra contra entrega usuario aliada con vaucher &lt;vocher&gt;"/></testsuite>

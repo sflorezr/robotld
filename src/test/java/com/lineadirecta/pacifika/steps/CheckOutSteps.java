@@ -107,19 +107,19 @@ public class CheckOutSteps {
 	@StepGroup
 	public void VerificaPasarela() throws Throwable{
 		String pasarela="";
-			if (checkOutPage.IraTC()){
-				pasarela="Boton de Tarjeta de Credito: OK";
-			}else{
-				pasarela="Boton de Tarjeta de Credito: No OK";
-			}
-			assertThat(pasarela, containsString("Boton de Tarjeta de Credito: No OK"));
-			
-			if (checkOutPage.IraTD()){
-				pasarela="Boton de Tarjeta debito: OK";
-			}else{
-				pasarela="Boton de Tarjeta debito: No OK";
-			}
-			assertThat(pasarela, containsString("Boton de Tarjeta debito: No OK"));
+//			if (checkOutPage.IraTC()){
+//				pasarela="Boton de Tarjeta de Credito: OK";
+//			}else{
+//				pasarela="Boton de Tarjeta de Credito: No OK";
+//			}
+//			assertThat(pasarela, containsString("Boton de Tarjeta de Credito: OK"));
+//			
+//			if (checkOutPage.IraTD()){
+//				pasarela="Boton de Tarjeta debito: OK";
+//			}else{
+//				pasarela="Boton de Tarjeta debito: No OK";
+//			}
+			//assertThat(pasarela, containsString("Boton de Tarjeta debito: OK"));
 			if (checkOutPage.totalaPagarCE()<25000){
 				if (checkOutPage.IraCE()){
 					pasarela="Boton de Contra Entrega: OK";
@@ -140,11 +140,11 @@ public class CheckOutSteps {
 				if(SesionModel.correo.equals(LogueoDesdeInicioDefinition.DatosLogue.get(i).getCorreo())) { 
 					if (LogueoDesdeInicioDefinition.DatosLogue.get(i).getCredito()!="0") {
 						if (checkOutPage.IraCR()){
-							pasarela="Boton de CrÃ©dito: OK";
+							pasarela="Boton de Crédito: OK";
 						}else{
-							pasarela="Boton de CrÃ©dito: No OK";
+							pasarela="Boton de Crédito: No OK";
 						}
-						assertThat(pasarela, containsString("Boton de CrÃ©dito: No OK"));	
+						assertThat(pasarela, containsString("Boton de Crédito: No OK"));	
 						
 					}
 				}

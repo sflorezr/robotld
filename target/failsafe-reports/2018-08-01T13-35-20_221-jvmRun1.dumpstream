@@ -1,0 +1,2112 @@
+# Created on 2018-08-01T13:37:39.949
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:745)
+
+
+# Created on 2018-08-01T13:37:43.231
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Store Credit Mayor Compra usuario aliada verifica pasarela
+---------------------------------------------------------------------
+
+
+# Created on 2018-08-01T13:37:43.231
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Limpiar carro
+
+
+# Created on 2018-08-01T13:37:43.231
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - The following error occurred: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=67.0.3396.99)  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\41QS362\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}Session ID: 554a3834b7ff10f4121a2a503b0e9c6a*** Element info: {Using=xpath, value=.//*[@id='CartContainer']/div[1]/div/div}Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'Driver info: driver.version: unknown
+
+
+# Created on 2018-08-01T13:37:45.383
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.383
+Unexpected IOException with stream: [31mFailed scenarios:[0m
+
+
+# Created on 2018-08-01T13:37:45.383
+Unexpected IOException with stream: [31msrc/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature:11 [0m
+
+# Created on 2018-08-01T13:37:45.383
+Unexpected IOException with stream: # Store Credit Mayor Compra usuario aliada
+
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: [31msrc/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature:20 [0m
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: # Store Credit Mayor Compra usuario aliada verifica pasarela
+
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream:  Scenarios (
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: [31m2 failed[0m
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: , 
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: [32m1 passed[0m
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: )
+
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: 16
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream:  Steps (
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: [31m2 failed[0m
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: , 
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: [36m4 skipped[0m
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: , 
+
+# Created on 2018-08-01T13:37:45.398
+Unexpected IOException with stream: [32m10 passed[0m
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: )
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 2m
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 20,540s
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:968)
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.pageobjets.BusquedaDeArticulosPorSubcategoriaPage.LimpiaCarro(BusquedaDeArticulosPorSubcategoriaPage.java:248)
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.414
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro(BusquedaDeaArticulosPorSubcategoriaSteps.java:29)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.CGLIB$LimpiarCarro$5(<generated>)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046$$FastClassByCGLIB$$42dd1ba0.invoke(<generated>)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.430
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.LimpiarCarro(<generated>)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.definition.AgregarArticuloDefinition.selecciona_articulos_desde_PDP_menor_aliada(AgregarArticuloDefinition.java:271)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at ?.Selecciona articulos desde PDP menor aliada "250000"(src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature:15)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: .//*[@id='CartContainer']/div[1]/div/div to be enabled (tried for 5 second(s) with 100 MILLISECONDS interval)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:965)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)
+
+# Created on 2018-08-01T13:37:45.445
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.pageobjets.BusquedaDeArticulosPorSubcategoriaPage.LimpiaCarro(BusquedaDeArticulosPorSubcategoriaPage.java:248)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro(BusquedaDeaArticulosPorSubcategoriaSteps.java:29)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.CGLIB$LimpiarCarro$5(<generated>)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046$$FastClassByCGLIB$$42dd1ba0.invoke(<generated>)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)
+
+# Created on 2018-08-01T13:37:45.461
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.LimpiarCarro(<generated>)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.definition.AgregarArticuloDefinition.selecciona_articulos_desde_PDP_menor_aliada(AgregarArticuloDefinition.java:271)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at java.lang.reflect.Method.invoke(Method.java:498)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at cucumber.runtime.Utils$1.call(Utils.java:32)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+
+# Created on 2018-08-01T13:37:45.476
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.runtime.Utils.invoke(Utils.java:26)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.api.TestStep.run(TestStep.java:83)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.api.TestCase.run(TestCase.java:58)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.runner.Runner.runPickle(Runner.java:80)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created on 2018-08-01T13:37:45.492
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.508
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.junit.runners.Suite.runChild(Suite.java:128)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.junit.runners.Suite.runChild(Suite.java:27)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+
+# Created on 2018-08-01T13:37:45.523
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at java.lang.Thread.run(Thread.java:745)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='CartContainer']/div[1]/div/div"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\41QS362\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 7f46a81deb2977d2b161909fc44271b6
+*** Element info: {Using=xpath, value=.//*[@id='CartContainer']/div[1]/div/div}
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.539
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.554
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:278)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:16)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:209)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+
+# Created on 2018-08-01T13:37:45.570
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 	... 59 more
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\41QS362\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 554a3834b7ff10f4121a2a503b0e9c6a
+*** Element info: {Using=xpath, value=.//*[@id='CartContainer']/div[1]/div/div}
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+
+# Created on 2018-08-01T13:37:45.586
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+
+# Created on 2018-08-01T13:37:45.601
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:278)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:16)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:209)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:965)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.pageobjets.BusquedaDeArticulosPorSubcategoriaPage.LimpiaCarro(BusquedaDeArticulosPorSubcategoriaPage.java:248)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro(BusquedaDeaArticulosPorSubcategoriaSteps.java:29)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.CGLIB$LimpiarCarro$5(<generated>)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046$$FastClassByCGLIB$$42dd1ba0.invoke(<generated>)
+
+# Created on 2018-08-01T13:37:45.617
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.LimpiarCarro(<generated>)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at com.lineadirecta.pacifika.definition.AgregarArticuloDefinition.selecciona_articulos_desde_PDP_mayor_aliada(AgregarArticuloDefinition.java:71)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 	at ?.Selecciona articulos desde PDP mayor aliada "200000"(src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature:24)
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException with stream: 
+
+
+# Created on 2018-08-01T13:37:45.632
+Unexpected IOException: I,2,java.runtime.name,Java(TM) SE Runtime Environment
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.protocol.handler.pkgs,com.google.common
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,sun.boot.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Cbin
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.vm.version,25.121-b13
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.vm.vendor,Oracle Corporation
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.vendor.url,http://java.oracle.com/
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,path.separator,;
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.vm.name,Java HotSpot(TM) 64-Bit Server VM
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,file.encoding.pkg,sun.io
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,user.script,
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,user.country,CO
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,sun.java.launcher,SUN_STANDARD
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,sun.os.patch.level,Service Pack 1
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.vm.specification.name,Java Virtual Machine Specification
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,user.dir,C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.runtime.version,1.8.0_121-b13
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.awt.graphicsenv,sun.awt.Win32GraphicsEnvironment
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,basedir,C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.endorsed.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Cendorsed
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,os.arch,amd64
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,surefire.real.class.path,C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Ctarget\005Csurefire\005Csurefirebooter2653423920507882804.jar
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.io.tmpdir,C:\005CUsers\005C41QS362\005CAppData\005CLocal\005CTemp\005C
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,line.separator,\000D\000A
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.vm.specification.vendor,Oracle Corporation
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,user.variant,
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,os.name,Windows 7
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,webdriver.base.url,
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,sun.jnu.encoding,Cp1252
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.library.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Cbin;C:\005CWindows\005CSun\005CJava\005Cbin;C:\005CWindows\005Csystem32;C:\005CWindows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\005CProgram Files (x86)\005CJava\005Cjdk1.8.0_121;C:\005CProgram Files (x86)\005Capache-maven-3.5.3\005Cbin;C:\005CProgramData\005COracle\005CJava\005Cjavapath;C:\005CProgram Files (x86)\005CIntel\005CiCLS Client\005C;C:\005CProgram Files\005CIntel\005CiCLS Client\005C;C:\005CWindows\005Csystem32;C:\005CWindows;C:\005CWindows\005CSystem32\005CWbem;C:\005CWindows\005CSystem32\005CWindowsPowerShell\005Cv1.0\005C;C:\005CProgram Files\005CIntel\005CWiFi\005Cbin\005C;C:\005CProgram Files\005CCommon Files\005CIntel\005CWirelessCommon\005C;C:\005CProgram Files\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files (x86)\005CIntel\005CIntel(R) Management Engine Components\005CDAL;C:\005CProgram Files\005CIntel\005CIntel(R) Management Engine Components\005CIPT;C:\005CProgram Files (x86)\005CIntel\005CIntel(R) Management Engine Components\005CIPT;C:\005CProgram Files (x86)\005CSkype\005CPhone\005C;C:\005CProgram Files\005CGit\005Ccmd;C:\005CUsers\005C41QS362\005CDesktop;;.
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,surefire.test.class.path,C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Ctarget\005Ctest-classes;C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Ctarget\005Ccom.lineadirecta.pacifika-1.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-simple\005C1.7.7\005Cslf4j-simple-1.7.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.7\005Cslf4j-api-1.7.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Cjexcelapi\005Cjxl\005C2.6.12\005Cjxl-2.6.12.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Clog4j\005Clog4j\005C1.2.14\005Clog4j-1.2.14.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-core\005C1.8.17\005Cserenity-core-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C23.0\005Cguava-23.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.0.18\005Cerror_prone_annotations-2.0.18.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cinject\005Cguice\005C4.1.0\005Cguice-4.1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cinject\005Cjavax.inject\005C1\005Cjavax.inject-1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Caopalliance\005Caopalliance\005C1.0\005Caopalliance-1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccglib\005Ccglib\005C3.2.5\005Ccglib-3.2.5.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant\005C1.9.6\005Cant-1.9.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant-launcher\005C1.9.6\005Cant-launcher-1.9.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C5.0.3\005Casm-5.0.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.10\005Ccommons-codec-1.10.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxml-apis\005Cxml-apis\005C1.4.01\005Cxml-apis-1.4.01.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C2.3.0\005Ccucumber-core-2.3.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-html\005C0.2.6\005Ccucumber-html-0.2.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-jvm-deps\005C1.0.6\005Ccucumber-jvm-deps-1.0.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Cgherkin\005C5.0.0\005Cgherkin-5.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C1.1.1\005Ctag-expressions-1.1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C1.10.19\005Cmockito-core-1.10.19.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.7.5\005Cbyte-buddy-1.7.5.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Cvavr\005Cvavr\005C0.9.0\005Cvavr-0.9.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Cvavr\005Cvavr-match\005C0.9.0\005Cvavr-match-0.9.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-report-resources\005C1.8.17\005Cserenity-report-resources-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.0\005Cgson-2.8.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.6\005Ccommons-io-2.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copera\005Coperadriver\005C1.5\005Coperadriver-1.5.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copera\005Coperalaunchers\005C1.1\005Coperalaunchers-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cprotobuf\005Cprotobuf-java\005C2.4.1\005Cprotobuf-java-2.4.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-jxpath\005Ccommons-jxpath\005C1.3\005Ccommons-jxpath-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cini4j\005Cini4j\005C0.5.2\005Cini4j-0.5.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-server\005C3.8.1\005Cselenium-server-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.8.1\005Cselenium-firefox-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.8.1\005Cselenium-ie-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.8.1\005Cselenium-opera-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cbeust\005Cjcommander\005C1.48\005Cjcommander-1.48.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-text\005C1.1\005Ccommons-text-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-net\005Ccommons-net\005C3.6\005Ccommons-net-3.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cw3c\005Ccss\005Csac\005C1.3\005Csac-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Ccssparser\005Ccssparser\005C0.9.24\005Ccssparser-0.9.24.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Chtmlunit\005Chtmlunit-core-js\005C2.28\005Chtmlunit-core-js-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Chtmlunit\005Cneko-htmlunit\005C2.28\005Cneko-htmlunit-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.6\005Chttpcore-4.4.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cjcip\005Cjcip-annotations\005C1.0\005Cjcip-annotations-1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cjetty-repacked\005C9.4.7.v20170914\005Cjetty-repacked-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-client\005C9.4.7.v20170914\005Cjetty-client-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-http\005C9.4.7.v20170914\005Cjetty-http-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-xml\005C9.4.7.v20170914\005Cjetty-xml-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cservlet\005Cjavax.servlet-api\005C3.1.0\005Cjavax.servlet-api-3.1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cwebsocket\005Cwebsocket-api\005C9.4.7.v20170914\005Cwebsocket-api-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cwebsocket\005Cwebsocket-client\005C9.4.7.v20170914\005Cwebsocket-client-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cwebsocket\005Cwebsocket-common\005C9.4.7.v20170914\005Cwebsocket-common-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxerces\005CxercesImpl\005C2.11.0\005CxercesImpl-2.11.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.15\005Csnakeyaml-1.15.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.8.1\005Cselenium-java-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.8.1\005Cselenium-api-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.8.1\005Cselenium-chrome-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.8.1\005Cselenium-edge-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.8.1\005Cselenium-remote-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.8.1\005Cselenium-safari-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.8.1\005Cselenium-support-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cpaulhammant\005Cngwebdriver\005C1.0\005Cngwebdriver-1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Ccodeborne\005Cphantomjsdriver\005C1.4.3\005Cphantomjsdriver-1.4.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-util\005C9.4.7.v20170914\005Cjetty-util-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-io\005C9.4.7.v20170914\005Cjetty-io-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Chtmlunit-driver\005C2.28\005Chtmlunit-driver-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Cappium\005Cjava-client\005C6.0.0-BETA1\005Cjava-client-6.0.0-BETA1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-validator\005Ccommons-validator\005C1.6\005Ccommons-validator-1.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-beanutils\005Ccommons-beanutils\005C1.9.2\005Ccommons-beanutils-1.9.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-digester\005Ccommons-digester\005C1.8.1\005Ccommons-digester-1.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.0.2.RELEASE\005Cspring-context-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.0.2.RELEASE\005Cspring-aop-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.0.2.RELEASE\005Cspring-beans-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.0.2.RELEASE\005Cspring-core-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.0.2.RELEASE\005Cspring-jcl-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.0.2.RELEASE\005Cspring-expression-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.8.13\005Caspectjweaver-1.8.13.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Copenpnp\005Copencv\005C3.2.0-1\005Copencv-3.2.0-1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cgroovy\005Cgroovy\005C2.4.12\005Cgroovy-2.4.12.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csf\005Copencsv\005Copencsv\005C2.0\005Copencsv-2.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-beanutils\005Ccommons-beanutils-core\005C1.8.3\005Ccommons-beanutils-core-1.8.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjoda-time\005Cjoda-time\005C2.7\005Cjoda-time-2.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cthoughtworks\005Cxstream\005Cxstream\005C1.4.9\005Cxstream-1.4.9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxmlpull\005Cxmlpull\005C1.1.3.1\005Cxmlpull-1.1.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxpp3\005Cxpp3_min\005C1.1.4c\005Cxpp3_min-1.1.4c.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-collections\005Ccommons-collections\005C3.2.2\005Ccommons-collections-3.2.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.23\005Cfreemarker-2.3.23.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-library\005C1.3\005Chamcrest-library-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Chtmlunit\005Chtmlunit\005C2.28\005Chtmlunit-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.3\005Chttpclient-4.5.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.3\005Chttpmime-4.5.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cfluentlenium\005Cfluentlenium-core\005C0.10.2\005Cfluentlenium-core-0.10.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cjhlabs\005Cfilters\005C2.0.235\005Cfilters-2.0.235.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Casciidoctor\005Casciidoctor-java-integration\005C0.1.4\005Casciidoctor-java-integration-0.1.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cjruby\005Cjruby-complete\005C1.7.4\005Cjruby-complete-1.7.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cimgscalr\005Cimgscalr-lib\005C4.2\005Cimgscalr-lib-4.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cvalidation\005Cvalidation-api\005C1.1.0.Final\005Cvalidation-api-1.1.0.Final.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-validator\005C5.1.1.Final\005Chibernate-validator-5.1.1.Final.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.1.3.GA\005Cjboss-logging-3.1.3.GA.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.0.0\005Cclassmate-1.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cel\005Cjavax.el-api\005C2.2.4\005Cjavax.el-api-2.2.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cglassfish\005Cweb\005Cjavax.el\005C2.2.4\005Cjavax.el-2.2.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxalan\005Cxalan\005C2.7.2\005Cxalan-2.7.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxalan\005Cserializer\005C2.7.2\005Cserializer-2.7.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cawaitility\005Cawaitility\005C3.0.0\005Cawaitility-3.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Ctypesafe\005Cconfig\005C1.3.1\005Cconfig-1.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.10.3\005Cjsoup-1.10.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cjimfs\005Cjimfs\005C1.1\005Cjimfs-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ces\005Cnitaur\005Cmarkdown\005Ctxtmark\005C0.16\005Ctxtmark-0.16.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-all\005C0.26.4\005Cflexmark-all-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark\005C0.26.4\005Cflexmark-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-abbreviation\005C0.26.4\005Cflexmark-ext-abbreviation-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-anchorlink\005C0.26.4\005Cflexmark-ext-anchorlink-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-aside\005C0.26.4\005Cflexmark-ext-aside-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-autolink\005C0.26.4\005Cflexmark-ext-autolink-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cnibor\005Cautolink\005Cautolink\005C0.6.0\005Cautolink-0.6.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-definition\005C0.26.4\005Cflexmark-ext-definition-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-emoji\005C0.26.4\005Cflexmark-ext-emoji-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-escaped-character\005C0.26.4\005Cflexmark-ext-escaped-character-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-footnotes\005C0.26.4\005Cflexmark-ext-footnotes-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-issues\005C0.26.4\005Cflexmark-ext-gfm-issues-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-strikethrough\005C0.26.4\005Cflexmark-ext-gfm-strikethrough-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-tables\005C0.26.4\005Cflexmark-ext-gfm-tables-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-tasklist\005C0.26.4\005Cflexmark-ext-gfm-tasklist-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-users\005C0.26.4\005Cflexmark-ext-gfm-users-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-jekyll-front-matter\005C0.26.4\005Cflexmark-ext-jekyll-front-matter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-jekyll-tag\005C0.26.4\005Cflexmark-ext-jekyll-tag-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-ins\005C0.26.4\005Cflexmark-ext-ins-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-xwiki-macros\005C0.26.4\005Cflexmark-ext-xwiki-macros-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-superscript\005C0.26.4\005Cflexmark-ext-superscript-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-tables\005C0.26.4\005Cflexmark-ext-tables-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-toc\005C0.26.4\005Cflexmark-ext-toc-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-typographic\005C0.26.4\005Cflexmark-ext-typographic-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-wikilink\005C0.26.4\005Cflexmark-ext-wikilink-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-yaml-front-matter\005C0.26.4\005Cflexmark-ext-yaml-front-matter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-formatter\005C0.26.4\005Cflexmark-formatter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-html-parser\005C0.26.4\005Cflexmark-html-parser-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-jira-converter\005C0.26.4\005Cflexmark-jira-converter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-pdf-converter\005C0.26.4\005Cflexmark-pdf-converter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-core\005C0.0.1-RC9\005Copenhtmltopdf-core-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-pdfbox\005C0.0.1-RC9\005Copenhtmltopdf-pdfbox-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cpdfbox\005C2.0.4\005Cpdfbox-2.0.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cfontbox\005C2.0.4\005Cfontbox-2.0.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-rtl-support\005C0.0.1-RC9\005Copenhtmltopdf-rtl-support-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cibm\005Cicu\005Cicu4j\005C58.1\005Cicu4j-58.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-jsoup-dom-converter\005C0.0.1-RC9\005Copenhtmltopdf-jsoup-dom-converter-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-profile-pegdown\005C0.26.4\005Cflexmark-profile-pegdown-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-util\005C0.26.4\005Cflexmark-util-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-youtrack-converter\005C0.26.4\005Cflexmark-youtrack-converter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.7\005Ccommons-lang3-3.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi\005C3.17\005Cpoi-3.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-collections4\005C4.1\005Ccommons-collections4-4.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-junit\005C1.8.17\005Cserenity-junit-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-screenplay\005C1.8.17\005Cserenity-screenplay-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-screenplay-webdriver\005C1.8.17\005Cserenity-screenplay-webdriver-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-cucumber\005C1.6.9\005Cserenity-cucumber-1.6.9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C2.3.1\005Ccucumber-java-2.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C2.3.1\005Ccucumber-junit-2.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cmail\005Cmail\005C1.4\005Cmail-1.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cactivation\005C1.1\005Cactivation-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.6.2\005Cassertj-core-3.6.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-all\005C1.3\005Chamcrest-all-1.3.jar;
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.specification.name,Java Platform API Specification
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,java.class.version,52.0
+
+
+# Created on 2018-08-01T13:37:45.648
+Unexpected IOException: I,2,sun.management.compiler,HotSpot 64-Bit Tiered Compilers
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,os.version,6.1
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,user.home,C:\005CUsers\005C41QS362
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,user.timezone,America/Bogota
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.awt.printerjob,sun.awt.windows.WPrinterJob
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.specification.version,1.8
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,file.encoding,Cp1252
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,user.name,4L8Z362
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.class.path,C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Ctarget\005Ctest-classes;C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Ctarget\005Ccom.lineadirecta.pacifika-1.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-simple\005C1.7.7\005Cslf4j-simple-1.7.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cslf4j\005Cslf4j-api\005C1.7.7\005Cslf4j-api-1.7.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Cjexcelapi\005Cjxl\005C2.6.12\005Cjxl-2.6.12.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Clog4j\005Clog4j\005C1.2.14\005Clog4j-1.2.14.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-core\005C1.8.17\005Cserenity-core-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cguava\005Cguava\005C23.0\005Cguava-23.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cfindbugs\005Cjsr305\005C1.3.9\005Cjsr305-1.3.9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cerrorprone\005Cerror_prone_annotations\005C2.0.18\005Cerror_prone_annotations-2.0.18.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cj2objc\005Cj2objc-annotations\005C1.1\005Cj2objc-annotations-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cmojo\005Canimal-sniffer-annotations\005C1.14\005Canimal-sniffer-annotations-1.14.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cinject\005Cguice\005C4.1.0\005Cguice-4.1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cinject\005Cjavax.inject\005C1\005Cjavax.inject-1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Caopalliance\005Caopalliance\005C1.0\005Caopalliance-1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccglib\005Ccglib\005C3.2.5\005Ccglib-3.2.5.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant\005C1.9.6\005Cant-1.9.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cant\005Cant-launcher\005C1.9.6\005Cant-launcher-1.9.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cow2\005Casm\005Casm\005C5.0.3\005Casm-5.0.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-codec\005Ccommons-codec\005C1.10\005Ccommons-codec-1.10.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cobjenesis\005Cobjenesis\005C2.6\005Cobjenesis-2.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxml-apis\005Cxml-apis\005C1.4.01\005Cxml-apis-1.4.01.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-core\005C2.3.0\005Ccucumber-core-2.3.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cinfo\005Ccukes\005Ccucumber-html\005C0.2.6\005Ccucumber-html-0.2.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-jvm-deps\005C1.0.6\005Ccucumber-jvm-deps-1.0.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Cgherkin\005C5.0.0\005Cgherkin-5.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ctag-expressions\005C1.1.1\005Ctag-expressions-1.1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-logging\005Ccommons-logging\005C1.2\005Ccommons-logging-1.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cmockito\005Cmockito-core\005C1.10.19\005Cmockito-core-1.10.19.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cbytebuddy\005Cbyte-buddy\005C1.7.5\005Cbyte-buddy-1.7.5.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Cvavr\005Cvavr\005C0.9.0\005Cvavr-0.9.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Cvavr\005Cvavr-match\005C0.9.0\005Cvavr-match-0.9.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-report-resources\005C1.8.17\005Cserenity-report-resources-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Ccode\005Cgson\005Cgson\005C2.8.0\005Cgson-2.8.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-io\005Ccommons-io\005C2.6\005Ccommons-io-2.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copera\005Coperadriver\005C1.5\005Coperadriver-1.5.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copera\005Coperalaunchers\005C1.1\005Coperalaunchers-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cprotobuf\005Cprotobuf-java\005C2.4.1\005Cprotobuf-java-2.4.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-jxpath\005Ccommons-jxpath\005C1.3\005Ccommons-jxpath-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cini4j\005Cini4j\005C0.5.2\005Cini4j-0.5.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-server\005C3.8.1\005Cselenium-server-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-firefox-driver\005C3.8.1\005Cselenium-firefox-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-ie-driver\005C3.8.1\005Cselenium-ie-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-opera-driver\005C3.8.1\005Cselenium-opera-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cbeust\005Cjcommander\005C1.48\005Cjcommander-1.48.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-exec\005C1.3\005Ccommons-exec-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-text\005C1.1\005Ccommons-text-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-net\005Ccommons-net\005C3.6\005Ccommons-net-3.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cw3c\005Ccss\005Csac\005C1.3\005Csac-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Ccssparser\005Ccssparser\005C0.9.24\005Ccssparser-0.9.24.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Chtmlunit\005Chtmlunit-core-js\005C2.28\005Chtmlunit-core-js-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Chtmlunit\005Cneko-htmlunit\005C2.28\005Cneko-htmlunit-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpcore\005C4.4.6\005Chttpcore-4.4.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cjcip\005Cjcip-annotations\005C1.0\005Cjcip-annotations-1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cjetty-repacked\005C9.4.7.v20170914\005Cjetty-repacked-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-client\005C9.4.7.v20170914\005Cjetty-client-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-http\005C9.4.7.v20170914\005Cjetty-http-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-xml\005C9.4.7.v20170914\005Cjetty-xml-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cservlet\005Cjavax.servlet-api\005C3.1.0\005Cjavax.servlet-api-3.1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cwebsocket\005Cwebsocket-api\005C9.4.7.v20170914\005Cwebsocket-api-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cwebsocket\005Cwebsocket-client\005C9.4.7.v20170914\005Cwebsocket-client-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cwebsocket\005Cwebsocket-common\005C9.4.7.v20170914\005Cwebsocket-common-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxerces\005CxercesImpl\005C2.11.0\005CxercesImpl-2.11.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cyaml\005Csnakeyaml\005C1.15\005Csnakeyaml-1.15.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-java\005C3.8.1\005Cselenium-java-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-api\005C3.8.1\005Cselenium-api-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-chrome-driver\005C3.8.1\005Cselenium-chrome-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-edge-driver\005C3.8.1\005Cselenium-edge-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-remote-driver\005C3.8.1\005Cselenium-remote-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-safari-driver\005C3.8.1\005Cselenium-safari-driver-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Cselenium-support\005C3.8.1\005Cselenium-support-3.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cpaulhammant\005Cngwebdriver\005C1.0\005Cngwebdriver-1.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Ccodeborne\005Cphantomjsdriver\005C1.4.3\005Cphantomjsdriver-1.4.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-util\005C9.4.7.v20170914\005Cjetty-util-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ceclipse\005Cjetty\005Cjetty-io\005C9.4.7.v20170914\005Cjetty-io-9.4.7.v20170914.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cseleniumhq\005Cselenium\005Chtmlunit-driver\005C2.28\005Chtmlunit-driver-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Cappium\005Cjava-client\005C6.0.0-BETA1\005Cjava-client-6.0.0-BETA1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-validator\005Ccommons-validator\005C1.6\005Ccommons-validator-1.6.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-beanutils\005Ccommons-beanutils\005C1.9.2\005Ccommons-beanutils-1.9.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-digester\005Ccommons-digester\005C1.8.1\005Ccommons-digester-1.8.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-context\005C5.0.2.RELEASE\005Cspring-context-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-aop\005C5.0.2.RELEASE\005Cspring-aop-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-beans\005C5.0.2.RELEASE\005Cspring-beans-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-core\005C5.0.2.RELEASE\005Cspring-core-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-jcl\005C5.0.2.RELEASE\005Cspring-jcl-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cspringframework\005Cspring-expression\005C5.0.2.RELEASE\005Cspring-expression-5.0.2.RELEASE.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Caspectj\005Caspectjweaver\005C1.8.13\005Caspectjweaver-1.8.13.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Copenpnp\005Copencv\005C3.2.0-1\005Copencv-3.2.0-1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Ccodehaus\005Cgroovy\005Cgroovy\005C2.4.12\005Cgroovy-2.4.12.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csf\005Copencsv\005Copencsv\005C2.0\005Copencsv-2.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-beanutils\005Ccommons-beanutils-core\005C1.8.3\005Ccommons-beanutils-core-1.8.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjoda-time\005Cjoda-time\005C2.7\005Cjoda-time-2.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cthoughtworks\005Cxstream\005Cxstream\005C1.4.9\005Cxstream-1.4.9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxmlpull\005Cxmlpull\005C1.1.3.1\005Cxmlpull-1.1.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxpp3\005Cxpp3_min\005C1.1.4c\005Cxpp3_min-1.1.4c.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccommons-collections\005Ccommons-collections\005C3.2.2\005Ccommons-collections-3.2.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cfreemarker\005Cfreemarker\005C2.3.23\005Cfreemarker-2.3.23.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-core\005C1.3\005Chamcrest-core-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-library\005C1.3\005Chamcrest-library-1.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Csourceforge\005Chtmlunit\005Chtmlunit\005C2.28\005Chtmlunit-2.28.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpclient\005C4.5.3\005Chttpclient-4.5.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Chttpcomponents\005Chttpmime\005C4.5.3\005Chttpmime-4.5.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cfluentlenium\005Cfluentlenium-core\005C0.10.2\005Cfluentlenium-core-0.10.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cjhlabs\005Cfilters\005C2.0.235\005Cfilters-2.0.235.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Casciidoctor\005Casciidoctor-java-integration\005C0.1.4\005Casciidoctor-java-integration-0.1.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cjruby\005Cjruby-complete\005C1.7.4\005Cjruby-complete-1.7.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cimgscalr\005Cimgscalr-lib\005C4.2\005Cimgscalr-lib-4.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cvalidation\005Cvalidation-api\005C1.1.0.Final\005Cvalidation-api-1.1.0.Final.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chibernate\005Chibernate-validator\005C5.1.1.Final\005Chibernate-validator-5.1.1.Final.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cjboss\005Clogging\005Cjboss-logging\005C3.1.3.GA\005Cjboss-logging-3.1.3.GA.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cfasterxml\005Cclassmate\005C1.0.0\005Cclassmate-1.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cel\005Cjavax.el-api\005C2.2.4\005Cjavax.el-api-2.2.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cglassfish\005Cweb\005Cjavax.el\005C2.2.4\005Cjavax.el-2.2.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxalan\005Cxalan\005C2.7.2\005Cxalan-2.7.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cxalan\005Cserializer\005C2.7.2\005Cserializer-2.7.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cawaitility\005Cawaitility\005C3.0.0\005Cawaitility-3.0.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Ctypesafe\005Cconfig\005C1.3.1\005Cconfig-1.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cjsoup\005Cjsoup\005C1.10.3\005Cjsoup-1.10.3.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cgoogle\005Cjimfs\005Cjimfs\005C1.1\005Cjimfs-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ces\005Cnitaur\005Cmarkdown\005Ctxtmark\005C0.16\005Ctxtmark-0.16.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-all\005C0.26.4\005Cflexmark-all-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark\005C0.26.4\005Cflexmark-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-abbreviation\005C0.26.4\005Cflexmark-ext-abbreviation-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-anchorlink\005C0.26.4\005Cflexmark-ext-anchorlink-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-aside\005C0.26.4\005Cflexmark-ext-aside-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-autolink\005C0.26.4\005Cflexmark-ext-autolink-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cnibor\005Cautolink\005Cautolink\005C0.6.0\005Cautolink-0.6.0.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-definition\005C0.26.4\005Cflexmark-ext-definition-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-emoji\005C0.26.4\005Cflexmark-ext-emoji-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-escaped-character\005C0.26.4\005Cflexmark-ext-escaped-character-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-footnotes\005C0.26.4\005Cflexmark-ext-footnotes-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-issues\005C0.26.4\005Cflexmark-ext-gfm-issues-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-strikethrough\005C0.26.4\005Cflexmark-ext-gfm-strikethrough-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-tables\005C0.26.4\005Cflexmark-ext-gfm-tables-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-tasklist\005C0.26.4\005Cflexmark-ext-gfm-tasklist-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-gfm-users\005C0.26.4\005Cflexmark-ext-gfm-users-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-jekyll-front-matter\005C0.26.4\005Cflexmark-ext-jekyll-front-matter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-jekyll-tag\005C0.26.4\005Cflexmark-ext-jekyll-tag-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-ins\005C0.26.4\005Cflexmark-ext-ins-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-xwiki-macros\005C0.26.4\005Cflexmark-ext-xwiki-macros-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-superscript\005C0.26.4\005Cflexmark-ext-superscript-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-tables\005C0.26.4\005Cflexmark-ext-tables-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-toc\005C0.26.4\005Cflexmark-ext-toc-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-typographic\005C0.26.4\005Cflexmark-ext-typographic-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-wikilink\005C0.26.4\005Cflexmark-ext-wikilink-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-ext-yaml-front-matter\005C0.26.4\005Cflexmark-ext-yaml-front-matter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-formatter\005C0.26.4\005Cflexmark-formatter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-html-parser\005C0.26.4\005Cflexmark-html-parser-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-jira-converter\005C0.26.4\005Cflexmark-jira-converter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-pdf-converter\005C0.26.4\005Cflexmark-pdf-converter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-core\005C0.0.1-RC9\005Copenhtmltopdf-core-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-pdfbox\005C0.0.1-RC9\005Copenhtmltopdf-pdfbox-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cpdfbox\005C2.0.4\005Cpdfbox-2.0.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cpdfbox\005Cfontbox\005C2.0.4\005Cfontbox-2.0.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-rtl-support\005C0.0.1-RC9\005Copenhtmltopdf-rtl-support-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cibm\005Cicu\005Cicu4j\005C58.1\005Cicu4j-58.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Copenhtmltopdf\005Copenhtmltopdf-jsoup-dom-converter\005C0.0.1-RC9\005Copenhtmltopdf-jsoup-dom-converter-0.0.1-RC9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-profile-pegdown\005C0.26.4\005Cflexmark-profile-pegdown-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-util\005C0.26.4\005Cflexmark-util-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Ccom\005Cvladsch\005Cflexmark\005Cflexmark-youtrack-converter\005C0.26.4\005Cflexmark-youtrack-converter-0.26.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-lang3\005C3.7\005Ccommons-lang3-3.7.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Cpoi\005Cpoi\005C3.17\005Cpoi-3.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Capache\005Ccommons\005Ccommons-collections4\005C4.1\005Ccommons-collections4-4.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-junit\005C1.8.17\005Cserenity-junit-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-screenplay\005C1.8.17\005Cserenity-screenplay-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-screenplay-webdriver\005C1.8.17\005Cserenity-screenplay-webdriver-1.8.17.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cnet\005Cserenity-bdd\005Cserenity-cucumber\005C1.6.9\005Cserenity-cucumber-1.6.9.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-java\005C2.3.1\005Ccucumber-java-2.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cio\005Ccucumber\005Ccucumber-junit\005C2.3.1\005Ccucumber-junit-2.3.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cmail\005Cmail\005C1.4\005Cmail-1.4.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjavax\005Cactivation\005Cactivation\005C1.1\005Cactivation-1.1.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Cjunit\005Cjunit\005C4.12\005Cjunit-4.12.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Cassertj\005Cassertj-core\005C3.6.2\005Cassertj-core-3.6.2.jar;C:\005CUsers\005C41QS362\005C.m2\005Crepository\005Corg\005Chamcrest\005Chamcrest-all\005C1.3\005Chamcrest-all-1.3.jar;
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.vm.specification.version,1.8
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,sun.arch.data.model,64
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.home,C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,sun.java.command,C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Ctarget\005Csurefire\005Csurefirebooter2653423920507882804.jar C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Ctarget\005Csurefire 2018-08-01T13-35-20_221-jvmRun1 surefire8043778706629411899tmp surefire_05893030834458368375tmp
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.specification.vendor,Oracle Corporation
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,user.language,es
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,awt.toolkit,sun.awt.windows.WToolkit
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.vm.info,mixed mode
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.version,1.8.0_121
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.ext.dirs,C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Cext;C:\005CWindows\005CSun\005CJava\005Clib\005Cext
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,sun.boot.class.path,C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Cresources.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Crt.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Csunrsasign.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Cjsse.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Cjce.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Ccharsets.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Clib\005Cjfr.jar;C:\005CProgram Files\005CJava\005Cjdk1.8.0_121\005Cjre\005Cclasses
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,webdriver.chrome.driver,C:\005Cworkspacelineadirecta\005Ccom.lineadirecta.pacifika\005Csrc\005Ctest\005Cresources\005Cdriver\005Cchromedriver.exe
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.vendor,Oracle Corporation
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,localRepository,C:\005CUsers\005C41QS362\005C.m2\005Crepository
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,file.separator,\005C
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,java.vendor.url.bug,http://bugreport.sun.com/bugreport/
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,sun.cpu.endian,little
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,sun.io.unicode.encoding,UnicodeLittle
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,sun.desktop,windows
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: I,2,sun.cpu.isalist,amd64
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: 1,2,Feature: Store Credit,Feature: Store Credit,null,null,null
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException: 5,2,Store Credit,Limpia Carro aliada(Store Credit),null,null,65091
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException with stream: ago 01, 2018 1:35:23 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2018-08-01T13:37:45.664
+Unexpected IOException with stream: S
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: t
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: r
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: t
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: i
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: n
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: g
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: C
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: h
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: r
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: o
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: m
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: e
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: D
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: r
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: i
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: v
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: e
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: r
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 2
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: .
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 7
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: .
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 4
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 4
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: (
+
+# Created on 2018-08-01T13:37:45.679
+Unexpected IOException with stream: 7
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 3
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 0
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 6
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: f
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: d
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: b
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 9
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 9
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: f
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 4
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: e
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 8
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: b
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 9
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: b
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: f
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: b
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: e
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 1
+
+# Created on 2018-08-01T13:37:45.695
+Unexpected IOException with stream: 2
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: b
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: 7
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: )
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: o
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: n
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: p
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: o
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: r
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: t
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: 4
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: 8
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: 7
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: 0
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: 5
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: 
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: O
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: n
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: l
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: y
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: l
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: o
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: l
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.710
+Unexpected IOException with stream: o
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: n
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: n
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: e
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: c
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: t
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: i
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: o
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: n
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: s
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: r
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: e
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream:  
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: a
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: l
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: l
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: o
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: w
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: e
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: d
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: .
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: 
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: log4j:WARN Please initialize the log4j system properly.
+
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream: ago 01, 2018 1:35:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream:     [32mGiven [0m[32mEstando en pagina de logeo[0m                                           [90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()[0m
+
+
+# Created on 2018-08-01T13:37:45.726
+Unexpected IOException with stream:     [32mAnd [0m[32mTengo datos a ingresar "[0m[32m[1msrc/test/resources/datadrivenDev/usuarios.xls[0m[32m"[0m [90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [32mWhen [0m[32mLogueo usuairo aliada[0m                                                 [90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [32mAnd [0m[32mLimpia carro[0m                                                           [90m# AgregarArticuloDefinition.limpia_carro()[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream: [pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+        __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
+  _     \ \  |_   _| ____/ ___|_   _| |  _ \ / \  / ___|/ ___|| ____|  _ \ 
+ (_)_____| |   | | |  _| \___ \ | |   | |_) / _ \ \___ \\___ \|  _| | | | |
+  _|_____| |   | | | |___ ___) || |   |  __/ ___ \ ___) |___) | |___| |_| |
+ (_)     | |   |_| |_____|____/ |_|   |_| /_/   \_\____/|____/|_____|____/ 
+        /_/                                                                
+
+TEST PASSED: Limpia Carro aliada
+----------------------------------------------------------------------------
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException: 6,2,Store Credit,Limpia Carro aliada(Store Credit),null,null,65091
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException: 5,2,Store Credit,Store Credit Mayor Compra usuario aliada(Store Credit),null,null,58819
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream: ago 01, 2018 1:36:28 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream: ago 01, 2018 1:36:29 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [32mGiven [0m[32mEstando en Home[0m                                                                 [90m# AgregarArticuloDefinition.estando_en_Home()[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [32mAnd [0m[32mTengo datos a ingresar "[0m[32m[1msrc/test/resources/datadrivenDev/usuarios.xls[0m[32m"[0m            [90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [32mAnd [0m[32mTeniendo articulos a seleccionar "[0m[32m[1msrc/test/resources/datadrivenDev/articulos.csv[0m[32m"[0m [90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [31mWhen [0m[31mSelecciona articulos desde PDP menor aliada "[0m[31m[1m250000[0m[31m"[0m                             [90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDP_menor_aliada(int)[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:       [31mnet.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:968)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)
+	at com.lineadirecta.pacifika.pageobjets.BusquedaDeArticulosPorSubcategoriaPage.LimpiaCarro(BusquedaDeArticulosPorSubcategoriaPage.java:248)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro(BusquedaDeaArticulosPorSubcategoriaSteps.java:29)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.CGLIB$LimpiarCarro$5(<generated>)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046$$FastClassByCGLIB$$42dd1ba0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.LimpiarCarro(<generated>)
+	at com.lineadirecta.pacifika.definition.AgregarArticuloDefinition.selecciona_articulos_desde_PDP_menor_aliada(AgregarArticuloDefinition.java:271)
+	at ?.Selecciona articulos desde PDP menor aliada "250000"(src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature:15)
+Caused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: .//*[@id='CartContainer']/div[1]/div/div to be enabled (tried for 5 second(s) with 100 MILLISECONDS interval)
+	at org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:965)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)
+	at com.lineadirecta.pacifika.pageobjets.BusquedaDeArticulosPorSubcategoriaPage.LimpiaCarro(BusquedaDeArticulosPorSubcategoriaPage.java:248)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro(BusquedaDeaArticulosPorSubcategoriaSteps.java:29)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.CGLIB$LimpiarCarro$5(<generated>)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046$$FastClassByCGLIB$$42dd1ba0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.LimpiarCarro(<generated>)
+	at com.lineadirecta.pacifika.definition.AgregarArticuloDefinition.selecciona_articulos_desde_PDP_menor_aliada(AgregarArticuloDefinition.java:271)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":".//*[@id='CartContainer']/div[1]/div/div"}
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\41QS362\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, ha
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream: ndlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 7f46a81deb2977d2b161909fc44271b6
+*** Element info: {Using=xpath, value=.//*[@id='CartContainer']/div[1]/div/div}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:278)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:16)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:209)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	... 59 more
+[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [36mAnd [0m[36mLogueo e Ir a Pasarela "[0m[36m[1maliada[0m[36m" mayor a "[0m[36m[1m250000[0m[36m"[0m                                  [90m# LogueoDesdeInicioDefinition.logueo_e_Ir_a_Pasarela_mayor_a(String,int)[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream:     [36mThen [0m[36mNo encuentra Pasarela "[0m[36m[1mTu saldo a favor cubre el valor de tu compra.[0m[36m"[0m            [90m# StoreCreditDefinition.no_encuentra_Pasarela(String)[0m
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED: Store Credit Mayor Compra usuario aliada
+--------------------------------------------------------------------------
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Limpiar carro
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - The following error occurred: Expected enabled element was not enabledBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'Driver info: driver.version: unknown
+
+
+# Created on 2018-08-01T13:37:45.742
+Unexpected IOException: 7,2,Store Credit,Store Credit Mayor Compra usuario aliada(Store Credit),null,The following error occurred: Expected enabled element was not enabled,58819,The following error occurred: Expected enabled element was not enabled,The following error occurred: Expected enabled element was not enabled,net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled\000ACaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: .//*[@id='CartContainer']/div[1]/div/div to be enabled (tried for 5 second(s) with 100 MILLISECONDS interval)\000ACaused by: org.openqa.selenium.NoSuchElementException: \000Ano such element: Unable to locate element: {"method":"xpath"\002C"selector":".//*[@id='CartContainer']/div[1]/div/div"}\000A  (Session info: chrome=67.0.3396.99)\000A  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000AFor documentation on this error\002C please visit: http://seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'SP4L8Z362'\002C ip: '10.7.28.141'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15...\002C userDataDir: C:\005CUsers\005C41QS362\005CAppData\005CLo...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.99\002C webStorageEnabled: true}\000ASession ID: 7f46a81deb2977d2b161909fc44271b6\000A*** Element info: {Using=xpath\002C value=.//*[@id='CartContainer']/div[1]/div/div}\000A
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException: 5,2,Store Credit,Store Credit Mayor Compra usuario aliada verifica pasarela(Store Credit),null,null,16121
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream: ago 01, 2018 1:37:27 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream: ago 01, 2018 1:37:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream:     [32mGiven [0m[32mEstando en Home[0m                                                                 [90m# AgregarArticuloDefinition.estando_en_Home()[0m
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream:     [32mAnd [0m[32mTengo datos a ingresar "[0m[32m[1msrc/test/resources/datadrivenDev/usuarios.xls[0m[32m"[0m            [90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)[0m
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream:     [32mAnd [0m[32mTeniendo articulos a seleccionar "[0m[32m[1msrc/test/resources/datadrivenDev/articulos.csv[0m[32m"[0m [90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)[0m
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream:     [31mWhen [0m[31mSelecciona articulos desde PDP mayor aliada "[0m[31m[1m200000[0m[31m"[0m                             [90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDP_mayor_aliada(int)[0m
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream:       [31mnet.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=67.0.3396.99)
+  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\41QS362\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}
+Session ID: 554a3834b7ff10f4121a2a503b0e9c6a
+*** Element info: {Using=xpath, value=.//*[@id='CartContainer']/div[1]/div/div}
+	at sun.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:278)
+	at net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:16)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:209)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)
+	at net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:965)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)
+	at net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)
+	at com.lineadirecta.pacifika.pageobjets.BusquedaDeArticulosPorSubcategoriaPage.LimpiaCarro(BusquedaDeArticulosPorSubcategoriaPage.java:248)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro(BusquedaDeaArticulosPorSubcategoriaSteps.java:29)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.CGLIB$LimpiarCarro$5(<generated>)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046$$FastClassByCGLIB$$42dd1ba0.invoke(<generated>)
+	at net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)
+	at net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)
+	at net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)
+	at net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)
+	at net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)
+	at net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)
+	at net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)
+	at com.lineadirecta.pacifika.steps.BusquedaDeaArticulosPorSubcategoriaSteps$$EnhancerByCGLIB$$77f8046.LimpiarCarro(<generated>)
+	at com.lineadirecta.pacifika.definition.AgregarArticuloDefinition.selecciona_articulos_desde_PDP_mayor_aliada(AgregarArticuloDefinition.java:71)
+	at ?.Selecciona articulos desde PDP mayor aliada "200000"(src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature:24)
+[0m
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream:     [36mAnd [0m[36mLogueo e Ir a Pasarela "[0m[36m[1maliada[0m[36m" mayor a "[0m[36m[1m250000[0m[36m"[0m                                  [90m# LogueoDesdeInicioDefinition.logueo_e_Ir_a_Pasarela_mayor_a(String,int)[0m
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream:     [36mThen [0m[36mVerifica Pasarela[0m                                                                [90m# StoreCreditDefinition.verifica_pasarela()[0m
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: Store Credit Mayor Compra usuario aliada verifica pasarela
+---------------------------------------------------------------------
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP Limpiar carro
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException with stream: [pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - The following error occurred: no such window: target window already closedfrom unknown error: web view not found  (Session info: chrome=67.0.3396.99)  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsBuild info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'Driver info: org.openqa.selenium.remote.RemoteWebDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\Users\41QS362\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 67.0.3396.99, webStorageEnabled: true}Session ID: 554a3834b7ff10f4121a2a503b0e9c6a*** Element info: {Using=xpath, value=.//*[@id='CartContainer']/div[1]/div/div}Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'System info: host: 'SP4L8Z362', ip: '10.7.28.141', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'Driver info: driver.version: unknown
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException: 7,2,Store Credit,Store Credit Mayor Compra usuario aliada verifica pasarela(Store Credit),null,The following error occurred: no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.99)\000A  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'SP4L8Z362'\002C ip: '10.7.28.141'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15...\002C userDataDir: C:\005CUsers\005C41QS362\005CAppData\005CLo...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.99\002C webStorageEnabled: true}\000ASession ID: 554a3834b7ff10f4121a2a503b0e9c6a\000A*** Element info: {Using=xpath\002C value=.//*[@id='CartContainer']/div[1]/div/div},16121,The following error occurred: no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.99)\000A  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'SP4L8Z362'\002C ip: '10.7.28.141'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15...\002C userDataDir: C:\005CUsers\005C41QS362\005CAppData\005CLo...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.99\002C webStorageEnabled: true}\000ASession ID: 554a3834b7ff10f4121a2a503b0e9c6a\000A*** Element info: {Using=xpath\002C value=.//*[@id='CartContainer']/div[1]/div/div},The following error occurred: no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.99)\000A  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'SP4L8Z362'\002C ip: '10.7.28.141'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15...\002C userDataDir: C:\005CUsers\005C41QS362\005CAppData\005CLo...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.99\002C webStorageEnabled: true}\000ASession ID: 554a3834b7ff10f4121a2a503b0e9c6a\000A*** Element info: {Using=xpath\002C value=.//*[@id='CartContainer']/div[1]/div/div},net.serenitybdd.core.exceptions.SerenityManagedException: \000AThe following error occurred: no such window: target window already closed\000Afrom unknown error: web view not found\000A  (Session info: chrome=67.0.3396.99)\000A  (Driver info: chromedriver=2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)\002Cplatform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\000ACommand duration or timeout: 0 milliseconds\000ABuild info: version: '3.8.1'\002C revision: '6e95a6684b'\002C time: '2017-12-01T18:33:54.468Z'\000ASystem info: host: 'SP4L8Z362'\002C ip: '10.7.28.141'\002C os.name: 'Windows 7'\002C os.arch: 'amd64'\002C os.version: '6.1'\002C java.version: '1.8.0_121'\000ADriver info: org.openqa.selenium.remote.RemoteWebDriver\000ACapabilities {acceptInsecureCerts: false\002C acceptSslCerts: false\002C applicationCacheEnabled: false\002C browserConnectionEnabled: false\002C browserName: chrome\002C chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15...\002C userDataDir: C:\005CUsers\005C41QS362\005CAppData\005CLo...}\002C cssSelectorsEnabled: true\002C databaseEnabled: false\002C handlesAlerts: true\002C hasTouchScreen: false\002C javascriptEnabled: true\002C locationContextEnabled: true\002C mobileEmulationEnabled: false\002C nativeEvents: true\002C networkConnectionEnabled: false\002C pageLoadStrategy: normal\002C platform: XP\002C platformName: XP\002C rotatable: false\002C setWindowRect: true\002C takesHeapSnapshot: true\002C takesScreenshot: true\002C unexpectedAlertBehaviour: \002C unhandledPromptBehavior: \002C version: 67.0.3396.99\002C webStorageEnabled: true}\000ASession ID: 554a3834b7ff10f4121a2a503b0e9c6a\000A*** Element info: {Using=xpath\002C value=.//*[@id='CartContainer']/div[1]/div/div}\000A
+
+
+# Created on 2018-08-01T13:37:45.757
+Unexpected IOException: 2,2,Feature: Store Credit,Feature: Store Credit,null,null,140076
+
+

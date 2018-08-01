@@ -5,10 +5,13 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/1StoreCredit.feature",
+@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature",
-@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraContraEntrega.feature",
+//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraContraEntrega.feature",
+// CompraEfectivo
+//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraEfectivo.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraTarjetaDebito.feature",
+//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraTC.feature",
 //tags= {"@Ejecutar"},
 //tags= {"@Ejecutar"},2//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraContraEntrega.feature",

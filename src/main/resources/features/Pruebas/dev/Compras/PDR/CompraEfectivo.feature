@@ -48,6 +48,8 @@ Scenario Outline: Compra efectivo usuario normal Baloto con descuento fijo
 	 	|aliada |efecty|porcentaje |
 	 	|aliada |baloto|freeshiping|
 	
+	
+	
 	Scenario Outline: Store Credit Mayor Compra usuario <usuario> verifica pasarela
 	Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -61,3 +63,5 @@ Scenario Outline: Compra efectivo usuario normal Baloto con descuento fijo
 	 |aliada  |	 
 	  
 	 
+	
+	
