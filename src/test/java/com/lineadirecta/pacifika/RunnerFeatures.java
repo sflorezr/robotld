@@ -1,13 +1,15 @@
 package com.lineadirecta.pacifika;	
 
 import org.junit.runner.RunWith;
+
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/1StoreCredit.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature",
-@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraContraEntrega.feature",
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/stage/Compras/PDR/1StoreCredit.feature",
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDR/CompraEfectivo.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraTarjetaDebito.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraTC.feature",
 //tags= {"@Ejecutar"},
@@ -21,7 +23,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 //@CucumberOptions(features ="src/main/resources/features/Producccion/")
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/Generales/AgregarArticulos.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/Vaucher/",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Logistica/",
+@CucumberOptions(features ="src/test/resources/features/Pruebas/stage/Logistica/",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraTarjetaDebito.feature",
 //tags= {"@Ejecutar"},
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/Logistica/",

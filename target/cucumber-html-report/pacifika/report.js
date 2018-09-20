@@ -1,86 +1,13 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/main/resources/features/Pruebas/dev/Compras/PDP/CompraContraEntrega.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/features/Pruebas/dev/Vaucher/RedimirVaucher.feature");
 formatter.feature({
-  "name": "Compra Contra Entrega PDP",
+  "name": "redimir un Vaucher dev",
   "description": "",
   "keyword": "Feature"
 });
-formatter.scenarioOutline({
-  "name": "Compra contra entrega usuario normal",
-  "description": "",
-  "keyword": "Scenario Outline"
-});
-formatter.step({
-  "name": "Estando en Home",
-  "keyword": "Given "
-});
-formatter.step({
-  "name": "Tengo datos a ingresar \"src/test/resources/datadrivenDev/usuarios.xls\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "Teniendo articulos a seleccionar \"src/test/resources/datadrivenDev/articulos.csv\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "Selecciona articulos desde PDP menor normal \"250000\"",
-  "keyword": "When "
-});
-formatter.step({
-  "name": "Logueo e Ir a Pasarela \"\u003cusuario\u003e\"",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "Selecciono Forma pago contra entrega",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "Pagar Ahora",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "Guarda orden",
-  "keyword": "And "
-});
-formatter.step({
-  "name": "Verifico Mensaje Pago Final \"¡Tu pedido va en camino!\"",
-  "keyword": "Then "
-});
-formatter.examples({
-  "name": "",
-  "description": "",
-  "keyword": "Examples",
-  "rows": [
-    {
-      "cells": [
-        "usuario"
-      ]
-    },
-    {
-      "cells": [
-        "normal"
-      ]
-    },
-    {
-      "cells": [
-        "aliada"
-      ]
-    },
-    {
-      "cells": [
-        "normaln"
-      ]
-    },
-    {
-      "cells": [
-        "aliadan"
-      ]
-    }
-  ]
-});
 formatter.scenario({
-  "name": "Compra contra entrega usuario normal",
+  "name": "redimir un vaucher usuario normal y aumenta en el carro",
   "description": "",
-  "keyword": "Scenario Outline"
+  "keyword": "Scenario"
 });
 formatter.step({
   "name": "Estando en Home",
@@ -92,27 +19,139 @@ formatter.match({
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "redimir un vaucher usuario normal, disminuye cantidad y une carrito",
+  "description": "",
+  "keyword": "Scenario"
+});
 formatter.step({
-  "name": "Tengo datos a ingresar \"src/test/resources/datadrivenDev/usuarios.xls\"",
-  "keyword": "And "
+  "name": "Estando en Home",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)"
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "redimir un vaucher usuario normal y baja un articulo",
+  "description": "",
+  "keyword": "Scenario"
+});
 formatter.step({
-  "name": "Teniendo articulos a seleccionar \"src/test/resources/datadrivenDev/articulos.csv\"",
-  "keyword": "And "
+  "name": "Estando en Home",
+  "keyword": "Given "
 });
 formatter.match({
-  "location": "AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)"
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
 });
 formatter.result({
   "status": "passed"
 });
+formatter.scenario({
+  "name": "redimir un vaucher usuario aliada y aumenta articulos",
+  "description": "",
+  "keyword": "Scenario"
+});
 formatter.step({
-  "name": "Selecciona articulos desde PDP menor normal \"250000\"",
-  "keyword": "When "
+  "name": "Estando en Home",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "redimir un vaucher usuario aliada , disminuye articulos y une carrito",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "Estando en Home",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "redimir un vaucher usuario aliada y baja un articulo",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "Estando en Home",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "redimir un vaucher sin logueo",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "Estando en Home",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "redimir un vaucher sin logueo aumentando",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "Estando en Home",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "redimir un vaucher sin logueo disminuyendo",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "Estando en Home",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.scenario({
+  "name": "redimir un vaucher sin logueo baja un articulo",
+  "description": "",
+  "keyword": "Scenario"
+});
+formatter.step({
+  "name": "Estando en Home",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "AgregarArticuloDefinition.estando_en_Home()"
+});
+formatter.result({
+  "status": "passed"
+});
 });

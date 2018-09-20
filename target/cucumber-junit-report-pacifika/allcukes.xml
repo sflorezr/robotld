@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="10" time="59.590935">
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher usuario normal y aumenta en el carro" time="10.775973">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher usuario normal, disminuye cantidad y une carrito" time="5.313614">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher usuario normal y baja un articulo" time="5.342686">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher usuario aliada y aumenta articulos" time="5.355272">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher usuario aliada , disminuye articulos y une carrito" time="5.295479">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher usuario aliada y baja un articulo" time="6.078336">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher sin logueo" time="5.494954">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher sin logueo aumentando" time="5.296421">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher sin logueo disminuyendo" time="5.401094">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="redimir un Vaucher dev" name="redimir un vaucher sin logueo baja un articulo" time="5.237106">
+<system-out><![CDATA[Given Estando en Home.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
