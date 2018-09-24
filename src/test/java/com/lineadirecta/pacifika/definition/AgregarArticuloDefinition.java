@@ -238,7 +238,33 @@ public class AgregarArticuloDefinition {
 				i=i+1;			
 			}
 	}		
-
+	@When("^Selecciona articulos desde PDP menor aliada \"([^\"]*)\"$")
+	public void selecciona_articulos_desde_PDP_menor_aliada(int valor) throws Throwable {
+	//	JOptionPane.showMessageDialog(null, String.valueOf(DatosArticulo.size()));
+		busquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro();
+		int total=0;
+		int i=1;
+		int j=1;			
+			while (i<DatosArticulo.size()){	
+			j=1;	
+			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaMenuPrincipal(DatosArticulo.get(i).getCategoria());		
+			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaSubcategoria(DatosArticulo.get(i).getCategoria(),DatosArticulo.get(i).getSubcategoria());
+			busquedaDeaArticulosPorSubcategoriaSteps.AbrirPDP(DatosArticulo.get(i).getPosicion());
+				while(j<=DatosArticulo.get(i).getCantidad()){						
+					total=(int) (total+busquedaDeaArticulosPorSubcategoriaSteps.TotxProdPDP());
+					total= (int) (total-(total * 0.25));
+					if (total > valor){
+						j=DatosArticulo.get(i).getCantidad()+1;
+						i=(DatosArticulo.size()-1);						
+					}else{					
+					busquedaDeaArticulosPorSubcategoriaSteps.anadearticulodesdePDP(DatosArticulo.get(i).getCategoria()+DatosArticulo.get(i).getTalla(),DatosArticulo.get(i).getPlu());						
+					busquedaDeaArticulosPorSubcategoriaSteps.CerrarMiniCarro();
+					j=j+1;
+					}
+				}
+				i=i+1;			
+			}
+	}
 	@When("^Selecciona articulos desde PDR menor aliada \"([^\"]*)\"$")
 	public void selecciona_articulos_desde_PDR_menor_aliada(int valor) throws Throwable {
 	//	JOptionPane.showMessageDialog(null, String.valueOf(DatosArticulo.size()));
@@ -265,33 +291,7 @@ public class AgregarArticuloDefinition {
 				i=i+1;			
 			}
 	}	
-	@When("^Selecciona articulos desde PDP menor aliada \"([^\"]*)\"$")
-	public void selecciona_articulos_desde_PDP_menor_aliada(int valor) throws Throwable {
-	//	JOptionPane.showMessageDialog(null, String.valueOf(DatosArticulo.size()));
-		busquedaDeaArticulosPorSubcategoriaSteps.LimpiarCarro();
-		int total=0;
-		int i=1;
-		int j=1;			
-			while (i<DatosArticulo.size()){	
-			j=1;	
-			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaMenuPrincipal(DatosArticulo.get(i).getCategoria());		
-			busquedaDeaArticulosPorSubcategoriaSteps.SeleccionaSubcategoria(DatosArticulo.get(i).getCategoria(),DatosArticulo.get(i).getSubcategoria());
-				while(j<=DatosArticulo.get(i).getCantidad()){	
-					busquedaDeaArticulosPorSubcategoriaSteps.AbrirPDP(DatosArticulo.get(i).getPosicion());
-					total=(int) (total+busquedaDeaArticulosPorSubcategoriaSteps.TotxProdPDP());
-					total= (int) (total-(total * 0.25));
-					if (total > valor){
-						j=DatosArticulo.get(i).getCantidad()+1;
-						i=(DatosArticulo.size()-1);						
-					}else{					
-					busquedaDeaArticulosPorSubcategoriaSteps.anadearticulodesdePDP(DatosArticulo.get(i).getCategoria()+DatosArticulo.get(i).getTalla(),DatosArticulo.get(i).getPlu());						
-					busquedaDeaArticulosPorSubcategoriaSteps.CerrarMiniCarro();
-					j=j+1;
-					}
-				}
-				i=i+1;			
-			}
-	}	
+	
 	@When("^Selecciona articulos desde PDR$")
 	public void selecciona_articulos_desde_PDR() throws Throwable {
 	//	JOptionPane.showMessageDialog(null, String.valueOf(DatosArticulo.size()));

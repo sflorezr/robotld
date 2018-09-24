@@ -53,15 +53,15 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.333333],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
                 ['Ignored/Skipped', 0],
                 
-                ['Failing', 0.333333],
+                ['Failing', 0],
                 
-                ['Errors',  0.333333],
+                ['Errors',  1],
                 ['Compromised',  0]
             ]
         ], {
@@ -92,26 +92,26 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 3 tests passed' },
-                {label: '0 / 3 tests pending'},
-                {label: '0 / 3 tests not executed'},
-                {label: '1 / 3 tests failed'},
-                {label: '1 / 3 errors'},
-                {label: '0 / 3 compromised tests'}
+                {label: '0 / 11 tests passed' },
+                {label: '0 / 11 tests pending'},
+                {label: '0 / 11 tests not executed'},
+                {label: '0 / 11 tests failed'},
+                {label: '11 / 11 errors'},
+                {label: '0 / 11 compromised tests'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.160714],
+                ['Passing', 0],
                 
                 ['Pending', 0],
                 
                 ['Ignored', 0],
                 
-                ['Failing', 0.375],
+                ['Failing', 0],
                 
-                ['Errors', 0.464286],
+                ['Errors', 1],
                 ['Compromised', 0],
             ]
         ], {
@@ -143,11 +143,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 / 3 tests passed (0.160714% of all test steps)' },
-                {label: '0 / 3 tests pending'},
-                {label: '0 / 3 tests not executed'},
-                {label: '1 / 3 tests failed (0.375% of all test steps)'},
-                {label: '1 / 3 errors (0.464286% of all test steps)'}
+                {label: '0 / 11 tests passed (0% of all test steps)' },
+                {label: '0 / 11 tests pending'},
+                {label: '0 / 11 tests not executed'},
+                {label: '0 / 11 tests failed (0% of all test steps)'},
+                {label: '11 / 11 errors (1% of all test steps)'}
             ]
         });
 
@@ -210,7 +210,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-08-2018 13:50</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 08-08-2018 08:59</span>
     <br style="clear:left"/>
 </div>
 <div class="clr"></div>
@@ -224,27 +224,23 @@
     <tr>
         <td width="375px" valign="top">
             <div class="test-count-summary">
-                <span class="test-count-title">3
-                    test scenarios </span>
+                <span class="test-count-title">6
+                    test scenarios (11 tests in all, including 8
+                    rows of test data)</span>
                 <div>
 
                     <span class="test-count"> |
-                        1
-                            <a href="result_success.html">passed</a>
-                        
-                    </span>
-                    <span class="test-count"> |
-                        2
+                        6
                             <a href="result_broken.html">unsuccessful</a>
                         
                     </span>(
                     <span class="test-count">
-                        1
+                        0
                             <a href="result_failure.html">failed</a>
                         ,
                     </span>
                     <span class="test-count">
-                        1
+                        6
                             <a href="result_error.html">with errors</a>
                         
                     </span>)
@@ -298,9 +294,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>3</td>
-            <td>1 (33%)</td>
-            <td>2 (67%)</td>
+            <td>11</td>
+            <td>0 (0%)</td>
+            <td>11 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -314,15 +310,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>3</td>
-            <td>1 (33%)</td>
-            <td>2 (67%)</td>
+            <td>11</td>
+            <td>0 (0%)</td>
+            <td>11 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">5 minutes 29 seconds</td>
+                <td colspan="5">4 minutes 19 seconds</td>
         </tr>
         </body>
     </table>
@@ -345,7 +341,7 @@
                     <table>
                         <tr>
                             <td colspan="2">
-                                <span class="caption">Test results weighted by test size in steps (average steps per test: 19) .</span>
+                                <span class="caption">Test results weighted by test size in steps (average steps per test: 14) .</span>
                                 <span class="togglePieChart" id="toggleWeightedPieChart"><a href="#">Show/Hide Pie
                                     Chart</a></span>
                             </td>
@@ -377,9 +373,9 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>3</td>
-            <td>1 (33%)</td>
-            <td>2 (67%)</td>
+            <td>11</td>
+            <td>0 (0%)</td>
+            <td>11 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
@@ -393,15 +389,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>3</td>
-            <td>1 (33%)</td>
-            <td>2 (67%)</td>
+            <td>11</td>
+            <td>0 (0%)</td>
+            <td>11 (100%)</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">5 minutes 29 seconds</td>
+                <td colspan="5">4 minutes 19 seconds</td>
         </tr>
         </body>
     </table>
@@ -445,50 +441,27 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
                                     <div class="ellipsis">
 
-                                        <a href="store-credit_limpia-carro-aliada.html" class="ellipsis"
-                                           title="Limpia Carro aliada ">
-                                            Limpia Carro aliada
+                                        <a href="compra-con-credito-aliad_at__compra-con-credito-caso-no-feliz-usuario-normal.html" class="ellipsis"
+                                           title="compra con credito caso no feliz usuario normal Null pointer exception">
+                                            compra con credito caso no feliz usuario normal
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">9</td>
+                                <td class="ERROR-text">9</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2018-08-01 13:44:33">13:44:33</td>
+                                <td class="ERROR-text" data-sort="2018-08-08 08:55:34">08:55:34</td>
 
-                                <td class="SUCCESS-text">69.68</td>
-                            </tr>
-
-                            <tr class="test-FAILURE">
-                                <td><span class="summary-icon"><i class='fa fa-times-circle failure-icon ' title='FAILURE'></i></span>
-                                    
-                                    <span style="display:none">FAILURE</span></td>
-                                <td class="FAILURE-text">
-                                    <div class="ellipsis">
-
-                                        <a href="store-credit_store-credit-mayor-compra-usuario-aliada.html" class="ellipsis"
-                                           title="Store Credit Mayor Compra usuario aliada Element should be enabled exception: ...">
-                                            Store Credit Mayor Compra usuario aliada
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="FAILURE-text">21</td>
-
-
-                                <td class="FAILURE-text" data-sort="2018-08-01 13:45:42">13:45:42</td>
-
-                                <td class="FAILURE-text">122.57</td>
+                                <td class="ERROR-text">16.64</td>
                             </tr>
 
                             <tr class="test-ERROR">
@@ -498,9 +471,9 @@
                                 <td class="ERROR-text">
                                     <div class="ellipsis">
 
-                                        <a href="store-credit_store-credit-mayor-compra-usuario-aliada-verifica-pasarela.html" class="ellipsis"
-                                           title="Store Credit Mayor Compra usuario aliada verifica pasarela Web driver exception: The following e...">
-                                            Store Credit Mayor Compra usuario aliada verifica pasarela
+                                        <a href="compra-con-credito-aliad_at__compra-con-credito-aliad_at_-_lt_usuario_gt_.html" class="ellipsis"
+                                           title="compra con credito aliad@ (usuario) Null pointer exception">
+                                            compra con credito aliad@ <usuario>&nbsp;(2  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
@@ -509,9 +482,101 @@
                                 <td class="ERROR-text">26</td>
 
 
-                                <td class="ERROR-text" data-sort="2018-08-01 13:47:45">13:47:45</td>
+                                <td class="ERROR-text" data-sort="2018-08-08 08:55:51">08:55:51</td>
 
-                                <td class="ERROR-text">137.19</td>
+                                <td class="ERROR-text">31.65</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="compra-con-credito-aliad_at__compra-con-credito-aliad_at_-con-voucher.html" class="ellipsis"
+                                           title="compra con credito aliad@ con voucher Null pointer exception">
+                                            compra con credito aliad@ con voucher&nbsp;(3  examples)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">42</td>
+
+
+                                <td class="ERROR-text" data-sort="2018-08-08 08:56:22">08:56:22</td>
+
+                                <td class="ERROR-text">46.95</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="compra-con-credito-aliad_at__compra-con-credito-aliad_at_-nueva-con-voucher.html" class="ellipsis"
+                                           title="compra con credito aliad@ nueva con voucher Null pointer exception">
+                                            compra con credito aliad@ nueva con voucher&nbsp;(3  examples)
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">42</td>
+
+
+                                <td class="ERROR-text" data-sort="2018-08-08 08:57:09">08:57:09</td>
+
+                                <td class="ERROR-text">39.84</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="compra-con-credito-aliad_at__compra-con-credito-aliad_at_-con-sc.html" class="ellipsis"
+                                           title="compra con credito aliad@ con sc Null pointer exception">
+                                            compra con credito aliad@ con sc
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">23</td>
+
+
+                                <td class="ERROR-text" data-sort="2018-08-08 08:57:49">08:57:49</td>
+
+                                <td class="ERROR-text">111.31</td>
+                            </tr>
+
+                            <tr class="test-ERROR">
+                                <td><span class="summary-icon"><i class='fa fa-exclamation-triangle error-icon ' title='ERROR'></i></span>
+                                    
+                                    <span style="display:none">ERROR</span></td>
+                                <td class="ERROR-text">
+                                    <div class="ellipsis">
+
+                                        <a href="compra-con-credito-aliad_at__compra-con-credito-aliad_at_-con-mayor-al-cupo.html" class="ellipsis"
+                                           title="compra con credito aliad@ con mayor al cupo Null pointer exception">
+                                            compra con credito aliad@ con mayor al cupo
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="ERROR-text">12</td>
+
+
+                                <td class="ERROR-text" data-sort="2018-08-08 08:59:40">08:59:40</td>
+
+                                <td class="ERROR-text">12.75</td>
                             </tr>
                         </tbody>
                     </table>

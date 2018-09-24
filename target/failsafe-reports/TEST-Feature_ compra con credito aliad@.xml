@@ -1,0 +1,1355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report.xsd" name="Feature: compra con credito aliad@" time="258.843" tests="11" errors="11" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\workspacelineadirecta\com.lineadirecta.pacifika"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CO"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\workspacelineadirecta\com.lineadirecta.pacifika"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\41QS362\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\workspacelineadirecta\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4444666176018005071.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files/Java/jre1.8.0_121/bin/server;C:/Program Files/Java/jre1.8.0_121/bin;C:/Program Files/Java/jre1.8.0_121/lib/amd64;C:\Program Files (x86)\Java\jdk1.8.0_121;C:\Program Files (x86)\apache-maven-3.5.3\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\Program Files\Git\cmd;C:\Users\41QS362\Desktop;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\41QS362"/>
+    <property name="user.timezone" value="America/Bogota"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="4L8Z362"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\apache-maven-3.5.3\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="es"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files (x86)\apache-maven-3.5.3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="compra con credito caso no feliz usuario normal" classname="compra con credito aliad@" time="16.328">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[[main] INFO net.serenitybdd.core.Serenity - &amp#27;[36m
+
+-------------------------------------------------------------------------------------
+     _______. _______ .______       _______ .__   __.  __  .___________.____    ____ 
+    /       ||   ____||   _  \     |   ____||  \ |  | |  | |           |\   \  /   / 
+   |   (----`|  |__   |  |_)  |    |  |__   |   \|  | |  | `---|  |----` \   \/   /  
+    \   \    |   __|  |      /     |   __|  |  . `  | |  |     |  |       \_    _/   
+.----)   |   |  |____ |  |\  \----.|  |____ |  |\   | |  |     |  |         |  |     
+|_______/    |_______|| _| `._____||_______||__| \__| |__|     |__|         |__|    
+                                                                                     
+ News and tutorials at http://www.serenity-bdd.info                                  
+ Documentation at https://wakaleo.gitbooks.io/the-serenity-book/content/             
+ Join the Serenity Community on Rocket Chat at https://serenity-bdd.rocket.chat      
+ Serenity BDD Support and Training at http://serenity-bdd.info/#/trainingandsupport  
+ Learn Serenity BDD online at http://serenity-dojo.com                               
+-------------------------------------------------------------------------------------
+&amp#27;[0m
+[main] INFO net.serenitybdd.core.Serenity - Test Suite Started: compra con credito aliad@
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: compra con credito caso no feliz usuario normal
+-------------------------------------------------------------------(compra-con-credito-aliad@;compra-con-credito-caso-no-feliz-usuario-normal)
+Feature: compra con credito aliad@
+
+  Scenario: compra con credito caso no feliz usuario normal                               &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:4&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito caso no feliz usuario normal
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo normal
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: compra con credito aliad@ <usuario>
+-------------------------------------------------------------------(compra-con-credito-aliad@;compra-con-credito-aliad@-<usuario>)
+
+  Scenario Outline: compra con credito aliad@ <usuario> &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:16&amp#27;[0m
+    &amp#27;[36mGiven Estando en pagina de logeo&amp#27;[0m
+    &amp#27;[36mAnd Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"&amp#27;[0m
+    &amp#27;[36mAnd Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"&amp#27;[0m
+    &amp#27;[36mAnd teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"&amp#27;[0m
+    &amp#27;[36mWhen Logueo usuairo aliada&amp#27;[0m
+    &amp#27;[36mAnd Selecciona articulos desde PDR&amp#27;[0m
+    &amp#27;[36mAnd Ir a Pasarela "<usuario>"&amp#27;[0m
+    &amp#27;[36mAnd Selecciono credito&amp#27;[0m
+    &amp#27;[36mAnd Pagar Ahora&amp#27;[0m
+    &amp#27;[36mAnd Guarda orden&amp#27;[0m
+    &amp#27;[36mThen Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: compra con credito aliad@ aliada                                      &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:31&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ <usuario>
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+
+  Scenario Outline: compra con credito aliad@ aliadan                                     &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:32&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ <usuario>
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: compra con credito aliad@ con voucher
+-------------------------------------------------------------------(compra-con-credito-aliad@;compra-con-credito-aliad@-con-voucher)
+
+  Scenario Outline: compra con credito aliad@ con voucher &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:36&amp#27;[0m
+    &amp#27;[36mGiven Estando en pagina de logeo&amp#27;[0m
+    &amp#27;[36mAnd Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"&amp#27;[0m
+    &amp#27;[36mAnd Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"&amp#27;[0m
+    &amp#27;[36mAnd teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"&amp#27;[0m
+    &amp#27;[36mWhen Logueo usuairo aliada&amp#27;[0m
+    &amp#27;[36mAnd Selecciona articulos desde PDR&amp#27;[0m
+    &amp#27;[36mAnd digito vaucher de tipo "voucher"&amp#27;[0m
+    &amp#27;[36mAnd Ir a Pasarela "aliada"&amp#27;[0m
+    &amp#27;[36mAnd Selecciono credito&amp#27;[0m
+    &amp#27;[36mAnd Pagar Ahora&amp#27;[0m
+    &amp#27;[36mAnd Guarda orden&amp#27;[0m
+    &amp#27;[36mThen Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: compra con credito aliad@ con voucher                                 &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:52&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+
+  Scenario Outline: compra con credito aliad@ con voucher                                 &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:53&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+
+  Scenario Outline: compra con credito aliad@ con voucher                                 &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:54&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: compra con credito aliad@ nueva con voucher
+-------------------------------------------------------------------(compra-con-credito-aliad@;compra-con-credito-aliad@-nueva-con-voucher)
+
+  Scenario Outline: compra con credito aliad@ nueva con voucher &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:56&amp#27;[0m
+    &amp#27;[36mGiven Estando en pagina de logeo&amp#27;[0m
+    &amp#27;[36mAnd Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"&amp#27;[0m
+    &amp#27;[36mAnd Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"&amp#27;[0m
+    &amp#27;[36mAnd teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"&amp#27;[0m
+    &amp#27;[36mWhen Logueo usuairo aliada&amp#27;[0m
+    &amp#27;[36mAnd Selecciona articulos desde PDR&amp#27;[0m
+    &amp#27;[36mAnd digito vaucher de tipo "voucher"&amp#27;[0m
+    &amp#27;[36mAnd Ir a Pasarela "aliadan"&amp#27;[0m
+    &amp#27;[36mAnd Selecciono credito&amp#27;[0m
+    &amp#27;[36mAnd Pagar Ahora&amp#27;[0m
+    &amp#27;[36mAnd Guarda orden&amp#27;[0m
+    &amp#27;[36mThen Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"&amp#27;[0m
+
+    Examples: 
+
+  Scenario Outline: compra con credito aliad@ nueva con voucher                           &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:72&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ nueva con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+
+  Scenario Outline: compra con credito aliad@ nueva con voucher                           &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:73&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ nueva con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+
+  Scenario Outline: compra con credito aliad@ nueva con voucher                           &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:74&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ nueva con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: compra con credito aliad@ con sc
+-------------------------------------------------------------------(compra-con-credito-aliad@;compra-con-credito-aliad@-con-sc)
+
+  Scenario: compra con credito aliad@ con sc                                              &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:79&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con sc
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP And Logueo e Ir a Pasarela "aliada" mayor a "100000"
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+[pool-1-thread-1] INFO net.serenitybdd.core.Serenity - 
+ _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
+|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
+  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
+  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
+  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
+                                                                  
+
+TEST STARTED: compra con credito aliad@ con mayor al cupo
+-------------------------------------------------------------------(compra-con-credito-aliad@;compra-con-credito-aliad@-con-mayor-al-cupo)
+
+  Scenario: compra con credito aliad@ con mayor al cupo                                                                                                                                    &amp#27;[90m# src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:93&amp#27;[0m
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con mayor al cupo
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+
+&amp#27;[31mFailed scenarios:&amp#27;[0m
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:4 &amp#27;[0m# compra con credito caso no feliz usuario normal
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:31 &amp#27;[0m# compra con credito aliad@ aliada
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:32 &amp#27;[0m# compra con credito aliad@ aliadan
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:52 &amp#27;[0m# compra con credito aliad@ con voucher
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:53 &amp#27;[0m# compra con credito aliad@ con voucher
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:54 &amp#27;[0m# compra con credito aliad@ con voucher
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:72 &amp#27;[0m# compra con credito aliad@ nueva con voucher
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:73 &amp#27;[0m# compra con credito aliad@ nueva con voucher
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:74 &amp#27;[0m# compra con credito aliad@ nueva con voucher
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:79 &amp#27;[0m# compra con credito aliad@ con sc
+&amp#27;[31msrc/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:93 &amp#27;[0m# compra con credito aliad@ con mayor al cupo
+
+11 Scenarios (&amp#27;[31m11 failed&amp#27;[0m)
+123 Steps (&amp#27;[31m11 failed&amp#27;[0m, &amp#27;[36m67 skipped&amp#27;[0m, &amp#27;[32m45 passed&amp#27;[0m)
+4m19,258s
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_normal(LogueoDesdeInicioDefinition.java:51)
+	at ?.Logueo usuairo normal(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:9)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:21)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:21)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:41)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:41)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:41)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:61)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:61)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:61)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.logueo_e_Ir_a_Pasarela_mayor_a(LogueoDesdeInicioDefinition.java:159)
+	at ?.Logueo e Ir a Pasarela "aliada" mayor a "100000"(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:85)
+
+java.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:98)
+
+    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo normal&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_normal()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_normal(LogueoDesdeInicioDefinition.java:51)
+	at ?.Logueo usuairo normal(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:9)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1mnormal&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                            &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito no feliz&amp#27;[0m                                                       &amp#27;[90m# CompraCreditoDefinition.selecciono_credito_no_feliz()&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:55:35 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 38894Only local connections are allowed.log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+ago 08, 2018 8:55:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito caso no feliz usuario normal
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo normal
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ aliada" classname="compra con credito aliad@" time="12.142">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:21)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliada&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                            &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:55:51 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:55:51 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ <usuario>
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ aliadan" classname="compra con credito aliad@" time="19.479">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:21)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliadan&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                           &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:56:03 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:56:04 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ <usuario>
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ con voucher" classname="compra con credito aliad@" time="21.367">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:41)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mdigito vaucher de tipo "&amp#27;[0m&amp#27;[36m&amp#27;[1mvoucher&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                  &amp#27;[90m# RedimirVaucherDefinition.digito_vaucher_de_tipo(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliada&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                            &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:56:22 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:56:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ con voucher" classname="compra con credito aliad@" time="11.125">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:41)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mdigito vaucher de tipo "&amp#27;[0m&amp#27;[36m&amp#27;[1mvoucher&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                  &amp#27;[90m# RedimirVaucherDefinition.digito_vaucher_de_tipo(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliada&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                            &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:56:44 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:56:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ con voucher" classname="compra con credito aliad@" time="14.443">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:41)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mdigito vaucher de tipo "&amp#27;[0m&amp#27;[36m&amp#27;[1mvoucher&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                  &amp#27;[90m# RedimirVaucherDefinition.digito_vaucher_de_tipo(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliada&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                            &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:56:55 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:56:56 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ nueva con voucher" classname="compra con credito aliad@" time="12.556">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:61)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mdigito vaucher de tipo "&amp#27;[0m&amp#27;[36m&amp#27;[1mvoucher&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                  &amp#27;[90m# RedimirVaucherDefinition.digito_vaucher_de_tipo(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliadan&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                           &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:57:09 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:57:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ nueva con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ nueva con voucher" classname="compra con credito aliad@" time="14.306">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:61)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mdigito vaucher de tipo "&amp#27;[0m&amp#27;[36m&amp#27;[1mvoucher&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                  &amp#27;[90m# RedimirVaucherDefinition.digito_vaucher_de_tipo(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliadan&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                           &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:57:22 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:57:23 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ nueva con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ nueva con voucher" classname="compra con credito aliad@" time="12.981">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                      &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                            &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:61)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mdigito vaucher de tipo "&amp#27;[0m&amp#27;[36m&amp#27;[1mvoucher&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                  &amp#27;[90m# RedimirVaucherDefinition.digito_vaucher_de_tipo(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliadan&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                           &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:57:36 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:57:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ nueva con voucher
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ con sc" classname="compra con credito aliad@" time="111.313">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en Home&amp#27;[0m                                                                 &amp#27;[90m# AgregarArticuloDefinition.estando_en_Home()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m            &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mSelecciona articulos desde PDR&amp#27;[0m                                                    &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR()&amp#27;[0m
+    &amp#27;[31mAnd &amp#27;[0m&amp#27;[31mLogueo e Ir a Pasarela "&amp#27;[0m&amp#27;[31m&amp#27;[1maliada&amp#27;[0m&amp#27;[31m" mayor a "&amp#27;[0m&amp#27;[31m&amp#27;[1m100000&amp#27;[0m&amp#27;[31m"&amp#27;[0m                                  &amp#27;[90m# LogueoDesdeInicioDefinition.logueo_e_Ir_a_Pasarela_mayor_a(String,int)&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.logueo_e_Ir_a_Pasarela_mayor_a(LogueoDesdeInicioDefinition.java:159)
+	at ?.Logueo e Ir a Pasarela "aliada" mayor a "100000"(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:85)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                       &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mGuarda orden&amp#27;[0m                                                                      &amp#27;[90m# CompraEfectivoDefinition.guardar_orden()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mVerifico Mensaje Pago Final "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ya compraste con tu crédito Aliad@.!&amp#27;[0m&amp#27;[36m"&amp#27;[0m              &amp#27;[90m# CompraCreditoDefinition.verifico_vensaje_vago_final(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:57:49 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:57:50 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con sc
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP And Logueo e Ir a Pasarela "aliada" mayor a "100000"
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+  <testcase name="compra con credito aliad@ con mayor al cupo" classname="compra con credito aliad@" time="12.752">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+</error>
+    <system-out><![CDATA[    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mEstando en pagina de logeo&amp#27;[0m                                                                                                                                                       &amp#27;[90m# LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo()&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTengo datos a ingresar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/usuarios.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                                                                             &amp#27;[90m# LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mTeniendo articulos a seleccionar "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/articulos.csv&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                                                                  &amp#27;[90m# AgregarArticuloDefinition.teniendo_articulos_a_seleccionar(String)&amp#27;[0m
+    &amp#27;[32mAnd &amp#27;[0m&amp#27;[32mteniendo datos en lista "&amp#27;[0m&amp#27;[32m&amp#27;[1msrc/test/resources/datadrivenDev/vaucher.xls&amp#27;[0m&amp#27;[32m"&amp#27;[0m                                                                                                             &amp#27;[90m# RedimirVaucherDefinition.teniendo_datos_en_lista(String)&amp#27;[0m
+    &amp#27;[31mWhen &amp#27;[0m&amp#27;[31mLogueo usuairo aliada&amp#27;[0m                                                                                                                                                             &amp#27;[90m# LogueoDesdeInicioDefinition.Logueo_usuairo_aliada()&amp#27;[0m
+      &amp#27;[31mjava.lang.NullPointerException
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Logueo_usuairo_aliada(LogueoDesdeInicioDefinition.java:67)
+	at ?.Logueo usuairo aliada(src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature:98)
+&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mLimpia carro&amp#27;[0m                                                                                                                                                                       &amp#27;[90m# AgregarArticuloDefinition.limpia_carro()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciona articulos desde PDR mayor aliada "&amp#27;[0m&amp#27;[36m&amp#27;[1m300000&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                               &amp#27;[90m# AgregarArticuloDefinition.selecciona_articulos_desde_PDR_mayor_aliada(int)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mIr a Pasarela "&amp#27;[0m&amp#27;[36m&amp#27;[1maliada&amp#27;[0m&amp#27;[36m"&amp#27;[0m                                                                                                                                                             &amp#27;[90m# CompraTCDefinition.ir_a_Pasarela(String)&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito&amp#27;[0m                                                                                                                                                                 &amp#27;[90m# CompraCreditoDefinition.selecciono_credito()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mPagar Ahora&amp#27;[0m                                                                                                                                                                        &amp#27;[90m# CompraTCDefinition.pagar_Ahora()&amp#27;[0m
+    &amp#27;[36mAnd &amp#27;[0m&amp#27;[36mSelecciono credito no feliz	con mensaje "&amp#27;[0m&amp#27;[36m&amp#27;[1m¡Ups! parece que tu cupo no es suficiente para esta compra. Puedes cambiar de método de pago o diferir tu compra en varias transacciones&amp#27;[0m&amp#27;[36m"&amp#27;[0m &amp#27;[90m# CompraCreditoDefinition.Selecciono_credito_no_feliz_con_mensaje(String)&amp#27;[0m
+]]></system-out>
+    <system-err><![CDATA[ago 08, 2018 8:59:40 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+INFORMACIÓN: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
+ago 08, 2018 8:59:41 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMACIÓN: Detected dialect: OSS
+java.lang.IllegalStateException: Cannot get a STRING value from a NUMERIC cell
+	at org.apache.poi.hssf.usermodel.HSSFCell.typeMismatch(HSSFCell.java:654)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getRichStringCellValue(HSSFCell.java:731)
+	at org.apache.poi.hssf.usermodel.HSSFCell.getStringCellValue(HSSFCell.java:714)
+	at com.lineadirecta.pacifika.model.DatosLogueoDesdeInicioModel2.LlenarLista(DatosLogueoDesdeInicioModel2.java:77)
+	at com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.Tengo_datos_a_ingresar(LogueoDesdeInicioDefinition.java:47)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at cucumber.runtime.Utils$1.call(Utils.java:32)
+	at cucumber.runtime.Timeout.timeout(Timeout.java:16)
+	at cucumber.runtime.Utils.invoke(Utils.java:26)
+	at cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)
+	at cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)
+	at cucumber.api.TestStep.executeStep(TestStep.java:102)
+	at cucumber.api.TestStep.run(TestStep.java:83)
+	at cucumber.api.TestCase.run(TestCase.java:58)
+	at cucumber.runner.Runner.runPickle(Runner.java:80)
+	at cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)
+	at cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)
+	at cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+           __  _____ _____ ____ _____   _____ _    ___ _     _____ ____  
+  _       / / |_   _| ____/ ___|_   _| |  ___/ \  |_ _| |   | ____|  _ \ 
+ (_)_____| |    | | |  _| \___ \ | |   | |_ / _ \  | || |   |  _| | | | |
+  _|_____| |    | | | |___ ___) || |   |  _/ ___ \ | || |___| |___| |_| |
+ (_)     | |    |_| |_____|____/ |_|   |_|/_/   \_\___|_____|_____|____/ 
+          \_\                                                            
+
+TEST FAILED WITH ERROR: compra con credito aliad@ con mayor al cupo
+---------------------------------------------------------------------
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - TEST FAILED AT STEP When Logueo usuairo aliada
+[pool-1-thread-1] ERROR net.serenitybdd.core.Serenity - 
+]]></system-err>
+  </testcase>
+</testsuite>

@@ -12,6 +12,7 @@ Scenario: Limpia Carro cliente
 	When Logueo usuairo normal	 
 	And Limpia carro
 
+
 Scenario: Store Credit Mayor Compra usuario normal
 	Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -43,7 +44,7 @@ Scenario: Limpia Carro aliada
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
 	When Logueo usuairo aliada	 
 	And Limpia carro
-
+@Ruta
 Scenario: Store Credit Mayor Compra usuario aliada
 	Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

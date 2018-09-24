@@ -39,7 +39,7 @@ public class LogueoDesdeInicioSteps {
 	}
 	@Step
 	public void Ingresar(){		
-		//logueoDesdeInicioPage.Ingresar();
+		logueoDesdeInicioPage.Ingresar();
 	}
 	@Step
 	public void LogOuteIngresar() {

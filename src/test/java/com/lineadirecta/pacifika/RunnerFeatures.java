@@ -5,7 +5,8 @@ import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
-@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",
+//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature",
+@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",tags= {"@Ruta"},
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraContraEntrega.feature",
 // CompraEfectivo

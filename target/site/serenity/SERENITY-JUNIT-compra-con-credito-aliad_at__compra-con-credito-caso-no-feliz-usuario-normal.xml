@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="6" failures="0" name="compra con credito aliad@" skipped="0" tests="6" time="40.43" timestamp="2018-08-14T08:47:52.961-05:00[America/Bogota]"><testcase name="compra con credito caso no feliz usuario normal"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: InternetExplorerDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: InternetExplorerDriver</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: InternetExplorerDriver&#13;
+com.lineadirecta.pacifika.steps.LogueoDesdeInicioSteps.AbrirPaginaLogueo(LogueoDesdeInicioSteps.java:16)&#13;
+com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo(LogueoDesdeInicioDefinition.java:42)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase><testcase name="compra con credito aliad@ &lt;usuario&gt;"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: InternetExplorerDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: InternetExplorerDriver</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: InternetExplorerDriver&#13;
+com.lineadirecta.pacifika.steps.LogueoDesdeInicioSteps.AbrirPaginaLogueo(LogueoDesdeInicioSteps.java:16)&#13;
+com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo(LogueoDesdeInicioDefinition.java:42)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase><testcase name="compra con credito aliad@ con voucher"><error message="Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'&#10;Driver info: driver.version: InternetExplorerDriver" type="net.thucydides.core.webdriver.UnsupportedDriverException">Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: InternetExplorerDriver</error><system-err>Could not instantiate new WebDriver instance of type class org.openqa.selenium.ie.InternetExplorerDriver (java.net.SocketException: Connection reset
+Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
+System info: host: 'SP4L8Z362', ip: '10.7.28.116', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_121'
+Driver info: driver.version: InternetExplorerDriver&#13;
+com.lineadirecta.pacifika.steps.LogueoDesdeInicioSteps.AbrirPaginaLogueo(LogueoDesdeInicioSteps.java:16)&#13;
+com.lineadirecta.pacifika.definition.LogueoDesdeInicioDefinition.estando_en_pagina_de_logeo(LogueoDesdeInicioDefinition.java:42)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)&#13;
+org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:538)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:760)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:460)&#13;
+org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:206)&#13;
+</system-err></testcase></testsuite>
