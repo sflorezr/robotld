@@ -3,24 +3,39 @@
     "line": 1,
     "elements": [
       {
+<<<<<<< HEAD
         "line": 48,
         "name": "Store Credit Mayor Compra usuario aliada",
         "description": "",
         "id": "store-credit;store-credit-mayor-compra-usuario-aliada",
+=======
+        "line": 9,
+        "name": "redimir un vaucher usuario normal y aumenta en el carro",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-normal-y-aumenta-en-el-carro",
+>>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
+<<<<<<< HEAD
               "duration": 31608579579,
               "status": "passed"
             },
             "line": 49,
+=======
+              "duration": 6884872605,
+              "status": "passed"
+            },
+            "line": 10,
+>>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
             "name": "Estando en Home",
             "match": {
               "location": "AgregarArticuloDefinition.estando_en_Home()"
             },
             "keyword": "Given "
+<<<<<<< HEAD
           },
           {
             "result": {
@@ -120,15 +135,223 @@
         "tags": [
           {
             "name": "@Ruta"
+=======
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "redimir un vaucher usuario normal, disminuye cantidad y une carrito",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-normal--disminuye-cantidad-y-une-carrito",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5308516711,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 33,
+        "name": "redimir un vaucher usuario normal y baja un articulo",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-normal-y-baja-un-articulo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5338894972,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 51,
+        "name": "redimir un vaucher usuario aliada y aumenta articulos",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-aliada-y-aumenta-articulos",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5351928305,
+              "status": "passed"
+            },
+            "line": 52,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 63,
+        "name": "redimir un vaucher usuario aliada , disminuye articulos y une carrito",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-aliada---disminuye-articulos-y-une-carrito",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5291951110,
+              "status": "passed"
+            },
+            "line": 64,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 75,
+        "name": "redimir un vaucher usuario aliada y baja un articulo",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-aliada-y-baja-un-articulo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6075000000,
+              "status": "passed"
+            },
+            "line": 76,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 87,
+        "name": "redimir un vaucher sin logueo",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5492063252,
+              "status": "passed"
+            },
+            "line": 88,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 96,
+        "name": "redimir un vaucher sin logueo aumentando",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo-aumentando",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5293581883,
+              "status": "passed"
+            },
+            "line": 97,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 106,
+        "name": "redimir un vaucher sin logueo disminuyendo",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo-disminuyendo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5398381688,
+              "status": "passed"
+            },
+            "line": 107,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 116,
+        "name": "redimir un vaucher sin logueo baja un articulo",
+        "description": "",
+        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo-baja-un-articulo",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5234178233,
+              "status": "passed"
+            },
+            "line": 117,
+            "name": "Estando en Home",
+            "match": {
+              "location": "AgregarArticuloDefinition.estando_en_Home()"
+            },
+            "keyword": "Given "
+>>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
           }
         ]
       }
     ],
+<<<<<<< HEAD
     "name": "Store Credit",
     "description": "",
     "id": "store-credit",
     "keyword": "Feature",
     "uri": "src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",
+=======
+    "name": "redimir un Vaucher dev",
+    "description": "",
+    "id": "redimir-un-vaucher-dev",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Pruebas/dev/Vaucher/RedimirVaucher.feature",
+>>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
     "tags": []
   }
 ]

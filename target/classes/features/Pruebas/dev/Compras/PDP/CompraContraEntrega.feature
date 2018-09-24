@@ -8,14 +8,14 @@ Feature: Compra Contra Entrega PDP
 
 Scenario Outline: Compra contra entrega usuario <usuario>
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 When Selecciona articulos desde PDP menor normal "250000"	 
-	 And Logueo e Ir a Pasarela "<usuario>"
-	 And Selecciono Forma pago contra entrega
-	 And Pagar Ahora
-	 And Guarda orden
-	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 When Selecciona articulos desde PDP menor normal "250000"	 
+#	 And Logueo e Ir a Pasarela "<usuario>"
+#	 And Selecciono Forma pago contra entrega
+#	 And Pagar Ahora
+#	 And Guarda orden
+#	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
 
 Examples:
  	|usuario|
@@ -23,6 +23,7 @@ Examples:
  	|aliada |
  	|normaln|
  	|aliadan|
+<<<<<<< HEAD
 	
 	
 	##  Compras con SC  con clientes y aliad@s existente  
@@ -39,135 +40,159 @@ Scenario Outline: Compra contra entrega usuario normal con SC
 	 And Guarda orden
 	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
 
+=======
+#	
+#	
+#	##  Compras con SC  con clientes y aliad@s existente  
+#	## La constante mayor, indica el valor que debe tener el SC y el número indica el monto
+#	 	  	 
+Scenario Outline: Compra contra entrega usuario normal con SC
+	 Given Estando en Home
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 When Selecciona articulos desde PDP menor normal "250000"	 
+#	 And Logueo e Ir a Pasarela "<usuario>" mayor a "100000"
+#	 And Selecciono Forma pago contra entrega
+#	 And Pagar Ahora
+#	 And Guarda orden
+#	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
+#
+>>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
 Examples:
  	|usuario|
  	|normal |
  	|aliada |
-
+#
 Scenario Outline: Compra contra entrega usuario normal con SC y vaucher
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
-	 When Selecciona articulos desde PDP menor normal "250000"	 
-	 And digito vaucher de tipo "fijo"
-	 And Logueo e Ir a Pasarela "<usuario>" mayor a "100000"
-	 And Selecciono Forma pago contra entrega
-	 And Pagar Ahora
-	 And Guarda orden
-	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
-
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
+#	 When Selecciona articulos desde PDP menor normal "250000"	 
+#	 And digito vaucher de tipo "fijo"
+#	 And Logueo e Ir a Pasarela "<usuario>" mayor a "100000"
+#	 And Selecciono Forma pago contra entrega
+#	 And Pagar Ahora
+#	 And Guarda orden
+#	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
+#
 Examples:
  	|usuario|
  	|normal |
  	|aliada |
- 	 
+ #	 
  ## Compras con COD con  los tipos de voucher como liente y aliad@  ya existentes en la BD 
- 	
+ #	
 Scenario Outline: Compra contra entrega usuario normal con voucher <vocher>
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
-	 When Selecciona articulos desde PDP menor normal "250000"
-	 And digito vaucher de tipo "<voucher>"
-	 And Logueo e Ir a Pasarela "normal"
-	 And Selecciono Forma pago contra entrega
-	 And Pagar Ahora
-	 And Guarda orden
-	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
-	 
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
+#	 When Selecciona articulos desde PDP menor normal "250000"
+#	 And digito vaucher de tipo "<voucher>"
+#	 And Logueo e Ir a Pasarela "normal"
+#	 And Selecciono Forma pago contra entrega
+#	 And Pagar Ahora
+#	 And Guarda orden
+#	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
+#	 
 Examples:
  |voucher    |
  |fijo       |
  |porcentaje |
  |freeshiping|
- 
-
+ #
+#
 Scenario Outline: Compra contra entrega usuario aliada con voucher <vocher>
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
-	 When Selecciona articulos desde PDP menor normal "250000"
-	 And digito vaucher de tipo "<voucher>"
-	 And Logueo e Ir a Pasarela "aliada"
-	 And Selecciono Forma pago contra entrega
-	 And Pagar Ahora
-	 And Guarda orden
-	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
-	 
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
+#	 When Selecciona articulos desde PDP menor normal "250000"
+#	 And digito vaucher de tipo "<voucher>"
+#	 And Logueo e Ir a Pasarela "aliada"
+#	 And Selecciono Forma pago contra entrega
+#	 And Pagar Ahora
+#	 And Guarda orden
+#	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
+#	 
 Examples:
  |voucher    |
  |fijo       |
  |porcentaje |
  |freeshiping|
-
+#
 ##  Escenarios para verificar que el municipio no tiene configurado COD por este movtio no se generan ordenes 
 ##  Archivo de municipios en este va configurado por codigo de DANE la ciudad si teiene COD o nó, dependiendo de este el robot lo toma o nó, ya que no ingresa a la tabla city 
+<<<<<<< HEAD
 
 
 @Ejecutar	
+=======
+#
+#
+#
+>>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
 Scenario: Compra contra entrega usuario normal caso no feliz municipio sin contra entrega con vaucher
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
-	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"		
-	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"
-	 When Selecciona articulos desde PDP menor normal "250000"
-	 And digito vaucher de tipo "porcentaje"
-	 And Logueo e Ir a Pasarela "normal" con municipio sin contra entrega
-	 And Selecciono Forma pago contra entrega no feliz	 
-	 
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
+#	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"		
+#	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"
+#	 When Selecciona articulos desde PDP menor normal "250000"
+#	 And digito vaucher de tipo "porcentaje"
+#	 And Logueo e Ir a Pasarela "normal" con municipio sin contra entrega
+#	 And Selecciono Forma pago contra entrega no feliz	 
+#	 
 Scenario: Compra contra entrega usuario normal caso no feliz municipio sin contra entrega 
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
-	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"		
-	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"
-	 When Selecciona articulos desde PDP menor normal "250000"
-	 And Logueo e Ir a Pasarela "normal" con municipio sin contra entrega
-	 And Selecciono Forma pago contra entrega no feliz	 	 
-
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
+#	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"		
+#	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"
+#	 When Selecciona articulos desde PDP menor normal "250000"
+#	 And Logueo e Ir a Pasarela "normal" con municipio sin contra entrega
+#	 And Selecciono Forma pago contra entrega no feliz	 	 
+#
 Scenario: Compra contra entrega usuario aliada caso no feliz municipio sin contra entrega con vaucher
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
-	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
-	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"	
-	 When Selecciona articulos desde PDP menor aliada "250000"
-	 And digito vaucher de tipo "fresshiping"
-	 And Logueo e Ir a Pasarela "alaida" con municipio sin contra entrega
-	 And Selecciono Forma pago contra entrega no feliz	 	 
-	 
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
+#	 And teniendo datos en lista "src/test/resources/datadrivenDev/vaucher.xls"	
+#	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"	
+#	 When Selecciona articulos desde PDP menor aliada "250000"
+#	 And digito vaucher de tipo "fresshiping"
+#	 And Logueo e Ir a Pasarela "alaida" con municipio sin contra entrega
+#	 And Selecciono Forma pago contra entrega no feliz	 	 
+#	 
 Scenario: Compra contra entrega usuario aliada caso no feliz municipio sin contra entrega 
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
-	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"
-	 When Selecciona articulos desde PDP menor aliada "250000"
-	 And Logueo e Ir a Pasarela "alaida" con municipio sin contra entrega
-	 And Selecciono Forma pago contra entrega no feliz		 	 
-
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 And Tengo datos a verificar "src/test/resources/datadrivenDev/logistica.csv"
+#	 And Tengo municipios "src/test/resources/datadrivenDev/municipios.csv"
+#	 When Selecciona articulos desde PDP menor aliada "250000"
+#	 And Logueo e Ir a Pasarela "alaida" con municipio sin contra entrega
+#	 And Selecciono Forma pago contra entrega no feliz		 	 
+#
 ## Validar tope de COD con usuario normal y aliad@ ya existentes , el tope para la búsqueda es mayor a $250.000 
-
+#
 Scenario: Compra contra entrega usuario normal caso no feliz
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 When Selecciona articulos desde PDP mayor normal "250000"
-	 And Logueo e Ir a Pasarela "normal"
-	 And Selecciono Forma pago contra entrega no feliz
-	 
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 When Selecciona articulos desde PDP mayor normal "250000"
+#	 And Logueo e Ir a Pasarela "normal"
+#	 And Selecciono Forma pago contra entrega no feliz
+#	 
 Scenario: Compra contra entrega usuario aliada caso no feliz
 	 Given Estando en Home
-	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
-	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
-	 When Selecciona articulos desde PDP mayor aliada "250000"
-	 And Logueo e Ir a Pasarela "aliada"
-	 And Selecciono Forma pago contra entrega no feliz	  		 	
-	 	 
+#	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
+#	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
+#	 When Selecciona articulos desde PDP mayor aliada "250000"
+#	 And Logueo e Ir a Pasarela "aliada"
+#	 And Selecciono Forma pago contra entrega no feliz	  		 	
+#	 	 

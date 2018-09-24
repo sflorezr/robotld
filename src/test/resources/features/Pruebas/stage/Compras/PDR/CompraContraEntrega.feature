@@ -1,4 +1,4 @@
-Feature: Compra Contra Entrega PDP
+Feature: Compra Contra Entrega PDR
 
 # Compra generada con la ruta feliz con usuarios nuevos y existentes , selecciona productos desde la PDP menores a $250.000 , los productos no deben superar este tope
 # Menor : acción del monto es  inferior o igual a $250.000 

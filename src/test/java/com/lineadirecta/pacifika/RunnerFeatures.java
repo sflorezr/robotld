@@ -1,16 +1,22 @@
 package com.lineadirecta.pacifika;	
 
 import org.junit.runner.RunWith;
+
 import cucumber.api.CucumberOptions;
 import net.serenitybdd.cucumber.CucumberWithSerenity;
 
 @RunWith(CucumberWithSerenity.class)
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature",
+<<<<<<< HEAD
 @CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",tags= {"@Ruta"},
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraContraEntrega.feature",
 // CompraEfectivo
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraEfectivo.feature",
+=======
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/stage/Compras/PDR/1StoreCredit.feature",
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDR/CompraEfectivo.feature",
+>>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraTarjetaDebito.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDP/CompraTC.feature",
@@ -25,7 +31,7 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 //@CucumberOptions(features ="src/main/resources/features/Producccion/")
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/Generales/AgregarArticulos.feature",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/Vaucher/",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Logistica/",
+@CucumberOptions(features ="src/test/resources/features/Pruebas/stage/Logistica/",
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraTarjetaDebito.feature",
 //tags= {"@Ejecutar"},
 //@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/Logistica/",
