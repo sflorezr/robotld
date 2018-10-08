@@ -2,10 +2,13 @@ Feature: Compras en efectivo
 
 
 #  Solo funciona con clientes ya existentes
-#  Corregir set de datos con la identificación si el cliente  y/o aliad@ es nueva ( campo tipo en archivo usuarios.xls) opciones cliente nuevo =normaln, aliad@ nueva =aliadan, cliente creado =normal, aliada creada=aliada
-#  Para  identificar si desea compra ó no con aliad@ , se debe configurar el campo aliada del archivo usuarios.xls con el username de esta o la palabra <NONE> si no se  desea crear la orden con aliada
+#  Corregir set de datos con la identificación si el cliente  y/o aliad@ es nueva ( campo tipo en archivo usuarios.xls) 
+#  opciones cliente nuevo =normaln, aliad@ nueva =aliadan, cliente creado =normal, aliada creada=aliada
+#  Para  identificar si desea compra ó no con aliad@ , se debe configurar el campo aliada del archivo usuarios.xls 
+#  con el username de esta o la palabra <NONE> si no se  desea crear la orden con aliada
 #  Crear aliada 
-#  Para este escenario : tore Credit Mayor Compra usuario aliada verifica pasarela cargar un SC mayor o igual a $240.000,(PDP mayor aliada "240000" , este valor se  puede cambiar) , lo mismo para cliente 
+#  Para este escenario : tore Credit Mayor Compra usuario aliada verifica pasarela cargar un SC mayor o igual a $240.000,
+# (PDP mayor aliada "240000" , este valor se  puede cambiar) , lo mismo para cliente 
 #  Verificar fecha de expiración de los voucher configurados ó número de redenciones 
 
 Scenario Outline: Compra efectivo usuario <usuario> forma <forma>
