@@ -1,10 +1,12 @@
 Feature: Compras en efectivo PDP
 
+#@ejecutar
 Scenario Outline: Compra efectivo usuario <usuario> forma <forma>
 	 Given Estando en pagina de logeo
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadriven/articulos.csv"
-	 When Logueo usuairo normal 
+	 #When Logueo usuairo normal
+	 When Logueo usuairo "<usuario>"  
 	 And Selecciona articulos desde PDP 
 	 And Ir a Pasarela "<usuario>"
 	 And Selecciono "<forma>"
@@ -18,13 +20,13 @@ Examples:
 	|normal |baloto|
 	|aliada |efecty|
 	|aliada |baloto|
-	|normaln|efecty|
-	|normaln|baloto|
-	|aliadan|efecty|
-	|aliadan|baloto|	
+	#|normaln|efecty|
+	#|normaln|baloto|
+	#|aliadan|efecty|
+	#|aliadan|baloto|	
 
 	
-	 
+@ejecutar	 
 Scenario Outline: Compra efectivo usuario normal Baloto con descuento fijo
 	 Given Estando en pagina de logeo
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"
@@ -41,12 +43,13 @@ Scenario Outline: Compra efectivo usuario normal Baloto con descuento fijo
 	 
 	 Examples:
 	 	|usuario|forma |voucher    |
-	 	|normal |efecty|fijo       |
-	 	|normal |baloto|porcentaje |
-	 	|normal |efecty|freeshiping|
-	 	|aliada |baloto|fijo       |
-	 	|aliada |efecty|porcentaje |
-	 	|aliada |baloto|freeshiping|
+	 	|normal |baloto|fijo       |
+	 	#|normal |efecty|fijo       |
+	 	#|normal |baloto|porcentaje |
+	 	#|normal |efecty|freeshiping|
+	 	#|aliada |baloto|fijo       |
+	 	#|aliada |efecty|porcentaje |
+	 	#|aliada |baloto|freeshiping|
 	
 	Scenario Outline: Store Credit Mayor Compra usuario <usuario> verifica pasarela
 	Given Estando en Home

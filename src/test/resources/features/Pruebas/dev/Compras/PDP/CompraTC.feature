@@ -1,11 +1,12 @@
 Feature: Compra con TC PDP
 
-Scenario: Limpia Carro cliente
-	Given Estando en pagina de logeo
-	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
-	When Logueo usuairo normal	 
-	And Limpia carro
+#Scenario: Limpia Carro cliente
+#	Given Estando en pagina de logeo
+#	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
+#	When Logueo usuairo normal	 
+#	And Limpia carro
 
+@ejecutar
 Scenario: comprar con tarjeta de credito con usuario normal
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

@@ -1,18 +1,21 @@
 Feature: Compra con Tarjeta debito PDP
 
+#@ejecutar
 Scenario: Limpia Carro cliente
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
 	When Logueo usuairo normal	 
 	And Limpia carro
 
-	Scenario: comprar con Tarjeta debito con usuario normal caso feliz solo agrego al carro
+#@ejecutar
+Scenario: comprar con Tarjeta debito con usuario normal caso feliz solo agrego al carro
 	 Given Estando en pagina de logeo
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"
 	 When Logueo usuairo normal
 	 And Selecciona articulos desde PDP
 
+#@ejecutar
 Scenario: comprar con Tarjeta debito con usuario normal caso feliz con union de carro
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -25,6 +28,7 @@ Scenario: comprar con Tarjeta debito con usuario normal caso feliz con union de 
 	 And Pasos para pago tarjeta debito "feliz"
 	 Then Verifico Mensaje Pago Tarjeta Debito "feliz"
 
+#@ejecutar
 Scenario: comprar con Tarjeta debito con usuario normal caso no feliz
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -37,6 +41,7 @@ Scenario: comprar con Tarjeta debito con usuario normal caso no feliz
 	 And Pasos para pago tarjeta debito "no feliz"
 	 Then Verifico Mensaje Pago Tarjeta Debito "no feliz"	 	 
 
+#@ejecutar
 Scenario Outline: comprar con Tarjeta debito con usuario normal caso feliz con descuento con union de carrito
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -57,12 +62,14 @@ Scenario Outline: comprar con Tarjeta debito con usuario normal caso feliz con d
 	 |porcentaje  |
 	 |freeshiping |
 	
+#@ejecutar	
 Scenario: Limpia Carro aliada
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
 	When Logueo usuairo aliada	 
 	And Limpia carro	
 
+#@ejecutar
 Scenario: comprar con Tarjeta debito con usuario aliada caso feliz solo agrego al carro
 	 Given Estando en pagina de logeo
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -70,6 +77,7 @@ Scenario: comprar con Tarjeta debito con usuario aliada caso feliz solo agrego a
 	 When Logueo usuairo aliada
 	 And Selecciona articulos desde PDP
 
+@ejecutar
 Scenario: comprar con Tarjeta debito con usuario aliada caso feliz union de carro
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -81,8 +89,9 @@ Scenario: comprar con Tarjeta debito con usuario aliada caso feliz union de carr
 	 And Pagar Ahora
 	 And Pasos para pago tarjeta debito "feliz"
 	 Then Verifico Mensaje Pago Tarjeta Debito "feliz"
-	 
-	Scenario: comprar con Tarjeta debito con usuario aliada caso no feliz
+
+#@ejecutar	 
+Scenario: comprar con Tarjeta debito con usuario aliada caso no feliz
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
 	 And Teniendo datos TD "src/test/resources/datadrivenDev/TarjetaDebito.csv"

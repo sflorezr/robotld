@@ -5,7 +5,7 @@ Feature: Compra Contra Entrega PDP
 # Envia correo y crea ordenes en hybris 
 
 # Nota: Se recomienda al actualizar el datadriven colocar los registros que tiene SC en las últimas posiciones
-
+#@ejecutar
 Scenario Outline: Compra contra entrega usuario normal
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"
@@ -21,8 +21,8 @@ Examples:
  	|usuario|
  	|normal |
  	|aliada |
- 	|normaln|
- 	|aliadan|
+ 	#|normaln|
+ 	#|aliadan|
 	
 	
 	##  Compras con SC  con clientes y aliad@s existente  
@@ -63,7 +63,7 @@ Examples:
  	|aliada |
  	 
  # Compras con COD con  los tipos de voucher como liente y aliad@  ya existentes en la BD 
- 	
+ @ejecutar	
 Scenario Outline: Compra contra entrega usuario normal con voucher <vocher>
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"

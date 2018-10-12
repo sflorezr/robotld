@@ -29,9 +29,16 @@ public class LogueoDesdeInicioPage  extends PageObject{
 		try{
 		findBy(".//*[@id='pacifikaLoginForm']/button").and().click();		
 		}catch(Throwable t){
-			findBy("/html/body/main/nav[2]/div[1]/div[3]/ul/li/a").and().click();
+		//	findBy("/html/body/main/nav[2]/div[1]/div[3]/ul/li/a").and().click();
 		}
 		Serenity.takeScreenshot();
+	}
+	public void IraPagarPoslogueo() {
+		try {
+			findBy("//*[@class='btn btn-primary btn--continue-checkout js-continue-checkout-button']").click();
+		}catch(Throwable t){
+			
+		}
 	}
 	public void Home(){
 		findBy("//*[@id='navbar']/ul/li[1]/span/a").and().click();

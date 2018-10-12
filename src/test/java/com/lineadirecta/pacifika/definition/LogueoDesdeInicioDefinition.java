@@ -60,7 +60,7 @@ public class LogueoDesdeInicioDefinition {
 			i=DatosLogue.size();
 			}
 		}
-		logueoDesdeInicioSteps.Ingresar();
+		//logueoDesdeInicioSteps.Ingresar();
 	}
 	@When("^Logueo usuairo aliada$")
 	public void Logueo_usuairo_aliada() throws Throwable {	

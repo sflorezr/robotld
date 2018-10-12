@@ -6,6 +6,7 @@ Feature: Compra Contra Entrega PDP
 
 # Nota: Se recomienda al actualizar el datadriven colocar los registros que tiene SC en las últimas posiciones
 
+#@ejecutar
 Scenario Outline: Compra contra entrega usuario normal
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -21,13 +22,14 @@ Examples:
  	|usuario|
  	|normal |
  	|aliada |
- 	|normaln|
- 	|aliadan|
+ #	|normaln|
+ #	|aliadan|
 	
 	
 	##  Compras con SC  con clientes y aliad@s existente  
 	## La constante mayor, indica el valor que debe tener el SC y el número indica el monto
-	 	  	 
+
+@ejecutar	 	  	 
 Scenario Outline: Compra contra entrega usuario normal con SC
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -44,6 +46,7 @@ Examples:
  	|normal |
  	|aliada |
 
+#@ejecutar
 Scenario Outline: Compra contra entrega usuario normal con SC y vaucher
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -63,7 +66,7 @@ Examples:
  	|aliada |
  	 
  ## Compras con COD con  los tipos de voucher como liente y aliad@  ya existentes en la BD 
- 	
+#@ejecutar 	
 Scenario Outline: Compra contra entrega usuario normal con voucher <vocher>
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -83,7 +86,7 @@ Examples:
  |porcentaje |
  |freeshiping|
  
-
+#@ejecutar
 Scenario Outline: Compra contra entrega usuario aliada con voucher <vocher>
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -107,7 +110,7 @@ Examples:
 ##  Archivo de municipios en este va configurado por codigo de DANE la ciudad si teiene COD o nó, dependiendo de este el robot lo toma o nó, ya que no ingresa a la tabla city 
 
 
-
+#@ejecutar
 Scenario: Compra contra entrega usuario normal caso no feliz municipio sin contra entrega con vaucher
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -118,8 +121,9 @@ Scenario: Compra contra entrega usuario normal caso no feliz municipio sin contr
 	 When Selecciona articulos desde PDP menor normal "250000"
 	 And digito vaucher de tipo "porcentaje"
 	 And Logueo e Ir a Pasarela "normal" con municipio sin contra entrega
-	 And Selecciono Forma pago contra entrega no feliz	 
-	 
+	 And Selecciono Forma pago contra entrega no feliz
+	 	 
+#@ejecutar	 
 Scenario: Compra contra entrega usuario normal caso no feliz municipio sin contra entrega 
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -130,7 +134,7 @@ Scenario: Compra contra entrega usuario normal caso no feliz municipio sin contr
 	 When Selecciona articulos desde PDP menor normal "250000"
 	 And Logueo e Ir a Pasarela "normal" con municipio sin contra entrega
 	 And Selecciono Forma pago contra entrega no feliz	 	 
-
+#@ejecutar
 Scenario: Compra contra entrega usuario aliada caso no feliz municipio sin contra entrega con vaucher
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -142,7 +146,7 @@ Scenario: Compra contra entrega usuario aliada caso no feliz municipio sin contr
 	 And digito vaucher de tipo "fresshiping"
 	 And Logueo e Ir a Pasarela "alaida" con municipio sin contra entrega
 	 And Selecciono Forma pago contra entrega no feliz	 	 
-	 
+#@ejecutar	 
 Scenario: Compra contra entrega usuario aliada caso no feliz municipio sin contra entrega 
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -154,7 +158,7 @@ Scenario: Compra contra entrega usuario aliada caso no feliz municipio sin contr
 	 And Selecciono Forma pago contra entrega no feliz		 	 
 
 ## Validar tope de COD con usuario normal y aliad@ ya existentes , el tope para la búsqueda es mayor a $250.000 
-
+#@ejecutar
 Scenario: Compra contra entrega usuario normal caso no feliz
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -162,7 +166,7 @@ Scenario: Compra contra entrega usuario normal caso no feliz
 	 When Selecciona articulos desde PDP mayor normal "250000"
 	 And Logueo e Ir a Pasarela "normal"
 	 And Selecciono Forma pago contra entrega no feliz
-	 
+#@ejecutar	 
 Scenario: Compra contra entrega usuario aliada caso no feliz
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

@@ -3,46 +3,31 @@
     "line": 1,
     "elements": [
       {
-<<<<<<< HEAD
-        "line": 48,
-        "name": "Store Credit Mayor Compra usuario aliada",
+        "line": 81,
+        "name": "comprar con Tarjeta debito con usuario aliada caso feliz union de carro",
         "description": "",
-        "id": "store-credit;store-credit-mayor-compra-usuario-aliada",
-=======
-        "line": 9,
-        "name": "redimir un vaucher usuario normal y aumenta en el carro",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-normal-y-aumenta-en-el-carro",
->>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
+        "id": "compra-con-tarjeta-debito-pdp;comprar-con-tarjeta-debito-con-usuario-aliada-caso-feliz-union-de-carro",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 31608579579,
+              "duration": 29395607462,
               "status": "passed"
             },
-            "line": 49,
-=======
-              "duration": 6884872605,
-              "status": "passed"
-            },
-            "line": 10,
->>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
+            "line": 82,
             "name": "Estando en Home",
             "match": {
               "location": "AgregarArticuloDefinition.estando_en_Home()"
             },
             "keyword": "Given "
-<<<<<<< HEAD
           },
           {
             "result": {
-              "duration": 307669412,
+              "duration": 1008297243,
               "status": "passed"
             },
-            "line": 50,
+            "line": 83,
             "name": "Tengo datos a ingresar \"src/test/resources/datadrivenDev/usuarios.xls\"",
             "match": {
               "arguments": [
@@ -57,10 +42,28 @@
           },
           {
             "result": {
-              "duration": 3750487,
+              "duration": 15536953,
               "status": "passed"
             },
-            "line": 51,
+            "line": 84,
+            "name": "Teniendo datos TD \"src/test/resources/datadrivenDev/TarjetaDebito.csv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "src/test/resources/datadrivenDev/TarjetaDebito.csv",
+                  "offset": 19
+                }
+              ],
+              "location": "CompraTarjetaDebitoDefinition.teniendo_datos_TD(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2135595,
+              "status": "passed"
+            },
+            "line": 85,
             "name": "Teniendo articulos a seleccionar \"src/test/resources/datadrivenDev/articulos.csv\"",
             "match": {
               "arguments": [
@@ -75,283 +78,107 @@
           },
           {
             "result": {
-              "duration": 77101891586,
+              "duration": 73076106948,
               "status": "passed"
             },
-            "line": 52,
-            "name": "Selecciona articulos desde PDP menor aliada \"250000\"",
+            "line": 86,
+            "name": "Selecciona articulos desde PDP",
             "match": {
-              "arguments": [
-                {
-                  "val": "250000",
-                  "offset": 45
-                }
-              ],
-              "location": "AgregarArticuloDefinition.selecciona_articulos_desde_PDP_menor_aliada(int)"
+              "location": "AgregarArticuloDefinition.selecciona_articulos_desde_PDP()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 111618276924,
+              "duration": 142189372076,
               "status": "passed"
             },
-            "line": 53,
-            "name": "Logueo e Ir a Pasarela \"aliada\" mayor a \"250000\"",
+            "line": 87,
+            "name": "Logueo e Ir a Pasarela \"aliada\"",
             "match": {
               "arguments": [
                 {
                   "val": "aliada",
                   "offset": 24
-                },
-                {
-                  "val": "250000",
-                  "offset": 41
                 }
               ],
-              "location": "LogueoDesdeInicioDefinition.logueo_e_Ir_a_Pasarela_mayor_a(String,int)"
+              "location": "LogueoDesdeInicioDefinition.Logueo_e_ir_a_Pasarela(String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 3447689173,
+              "duration": 10841665512,
               "status": "passed"
             },
-            "line": 54,
-            "name": "No encuentra Pasarela \"Tu saldo a favor cubre el valor de tu compra.\"",
+            "line": 88,
+            "name": "Ir a PSE",
+            "match": {
+              "location": "CompraTarjetaDebitoDefinition.Ir_a_PSE()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6452317200,
+              "status": "passed"
+            },
+            "line": 89,
+            "name": "Pagar Ahora",
+            "match": {
+              "location": "CompraTCDefinition.pagar_Ahora()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "net.serenitybdd.core.exceptions.SerenityManagedException: The following error occurred: Expected enabled element was not enabled\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:968)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)\r\n\tat com.lineadirecta.pacifika.pageobjets.CompraTarjetaDebidoPage.Debug(CompraTarjetaDebidoPage.java:92)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps.Debug(CompraTarjetaDebitoSteps.java:20)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps$$EnhancerByCGLIB$$1d3afb0.CGLIB$Debug$1(\u003cgenerated\u003e)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps$$EnhancerByCGLIB$$1d3afb0$$FastClassByCGLIB$$90785991.invoke(\u003cgenerated\u003e)\r\n\tat net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)\r\n\tat net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps$$EnhancerByCGLIB$$1d3afb0.Debug(\u003cgenerated\u003e)\r\n\tat com.lineadirecta.pacifika.definition.CompraTarjetaDebitoDefinition.pasos_para_pago_tarjeta_debito(CompraTarjetaDebitoDefinition.java:47)\r\n\tat ✽.Pasos para pago tarjeta debito \"feliz\"(src/test/resources/features/Pruebas/dev/Compras/PDP/CompraTarjetaDebito.feature:90)\r\nCaused by: org.openqa.selenium.TimeoutException: Expected condition failed: waiting for By.xpath: //*[@id\u003d\u0027btnDebug\u0027] to be enabled (tried for 5 second(s) with 100 MILLISECONDS interval)\r\n\tat org.openqa.selenium.support.ui.FluentWait.timeoutException(FluentWait.java:263)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:231)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilEnabled(WebElementFacadeImpl.java:965)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.waitUntilElementAvailable(WebElementFacadeImpl.java:807)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.click(WebElementFacadeImpl.java:1044)\r\n\tat com.lineadirecta.pacifika.pageobjets.CompraTarjetaDebidoPage.Debug(CompraTarjetaDebidoPage.java:92)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps.Debug(CompraTarjetaDebitoSteps.java:20)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps$$EnhancerByCGLIB$$1d3afb0.CGLIB$Debug$1(\u003cgenerated\u003e)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps$$EnhancerByCGLIB$$1d3afb0$$FastClassByCGLIB$$90785991.invoke(\u003cgenerated\u003e)\r\n\tat net.sf.cglib.proxy.MethodProxy.invokeSuper(MethodProxy.java:228)\r\n\tat net.thucydides.core.steps.StepInterceptor.invokeMethod(StepInterceptor.java:450)\r\n\tat net.thucydides.core.steps.StepInterceptor.executeTestStepMethod(StepInterceptor.java:435)\r\n\tat net.thucydides.core.steps.StepInterceptor.runTestStep(StepInterceptor.java:410)\r\n\tat net.thucydides.core.steps.StepInterceptor.runOrSkipMethod(StepInterceptor.java:151)\r\n\tat net.thucydides.core.steps.StepInterceptor.testStepResult(StepInterceptor.java:138)\r\n\tat net.thucydides.core.steps.StepInterceptor.intercept(StepInterceptor.java:69)\r\n\tat com.lineadirecta.pacifika.steps.CompraTarjetaDebitoSteps$$EnhancerByCGLIB$$1d3afb0.Debug(\u003cgenerated\u003e)\r\n\tat com.lineadirecta.pacifika.definition.CompraTarjetaDebitoDefinition.pasos_para_pago_tarjeta_debito(CompraTarjetaDebitoDefinition.java:47)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:32)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:26)\r\n\tat cucumber.runtime.java.JavaStepDefinition.execute(JavaStepDefinition.java:37)\r\n\tat cucumber.runtime.StepDefinitionMatch.runStep(StepDefinitionMatch.java:40)\r\n\tat cucumber.api.TestStep.executeStep(TestStep.java:102)\r\n\tat cucumber.api.TestStep.run(TestStep.java:83)\r\n\tat cucumber.api.TestCase.run(TestCase.java:58)\r\n\tat cucumber.runner.Runner.runPickle(Runner.java:80)\r\n\tat cucumber.runtime.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:140)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:68)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:23)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:73)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:117)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:55)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)\r\n\tat org.apache.maven.surefire.junitcore.pc.InvokerStrategy.schedule(InvokerStrategy.java:54)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler.schedule(Scheduler.java:352)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat cucumber.api.junit.Cucumber$1.evaluate(Cucumber.java:126)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.apache.maven.surefire.junitcore.pc.Scheduler$1.run(Scheduler.java:393)\r\n\tat java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)\r\n\tat java.util.concurrent.FutureTask.run(FutureTask.java:266)\r\n\tat java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)\r\n\tat java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)\r\n\tat java.lang.Thread.run(Thread.java:745)\r\nCaused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027btnDebug\u0027]\"}\n  (Session info: chrome\u003d69.0.3497.100)\n  (Driver info: chromedriver\u003d2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7),platform\u003dWindows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nFor documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027SP4L8Z362\u0027, ip: \u002710.7.28.22\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027x86\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_121\u0027\nDriver info: org.openqa.selenium.remote.RemoteWebDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.37.544315 (730aa6a5fdba15..., userDataDir: C:\\Users\\41QS362\\AppData\\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 69.0.3497.100, webStorageEnabled: true}\nSession ID: 73e7c99f48b47da22f076d249d6fbf02\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027btnDebug\u0027]}\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:371)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)\r\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:361)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)\r\n\tat net.thucydides.core.webdriver.WebDriverFacade.findElement(WebDriverFacade.java:278)\r\n\tat net.serenitybdd.core.pages.WebElementResolverByLocator.resolveForDriver(WebElementResolverByLocator.java:16)\r\n\tat net.serenitybdd.core.pages.WebElementFacadeImpl.getElement(WebElementFacadeImpl.java:209)\r\n\tat net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:63)\r\n\tat net.serenitybdd.core.pages.WebElementExpectations$3.apply(WebElementExpectations.java:55)\r\n\tat org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:208)\r\n\t... 59 more\r\n",
+              "duration": 234957318086,
+              "status": "failed"
+            },
+            "line": 90,
+            "name": "Pasos para pago tarjeta debito \"feliz\"",
             "match": {
               "arguments": [
                 {
-                  "val": "Tu saldo a favor cubre el valor de tu compra.",
-                  "offset": 23
+                  "val": "feliz",
+                  "offset": 32
                 }
               ],
-              "location": "StoreCreditDefinition.no_encuentra_Pasarela(String)"
+              "location": "CompraTarjetaDebitoDefinition.pasos_para_pago_tarjeta_debito(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 91,
+            "name": "Verifico Mensaje Pago Tarjeta Debito \"feliz\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "feliz",
+                  "offset": 38
+                }
+              ],
+              "location": "CompraTarjetaDebitoDefinition.Verifico_Mensaje_Pago_Tarjeta_Debito(String)"
             },
             "keyword": "Then "
           }
         ],
         "tags": [
           {
-            "name": "@Ruta"
-=======
-          }
-        ]
-      },
-      {
-        "line": 21,
-        "name": "redimir un vaucher usuario normal, disminuye cantidad y une carrito",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-normal--disminuye-cantidad-y-une-carrito",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5308516711,
-              "status": "passed"
-            },
-            "line": 22,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 33,
-        "name": "redimir un vaucher usuario normal y baja un articulo",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-normal-y-baja-un-articulo",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5338894972,
-              "status": "passed"
-            },
-            "line": 34,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 51,
-        "name": "redimir un vaucher usuario aliada y aumenta articulos",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-aliada-y-aumenta-articulos",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5351928305,
-              "status": "passed"
-            },
-            "line": 52,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 63,
-        "name": "redimir un vaucher usuario aliada , disminuye articulos y une carrito",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-aliada---disminuye-articulos-y-une-carrito",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5291951110,
-              "status": "passed"
-            },
-            "line": 64,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 75,
-        "name": "redimir un vaucher usuario aliada y baja un articulo",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-usuario-aliada-y-baja-un-articulo",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 6075000000,
-              "status": "passed"
-            },
-            "line": 76,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 87,
-        "name": "redimir un vaucher sin logueo",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5492063252,
-              "status": "passed"
-            },
-            "line": 88,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 96,
-        "name": "redimir un vaucher sin logueo aumentando",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo-aumentando",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5293581883,
-              "status": "passed"
-            },
-            "line": 97,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 106,
-        "name": "redimir un vaucher sin logueo disminuyendo",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo-disminuyendo",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5398381688,
-              "status": "passed"
-            },
-            "line": 107,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 116,
-        "name": "redimir un vaucher sin logueo baja un articulo",
-        "description": "",
-        "id": "redimir-un-vaucher-dev;redimir-un-vaucher-sin-logueo-baja-un-articulo",
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 5234178233,
-              "status": "passed"
-            },
-            "line": 117,
-            "name": "Estando en Home",
-            "match": {
-              "location": "AgregarArticuloDefinition.estando_en_Home()"
-            },
-            "keyword": "Given "
->>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
+            "name": "@ejecutar"
           }
         ]
       }
     ],
-<<<<<<< HEAD
-    "name": "Store Credit",
+    "name": "Compra con Tarjeta debito PDP",
     "description": "",
-    "id": "store-credit",
+    "id": "compra-con-tarjeta-debito-pdp",
     "keyword": "Feature",
-    "uri": "src/main/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature",
-=======
-    "name": "redimir un Vaucher dev",
-    "description": "",
-    "id": "redimir-un-vaucher-dev",
-    "keyword": "Feature",
-    "uri": "src/test/resources/features/Pruebas/dev/Vaucher/RedimirVaucher.feature",
->>>>>>> c958f37ef6e89d710aef208f8b31b85da9467c39
+    "uri": "src/test/resources/features/Pruebas/dev/Compras/PDP/CompraTarjetaDebito.feature",
     "tags": []
   }
 ]

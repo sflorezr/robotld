@@ -7,6 +7,7 @@ import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("https://dev.pacifika.local/")
+//@DefaultUrl("https://stage.pacifika.com/")
 public class Generales extends PageObject{
 	public void LogoPacifika(){		
 		findBy("html/body/main/nav[2]/div[3]/div/div[1]/div/div/a[1]/img").and().click();

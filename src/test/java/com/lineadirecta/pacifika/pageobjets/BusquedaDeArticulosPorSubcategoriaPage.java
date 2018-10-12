@@ -136,8 +136,8 @@ public class BusquedaDeArticulosPorSubcategoriaPage extends PageObject {
 		Serenity.takeScreenshot();
 	}
 	public void abrirpaginadeproducto(String posicion){
-		waitFor(2).seconds();
-		findBy("html/body/main/div[6]/div[2]/section/div[1]/div[2]/div/div/div[2]/div["+posicion+"]/div/a[1]/img").waitUntilEnabled().waitUntilClickable().and().click();
+		waitFor(2).seconds();				
+		findBy("//div["+posicion+"]/div/div[1]/div/div/div[1]/a/div/img").waitUntilEnabled().waitUntilClickable().and().click();
 		Serenity.takeScreenshot();
 	}
 	public void anadealcarrocontalla(String tallatipo){
@@ -173,6 +173,7 @@ public class BusquedaDeArticulosPorSubcategoriaPage extends PageObject {
 			case "Hombrexl":
 			case "MujerL":
 			case "Mujerl":
+				p="4";
 				break;	
 			default: p="1";
 		}
@@ -188,7 +189,7 @@ public class BusquedaDeArticulosPorSubcategoriaPage extends PageObject {
 	public int ValorXproduc(String posicion){
 		int i=0;
 		//JOptionPane.showMessageDialog(null, findBy("/html/body/main/div[6]/div[2]/section/div[1]/div[2]/div/div/div[2]/div["+posicion+"]/div/div[1]/a/div/span").and().getText().replace("$","").replace(".",""));			
-		i=Integer.parseInt(findBy("/html/body/main/div[6]/div[2]/section/div[1]/div[2]/div/div/div[2]/div["+posicion+"]/div/div[1]/a/div/span").and().getText().replace("$","").replace(".",""));
+		i=Integer.parseInt(findBy("//div["+posicion+"]/div/div[1]/div/div/div[2]/div/h3").and().getText().replace("$","").replace(".",""));
 		//findBy("/html/body/main/div[6]/div[2]/section/div[1]/div[2]/div/div/div[2]/div["+posicion+"]/div/div[1]/a/div/span").and().click();
 		Serenity.takeScreenshot();
 		return(i);
@@ -218,9 +219,9 @@ public class BusquedaDeArticulosPorSubcategoriaPage extends PageObject {
 		waitFor(2).seconds();
 
 		try {
-			findBy("//*[@id=\"cart-toggle\"]/span").and().click();
+			findBy("//*[@class='mini-cart-link js-mini-cart-link']/span").and().click();
 			Serenity.takeScreenshot();
-			findBy("//*[@id=\"CartContainer\"]/div[2]/div/div/div/div[2]/a").and().click();
+			findBy("//*[@class='btn btn-primary btn-block mini-cart-checkout-button']").and().click();
 			Serenity.takeScreenshot();
 			waitFor(2).seconds();
 			try {
@@ -235,11 +236,13 @@ public class BusquedaDeArticulosPorSubcategoriaPage extends PageObject {
 			while(vali) {				
 				try {
 					waitFor(1).seconds();
-					findBy("//*[@id=\"removeEntry_0\"]/a/span").and().click();
+					findBy("//*[@class='table table-hover table-light table-striped']/tbody/tr/td[6]/div/a/span").and().click();
+					waitFor(1).seconds();
+					findBy("//*[@id='removeEntry_0']").click();
 					Serenity.takeScreenshot();
 				}catch(Throwable t) {
 					waitFor(1).seconds();
-					findBy("/html/body/main/div[2]/div/div/div/a[1]/img").and().click();
+					findBy("/html/body/main/nav[2]/div[3]/div/div[1]/div/div/a[1]/img").and().click();
 					Serenity.takeScreenshot();
 					vali=false;
 				}
