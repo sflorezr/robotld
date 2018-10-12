@@ -131,7 +131,7 @@
                 <version>2.20</version>
                 <configuration>
                     <includes>
-                    	<include>**/RunnerFeatures.java</include>
+                    	<include>**/*.java</include>
                     </includes>
 					<reuseForks>false</reuseForks>
 					<forkCount>${surefire.fork.count}</forkCount>

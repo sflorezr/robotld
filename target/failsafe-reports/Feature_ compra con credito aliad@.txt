@@ -1,0 +1,37 @@
+-------------------------------------------------------------------------------
+Test set: Feature: compra con credito aliad@
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 0, Errors: 11, Skipped: 0, Time elapsed: 258.843 s <<< FAILURE! - in Feature: compra con credito aliad@
+compra con credito caso no feliz usuario normal(compra con credito aliad@)  Time elapsed: 16.328 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ aliada(compra con credito aliad@)  Time elapsed: 12.142 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ aliadan(compra con credito aliad@)  Time elapsed: 19.479 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ con voucher(compra con credito aliad@)  Time elapsed: 21.367 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ con voucher(compra con credito aliad@)  Time elapsed: 11.125 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ con voucher(compra con credito aliad@)  Time elapsed: 14.443 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ nueva con voucher(compra con credito aliad@)  Time elapsed: 12.556 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ nueva con voucher(compra con credito aliad@)  Time elapsed: 14.306 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ nueva con voucher(compra con credito aliad@)  Time elapsed: 12.981 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ con sc(compra con credito aliad@)  Time elapsed: 111.313 s  <<< ERROR!
+java.lang.NullPointerException
+
+compra con credito aliad@ con mayor al cupo(compra con credito aliad@)  Time elapsed: 12.752 s  <<< ERROR!
+java.lang.NullPointerException
+

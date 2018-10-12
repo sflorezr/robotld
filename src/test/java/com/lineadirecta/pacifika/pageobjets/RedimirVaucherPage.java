@@ -7,20 +7,31 @@ import static org.hamcrest.Matchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 import net.serenitybdd.core.Serenity;
+import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
+import net.serenitybdd.core.pages.WebElementFacade;
 import net.thucydides.core.annotations.DefaultUrl;
 
 @DefaultUrl("https://dev.pacifika.com/cart")
 public class RedimirVaucherPage extends PageObject {
 
+	@FindBy(xpath="//*[@id=\'js-voucher-code-text\']")
+	public WebElementFacade txtVaucher;
 	
 	public void EscribirVaucher(String codigo){
-		findBy("(//input[@id='js-voucher-code-text'])[2]").and().type(codigo);
+		//findBy("//input[@id='js-voucher-code-text']").and().type(codigo);
+		txtVaucher.click();
+		txtVaucher.clear();
+		txtVaucher.sendKeys(codigo);
 		Serenity.takeScreenshot();
 		waitFor(1).seconds();		
 	}
+	
+	@FindBy(xpath="//*[@id=\'js-voucher-apply-btn\']")
+	public WebElementFacade btnAplicarVaucher;
 	public void aplicarvaucher(){
-		findBy("(//button[@id='js-voucher-apply-btn'])[2]").and().click();
+		//findBy("(//button[@id='js-voucher-apply-btn'])[2]").and().click();
+		btnAplicarVaucher.click();
 		Serenity.takeScreenshot();
 	}
 	public double verSubtotal() throws ParseException{

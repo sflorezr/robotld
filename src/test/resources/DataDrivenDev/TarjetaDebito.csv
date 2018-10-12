@@ -1,54 +1,59 @@
 Banco,correo,Fecha,estado,Id,Mensaje,tipo
-BANCO UNION COLOMBIANO,prue2017p@gmail.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,prue2017p@gmail.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,prue2017p@gmail.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,prue2017p@gmail.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,camilo2018-7@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,camilo2018-7@mailinator.com,30/07/2018,OK,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,juana12@mailinator.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,juana12@mailinator.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,juana12@mailinator.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,andrea2018@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,andrea2018@mailinator.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,andrea2018@mailinator.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,andrea2018@mailinator.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20009@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,sara20009@mailinator.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20009@mailinator.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20009@mailinator.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20017@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,sara20018@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,sara20012@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,sara20010@mailinator.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20010@mailinator.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20010@mailinator.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20011@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,sara20011@mailinator.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20011@mailinator.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20011@mailinator.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20012@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,sara20012@mailinator.com,30/07/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20012@mailinator.com,02/01/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,sara20012@mailinator.com,02/01/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
-BANCO UNION COLOMBIANO,aliada5@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada4@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada3@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada3@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,mariana2007@maili4ator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada8@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada9@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada3@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada5@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada16@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,aliada17@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,juana11@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,juana13@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
-BANCO UNION COLOMBIANO,juana10@mailinator.com,30/07/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,prue2017p@gmail.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,prue2017p@gmail.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,prue2017p@gmail.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,prue2017p@gmail.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,camilo2018-7@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,camilo2018-7@mailinator.com,11/10/2018,OK,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,pruebasld2018@hotmail.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,juana12@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,juana12@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,juana12@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,gloriayepes@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,andrea2018@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,andrea2018@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,andrea2018@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,andrea2018@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20009@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,sara20009@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20009@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20009@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20017@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,sara20018@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,sara20012@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,sara20010@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20010@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20010@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20011@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,sara20011@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20011@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20011@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20012@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,sara20012@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20012@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,sara20012@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,aliada5@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada4@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada3@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada3@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,mariana2007@maili4ator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada8@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada9@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada3@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada5@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada16@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada17@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,juana11@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,juana13@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,juana10@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,laura2018@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada17@mailinator.com,11/10/2018,OK,1234,confirmado con éxito!,feliz
+BANCO UNION COLOMBIANO,aliada17@mailinator.com,11/10/2018,PENDING,1234,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,aliada17@mailinator.com,11/10/2018,NOT_AUTHORIZED,0001,Tu banco se está demorando en respondernos...,no feliz
+BANCO UNION COLOMBIANO,aliada17@mailinator.com,11/10/2018,FAILLED,0001,Tu banco se está demorando en respondernos...,no feliz

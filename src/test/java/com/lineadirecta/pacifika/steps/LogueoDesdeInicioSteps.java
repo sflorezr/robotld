@@ -36,10 +36,11 @@ public class LogueoDesdeInicioSteps {
 	public void DigitarContrasena(String contrasena){
 		logueoDesdeInicioPage.DigitarContrasena(contrasena);
 		logueoDesdeInicioPage.Ingresar();
+		logueoDesdeInicioPage.IraPagarPoslogueo();
 	}
 	@Step
 	public void Ingresar(){		
-		//logueoDesdeInicioPage.Ingresar();
+		logueoDesdeInicioPage.Ingresar();
 	}
 	@Step
 	public void LogOuteIngresar() {

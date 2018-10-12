@@ -12,6 +12,14 @@ public class LogisiticaPage extends PageObject {
 	public void Continuar1 (){
 		findBy("//button[@type='submit']").and().click();
 		waitFor(2).seconds();
+		try {
+			if(findBy("//*[@id='firstName.errors']").isVisible()) {
+				findBy("//button[@type='submit']").and().click();
+				waitFor(2).seconds();		
+			}
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
 		Serenity.takeScreenshot();
 	}
 	public void Continuar2(){
@@ -116,7 +124,7 @@ public class LogisiticaPage extends PageObject {
 			findBy("/html/body/main/div[5]/div[2]/div[2]/div[2]/div/div[2]/div[2]/div/div/div[2]/button").and().click();
 		}catch(Throwable t) {			
 			try {
-			findBy("//*[@id=\"cart-bottom\"]/div/div[2]/div[2]/div/div/div[2]/button").and().click();
+			findBy("//*[@id='cart-bottom']/div/div[2]/div[2]/div/div/div[2]/button").and().click();
 			}catch(Throwable t2) {				
 			}
 		}
