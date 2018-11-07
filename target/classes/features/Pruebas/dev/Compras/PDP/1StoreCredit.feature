@@ -12,7 +12,10 @@ Scenario: Limpia Carro cliente
 	When Logueo usuairo normal	 
 	And Limpia carro
 
+<<<<<<< HEAD
+=======
 
+>>>>>>> 14108c54413f54b17d7f6cc1da8212836e0ef8ca
 Scenario: Store Credit Mayor Compra usuario normal
 	Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -38,6 +41,15 @@ Scenario: Store Credit Compra usuario normal tarjeta credito con union de carro
 	 And Digito Datos de TC
 	 And Pagar Ahora
 	 Then Verifico Mensaje Pago
+<<<<<<< HEAD
+
+Scenario: Limpia Carro aliada
+	Given Estando en pagina de logeo
+	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
+	When Logueo usuairo aliada	 
+	And Limpia carro
+=======
+>>>>>>> 14108c54413f54b17d7f6cc1da8212836e0ef8ca
 
 Scenario: Limpia Carro aliada
 	Given Estando en pagina de logeo
