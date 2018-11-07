@@ -1,12 +1,13 @@
 Feature: Compra con TC PDP
 
-#Scenario: Limpia Carro cliente
-#	Given Estando en pagina de logeo
-#	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
-#	When Logueo usuairo normal	 
-#	And Limpia carro
+#@ejecutar
+Scenario: Limpia Carro cliente
+	Given Estando en pagina de logeo
+	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
+	When Logueo usuairo normal	 
+	And Limpia carro
 
-@ejecutar
+#@ejecutar
 Scenario: comprar con tarjeta de credito con usuario normal
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -19,7 +20,7 @@ Scenario: comprar con tarjeta de credito con usuario normal
 	 And Guarda orden
 	 Then Verifico Mensaje Pago	
 	
-
+#@ejecutar
 Scenario: comprar con tarjeta de credito con usuario normal no feliz
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -31,19 +32,22 @@ Scenario: comprar con tarjeta de credito con usuario normal no feliz
 	 And Pagar Ahora
 	 Then Verifico Mensaje Pago no feliz
 
+#@ejecutar
 Scenario: Limpia Carro aliada
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"	
 	When Logueo usuairo aliada	 
 	And Limpia carro
-	
+
+#@ejecutar	
 Scenario: comprar con tarjeta de credito con usuario aliada solo agrega al carro
 	 Given Estando en pagina de logeo
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadrivenDev/articulos.csv"	
 	 When Logueo usuairo aliada
 	 And Selecciona articulos desde PDP
-	
+
+#@ejecutar	
 Scenario: comprar con tarjeta de credito con usuario aliada con union del carrito
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -56,6 +60,7 @@ Scenario: comprar con tarjeta de credito con usuario aliada con union del carrit
 	 And Guarda orden
 	 Then Verifico Mensaje Pago			
 	 
+#@ejecutar	 
 Scenario Outline: comprar con tarjeta de credito con usuarios con descuento
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -78,7 +83,8 @@ Scenario Outline: comprar con tarjeta de credito con usuarios con descuento
 	 |normal |fijo        |
 	 |normal |porcentaje  |
 	 |normal |freeshiping |			 
-	 
+
+#@ejecutar	 
 Scenario: comprar con tarjeta de credito con usuario aliada no feliz
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

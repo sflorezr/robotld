@@ -16,24 +16,18 @@ import net.serenitybdd.cucumber.CucumberWithSerenity;
 //@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDP/CompraEfectivo.feature", tags={"@ejecutar"},
 //@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDR/CompraEfectivo.feature", tags={"@ejecutar"},
 
-@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDP/CompraTarjetaDebito.feature", tags={"@ejecutar"},
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDP/CompraTarjetaDebito.feature", tags={"@ejecutar"},
 //@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDR/CompraTarjetaDebito.feature", tags={"@ejecutar"},
 
 //@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDP/1StoreCredit.feature", tags={"@ejecutar"},
-//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDP/CompraTC.feature", tags= {"@ejecutar"},
+@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDR/1StoreCredit.feature", tags={"@ejecutar"},
 
-//tags= {"@Ejecutar"},2//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraContraEntrega.feature",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraContraEntrega.feature",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraTarjetaDebito.feature",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/",
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/",
-//@CucumberOptions(features ="src/main/resources/features/Producccion/")
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/dev/Compras/PDR/CompraTarjetaDebito.feature",
-//tags= {"@Ejecutar"},
-//@CucumberOptions(features ="src/main/resources/features/Pruebas/stage/Logistica/",
-//tags= {"@Ejecutar"},
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDP/CompraTC.feature", tags= {"@ejecutar"},
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDR/CompraTC.feature", tags= {"@ejecutar"},
+
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDP/CompraCredito.feature", tags= {"@ejecutar"},
+//@CucumberOptions(features ="src/test/resources/features/Pruebas/dev/Compras/PDR/CompraCredito.feature", tags= {"@ejecutar"},
+
 
 // ..:: STAGE ::..
 //@CucumberOptions(features ="src/test/resources/features/Pruebas/stage/Compras/PDP/CompraContraEntrega.feature",tags= {"@ejecutar"},

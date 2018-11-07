@@ -1,6 +1,7 @@
 Feature: compra con credito aliad@ PDR
 
 #Caso no feliz con usuario normal
+#@ejecutar
 Scenario: compra con credito caso no feliz usuario normal
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -12,7 +13,7 @@ Scenario: compra con credito caso no feliz usuario normal
 	And Selecciono credito no feliz		
 
 #Caso feliz con usuario aliad@ nuevo y ya existente
-
+#@ejecutar
 Scenario Outline: compra con credito aliad@ <usuario>
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -29,10 +30,10 @@ Scenario Outline: compra con credito aliad@ <usuario>
 Examples:
  |usuario|
  |aliada |
- |aliadan|
+ #|aliadan|
 
 #Caso feliz con diferentes voucher y aliad@ existente y nueva
-
+#@ejecutar
 Scenario Outline: compra con credito aliad@ con voucher
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -49,9 +50,9 @@ Scenario Outline: compra con credito aliad@ con voucher
 
 Examples: 
  |voucher|
- |fijo|
- |procentaje|
- |fresshiping|
+ |fijo       |
+ |porcentaje |
+ |freeshiping|
 
 Scenario Outline: compra con credito aliad@ nueva con voucher
 	Given Estando en pagina de logeo
@@ -69,13 +70,13 @@ Scenario Outline: compra con credito aliad@ nueva con voucher
 
 Examples: 
  |voucher|
- |fijo|
- |procentaje|
- |fresshiping|
+ |fijo       |
+ |porcentaje |
+ |freeshiping|
 
 #Caso feliz con SC 
 #El SC cargado debe ser mayor o igual a $100.000
-
+#@ejecutar
 Scenario: compra con credito aliad@ con sc
 	Given Estando en Home
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -89,7 +90,7 @@ Scenario: compra con credito aliad@ con sc
 	Then Verifico Mensaje Pago Final "¡Ya compraste con tu crédito Aliad@.!"	
 
 #Caso no feliz compra con cupo inferior al valor de la orden
-	
+@ejecutar	
 Scenario: compra con credito aliad@ con mayor al cupo
 	Given Estando en pagina de logeo
 	And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

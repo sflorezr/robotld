@@ -28,7 +28,7 @@ Examples:
 	##  Compras con SC  con clientes y aliad@s existente  
 	## La constante mayor, indica el valor que debe tener el SC y el número indica el monto
 	 	  	 
-Scenario Outline: Compra contra entrega usuario normal con SC
+Scenario Outline: Compra contra entrega usuario <usuario> con SC
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadriven/articulos.csv"
@@ -44,7 +44,7 @@ Examples:
  	|normal |
  	|aliada |
 
-Scenario Outline: Compra contra entrega usuario normal con SC y vaucher
+Scenario Outline: Compra contra entrega usuario <usuario> con SC y vaucher
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadriven/articulos.csv"

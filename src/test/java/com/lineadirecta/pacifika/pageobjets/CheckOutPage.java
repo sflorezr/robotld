@@ -2,6 +2,7 @@ package com.lineadirecta.pacifika.pageobjets;
 
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.containsString;
+import static org.hamcrest.Matchers.*;
 import java.text.ParseException;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -94,8 +95,10 @@ public class CheckOutPage extends PageObject {
 	
 	public void VerificaLabelFinal(String mensaje){
 		Serenity.takeScreenshot();
-		waitFor(500).millisecond();
+		//waitFor(500).millisecond();
+		waitFor(2).seconds();
 		assertThat(findBy("/html/body/main/div[5]/div[2]/div[2]/div/div[1]/div/div/section/div[2]/div[3]/div/h1/strong").and().getText(),containsString(mensaje));
+		//assertThat(findBy("//*[@id=\'add_to_cart_message\']/div").and().isCurrentlyVisible(), is(true));
 	}
 	public boolean MensajeFinal() {
 		Serenity.takeScreenshot();
@@ -184,8 +187,12 @@ public class CheckOutPage extends PageObject {
 		Number num;
 		Number total;
 		int saldo=0;
-		num = dF.parse(findBy("//*[@id=\"silentOrderPostForm\"]/div[1]/div[2]/div[4]/div/div[1]/p[1]/span[1]/span").and().getText().replace("$",""));
-		total = dF.parse(findBy("//*[@id=\"silentOrderPostForm\"]/div[1]/div[2]/div[4]/div/div[1]/div[2]/span[2]/strong").and().getText().replace("$",""));
+		//num = dF.parse(findBy("//*[@id=\"silentOrderPostForm\"]/div[1]/div[2]/div[4]/div/div[1]/p[1]/span[1]/span").and().getText().replace("$",""));
+		//total = dF.parse(findBy("//*[@id=\"silentOrderPostForm\"]/div[1]/div[2]/div[4]/div/div[1]/div[2]/span[2]/strong").and().getText().replace("$",""));
+	
+		num = dF.parse(findBy("//*[@class='list-info-consultant-credit-checkout__title']/span").and().getText().replace("$",""));
+		total = dF.parse(findBy("//*[@class='container-consultant-credit__value--price text-center']/strong").and().getText().replace("$",""));
+		
 		if(num.doubleValue() <= total.doubleValue()) {
 			saldo=0;
 		}else {
@@ -372,7 +379,8 @@ public class CheckOutPage extends PageObject {
 	}
 	public void Nofeliz2(String mensaje) {
 		Serenity.takeScreenshot();
-		assertThat(findBy("//*[@id=\"card_accountNumber_error_msg\"]").and().getText(),containsString(mensaje));		
+		//assertThat(findBy("//*[@id=\"card_accountNumber_error_msg\"]").and().getText(),containsString(mensaje));
+		assertThat(findBy("/html/body/main/div[5]/div[1]/div").and().getText(),containsString(mensaje));
 		
 	}
 }

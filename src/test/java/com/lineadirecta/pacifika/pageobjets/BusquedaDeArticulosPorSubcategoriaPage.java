@@ -219,33 +219,51 @@ public class BusquedaDeArticulosPorSubcategoriaPage extends PageObject {
 		waitFor(2).seconds();
 
 		try {
+
 			findBy("//*[@class='mini-cart-link js-mini-cart-link']/span").and().click();
 			Serenity.takeScreenshot();
-			findBy("//*[@class='btn btn-primary btn-block mini-cart-checkout-button']").and().click();
-			Serenity.takeScreenshot();
-			waitFor(2).seconds();
-			try {
-				findBy("/html/body/main/div[5]/div[2]/div[2]/div[2]/div/div[1]/div/div[1]/div/ul/li/form/span/span").and().click();
-			}catch(Throwable t) {	
+			
+			if (findBy("//*[@class='btn btn-primary btn-block mini-cart-checkout-button']").isCurrentlyVisible() ) {
+
+				findBy("//*[@class='btn btn-primary btn-block mini-cart-checkout-button']").and().click();
+				Serenity.takeScreenshot();
+				waitFor(2).seconds();
 				try {
 					findBy("/html/body/main/div[5]/div[2]/div[2]/div[2]/div/div[1]/div/div[1]/div/ul/li/form/span/span").and().click();
-					}catch(Throwable tr) {
-					}				
-			}
-			Serenity.takeScreenshot();
-			while(vali) {				
-				try {
-					waitFor(1).seconds();
-					findBy("//*[@class='table table-hover table-light table-striped']/tbody/tr/td[6]/div/a/span").and().click();
-					waitFor(1).seconds();
-					findBy("//*[@id='removeEntry_0']").click();
-					Serenity.takeScreenshot();
-				}catch(Throwable t) {
-					waitFor(1).seconds();
-					findBy("/html/body/main/nav[2]/div[3]/div/div[1]/div/div/a[1]/img").and().click();
-					Serenity.takeScreenshot();
-					vali=false;
+				}catch(Throwable t) {	
+					try {
+						findBy("/html/body/main/div[5]/div[2]/div[2]/div[2]/div/div[1]/div/div[1]/div/ul/li/form/span/span").and().click();
+						}catch(Throwable tr) {
+						}				
 				}
+				Serenity.takeScreenshot();
+				while(vali) {				
+					try {
+						waitFor(1).seconds();
+						if(findBy("//*[@class='table table-hover table-light table-striped']/tbody/tr/td[6]/div/a/span").and().isCurrentlyVisible()) {
+							findBy("//*[@class='table table-hover table-light table-striped']/tbody/tr/td[6]/div/a/span").and().click();
+							waitFor(1).seconds();
+							findBy("//*[@id='removeEntry_0']").click();
+							Serenity.takeScreenshot();
+						}else {
+							vali=false;
+						}
+						
+					}catch(Throwable t) {
+						waitFor(1).seconds();
+						findBy("/html/body/main/nav[2]/div[3]/div/div[1]/div/div/a[1]/img").and().click();
+						Serenity.takeScreenshot();
+						vali=false;
+					}
+				}
+			
+			}
+			else
+			{
+				if (findBy(".//*[@id='CartContainer']/div[1]/div/div").isCurrentlyVisible() ) {
+					findBy(".//*[@id='CartContainer']/div[1]/div/div").and().click();
+				}
+					
 			}
 		}catch(Throwable t) {	
 			findBy(".//*[@id='CartContainer']/div[1]/div/div").and().click();	

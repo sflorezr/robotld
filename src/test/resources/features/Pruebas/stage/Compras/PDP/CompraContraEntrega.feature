@@ -27,8 +27,8 @@ Examples:
 	
 	##  Compras con SC  con clientes y aliad@s existente  
 	## La constante mayor, indica el valor que debe tener el SC y el número indica el monto
-	 	  	 
-Scenario Outline: Compra contra entrega usuario normal con SC
+#@ejecutar
+Scenario Outline: Compra contra entrega usuario <usuario> con SC
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadriven/articulos.csv"
@@ -44,7 +44,8 @@ Examples:
  	|normal |
  	|aliada |
 
-Scenario Outline: Compra contra entrega usuario normal con SC y vaucher
+@ejecutar
+Scenario Outline: Compra contra entrega usuario <usuario> con SC y vaucher
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"
 	 And Teniendo articulos a seleccionar "src/test/resources/datadriven/articulos.csv"
@@ -58,12 +59,12 @@ Scenario Outline: Compra contra entrega usuario normal con SC y vaucher
 	 Then Verifico Mensaje Pago Final "¡Tu pedido va en camino!"
 
 Examples:
- 	|usuario|
+ 	|usuario| 
  	|normal |
  	|aliada |
  	 
  # Compras con COD con  los tipos de voucher como liente y aliad@  ya existentes en la BD 
- @ejecutar	
+ #@ejecutar	
 Scenario Outline: Compra contra entrega usuario normal con voucher <vocher>
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadriven/usuarios.xls"

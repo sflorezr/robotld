@@ -77,7 +77,7 @@ Scenario: comprar con Tarjeta debito con usuario aliada caso feliz solo agrego a
 	 When Logueo usuairo aliada
 	 And Selecciona articulos desde PDP
 
-@ejecutar
+#@ejecutar
 Scenario: comprar con Tarjeta debito con usuario aliada caso feliz union de carro
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -103,6 +103,7 @@ Scenario: comprar con Tarjeta debito con usuario aliada caso no feliz
 	 And Pasos para pago tarjeta debito "no feliz"
 	 Then Verifico Mensaje Pago Tarjeta Debito "no feliz"	 	 
 
+#@ejecutar
 Scenario Outline: comprar con Tarjeta debito con usuario aliada caso feliz con descuento con union de carro
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"
@@ -123,7 +124,7 @@ Scenario Outline: comprar con Tarjeta debito con usuario aliada caso feliz con d
 	 |porcentaje  |
 	 |freeshiping |
 	 
-	@Ejecutar 
+#@Ejecutar 
 	 Scenario Outline: comprar con Tarjeta debito con usuarios nuevos <tipo> caso feliz con descuento 
 	 Given Estando en Home
 	 And Tengo datos a ingresar "src/test/resources/datadrivenDev/usuarios.xls"

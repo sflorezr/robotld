@@ -29,7 +29,7 @@ Scenario Outline: compra con credito aliad@ <usuario>
 Examples:
  |usuario|
  |aliada |
- |aliadan|
+ #|aliadan|
 
 #Caso feliz con diferentes voucher y aliad@ existente y nueva
 
@@ -49,9 +49,9 @@ Scenario Outline: compra con credito aliad@ con voucher
 
 Examples: 
  |voucher|
- |fijo|
- |procentaje|
- |fresshiping|
+ |fijo       |
+ |porcentaje |
+ |freeshiping|
 
 Scenario Outline: compra con credito aliad@ nueva con voucher
 	Given Estando en pagina de logeo
@@ -69,9 +69,9 @@ Scenario Outline: compra con credito aliad@ nueva con voucher
 
 Examples: 
  |voucher|
- |fijo|
- |procentaje|
- |fresshiping|
+ |fijo       |
+ |porcentaje |
+ |freeshiping|
 
 #Caso feliz con SC 
 #El SC cargado debe ser mayor o igual a $100.000
